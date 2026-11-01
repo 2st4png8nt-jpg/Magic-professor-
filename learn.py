@@ -29,6 +29,8 @@ FIELD40 = {
     "flyers":   {"L": 16, "C2": 6, "F3": 8, "C3": 3, "C4": 2, "R2": 4, "D3": 1},
     "ramp":     {"L": 16, "M2": 5, "C2": 3, "C3": 3, "C5": 4, "C6": 5, "R4": 3, "D3": 1},
     "goodstuff":{"L": 17, "C2": 5, "C3": 6, "C4": 4, "C5": 2, "R2": 3, "R4": 2, "D3": 1},
+    "tribal":   {"L": 16, "C1": 3, "C2": 7, "C3": 4, "P3": 4, "AR": 2, "R2": 4},
+    "combo":    {"L": 16, "K1": 4, "K2": 4, "T2": 4, "C2": 4, "C3": 4, "R2": 4},
 }
 
 
@@ -71,6 +73,18 @@ def _job(args):
     return match(deck, opp, games, seed, **kw)
 
 
+def avg(rows):
+    """Average a list of result dicts; nested dicts (won_by/lost_to) averaged per key."""
+    out = {}
+    for key, v in rows[0].items():
+        if isinstance(v, dict):
+            keys = set().union(*(r[key] for r in rows))
+            out[key] = {kk: round(sum(r[key].get(kk, 0) for r in rows) / len(rows), 4) for kk in keys}
+        else:
+            out[key] = round(sum(r[key] for r in rows) / len(rows), 4)
+    return out
+
+
 def vs_field(pool, decks, field, games, kw=None, seed=0):
     """Average win rate of each deck in `decks` against every deck in `field`."""
     kw = kw or {}
@@ -81,14 +95,14 @@ def vs_field(pool, decks, field, games, kw=None, seed=0):
     k = len(field)
     for i in range(len(decks)):
         chunk = res[i * k:(i + 1) * k]
-        out.append({key: sum(r[key] for r in chunk) / k for key in chunk[0]})
+        out.append(avg(chunk))
     return out
 
 
 def sweep(pool, name, label, xs, make, field, games, kw=None):
     t = time.time()
     rs = vs_field(pool, [make(x) for x in xs], field, games, kw)
-    rows = [{"x": x, **{k: round(v, 4) for k, v in r.items()}} for x, r in zip(xs, rs)]
+    rows = [{"x": x, **r} for x, r in zip(xs, rs)]
     best = max(rows, key=lambda r: r["win"])
     print(f"[{name}] {label}: best x={best['x']} win={best['win']:.3f} ({time.time()-t:.0f}s)", flush=True)
     return {"name": name, "label": label, "rows": rows, "best": best["x"]}
@@ -120,8 +134,8 @@ def experiments(pool, games):
         L = 14 + max(range(len(sub)), key=lambda i: sub[i]["win"])
         r = vs_field(pool, [build(L, 40, mix)], f40, games)[0]
         spells = build(L, 40, mix)
-        avg = sum(COST[c] * n for c, n in spells.items() if c != "L") / (40 - L)
-        rows.append({"x": nm, "lands": L, "avg_mv": round(avg, 2), **{k: round(v, 4) for k, v in r.items()}})
+        mv = sum(COST[c] * n for c, n in spells.items() if c != "L") / (40 - L)
+        rows.append({"x": nm, "lands": L, "avg_mv": round(mv, 2), **r})
         print(f"[curve] {nm}: lands={L} win={r['win']:.3f}", flush=True)
     E.append({"name": "curve", "label": "Mana curve (avg mana value), each at its best land count",
               "rows": rows, "best": max(rows, key=lambda r: r["win"])["x"]})
@@ -179,11 +193,54 @@ def experiments(pool, games):
               "rows": [{"x": "on the play", **play}, {"x": "on the draw", **drw}]})
     print(f"[mulligan] {mull['win']:.3f} vs {nomull['win']:.3f}; [play/draw] {play['win']:.3f} vs {drw['win']:.3f}", flush=True)
 
+    # ---- synergy: lords need bodies to pump ----
+    creature_base = {"L": 16, "C1": 3, "C2": 8, "C3": 7, "C4": 2, "R2": 4}
+    control_base = {"L": 17, "C2": 2, "C3": 2, "C4": 3, "C5": 3, "C6": 3, "R2": 4, "R4": 4, "D3": 2}
+
+    def add_n(base, card, n, cut):
+        d = dict(base)
+        for _ in range(n):
+            src = max((c for c in cut if d.get(c, 0) > 0), key=lambda c: d[c])
+            d[src] -= 1
+            d[card] = d.get(card, 0) + 1
+        return {c: v for c, v in d.items() if v}
+    E.append(sweep(pool, "lords_wide", "Lords in a creature-heavy deck (24 creatures)", list(range(0, 9)),
+                   lambda n: add_n(creature_base, "P3", n, ("C3", "C2", "C4")), f40, games))
+    E.append(sweep(pool, "lords_control", "Lords in a removal-heavy deck (13 creatures)", list(range(0, 9)),
+                   lambda n: add_n(control_base, "P3", n, ("C4", "C5", "C3", "C6")), f40, games))
+    E.append(sweep(pool, "aristocrats", "Aristocrats (death-payoff) in a creature-heavy deck", list(range(0, 9)),
+                   lambda n: add_n(creature_base, "AR", n, ("C3", "C2", "C4")), f40, games))
+
+    # ---- combo: how many pieces, how many tutors ----
+    rows = []
+    for k in (1, 2, 3, 4):
+        for t in (0, 2, 4):
+            d = {"L": 16, "K1": k, "K2": k, "T2": t, "R2": 4}
+            fill = 40 - sum(d.values())
+            d["C2"], d["C3"] = fill // 2, fill - fill // 2
+            r = vs_field(pool, [d], f40, games)[0]
+            rows.append({"x": f"{k} of each piece, {t} tutors", "pieces": k, "tutors": t, **r})
+            print(f"[combo] pieces={k} tutors={t} win={r['win']:.3f}", flush=True)
+    E.append({"name": "combo", "label": "Combo deck: copies of each piece x tutors",
+              "rows": rows, "best": max(rows, key=lambda r: r["win"])["x"]})
+
+    # ---- interaction vs combo: how much removal does it take to beat combo? ----
+    def removal_vs_combo(n):
+        d = {"L": 17, "C2": 6, "C3": 6, "C4": 4, "C5": 3, "F3": 4}
+        for i in range(n):
+            src = max(("C2", "C3", "C4", "C5", "F3"), key=lambda c: d[c])
+            d[src] -= 1
+            k = "R2" if i % 2 == 0 else "R4"
+            d[k] = d.get(k, 0) + 1
+        return d
+    E.append(sweep(pool, "anti_combo", "Your removal count vs a combo deck", list(range(0, 13, 2)),
+                   removal_vs_combo, [FIELD40["combo"]], games * 2))
+
     # how good is each field archetype vs everything else (meta snapshot)
     names = list(FIELD40)
     rs = vs_field(pool, f40, f40, games)
     E.append({"name": "meta", "label": "Benchmark archetypes vs the whole field",
-              "rows": [{"x": n, **{k: round(v, 4) for k, v in r.items()}} for n, r in zip(names, rs)]})
+              "rows": [{"x": n, **r} for n, r in zip(names, rs)]})
     return E
 
 
@@ -191,37 +248,55 @@ def experiments(pool, games):
 SPELLS = [c for c in CARDS if c != "L"]
 
 
-def random_deck(rng, size):
-    lands = rng.randint(int(size * .3), int(size * .5))
-    mix = {c: rng.random() for c in SPELLS}
-    return build(lands, size, mix)
+# Archetypes = which cards a deck may use, plus minimums that define its plan.
+ARCHETYPES = {
+    "aggro":    {"cards": ["L", "C1", "C2", "C3", "C4", "F3", "R2", "P3", "AR"], "min": {}},
+    "midrange": {"cards": ["L", "C2", "C3", "C4", "C5", "C6", "F3", "R2", "R4", "D3", "M2"], "min": {}},
+    "control":  {"cards": ["L", "C4", "C5", "C6", "F3", "R2", "R4", "D3", "M2"], "min": {"R2": 3, "R4": 3}},
+    "combo":    {"cards": ["L", "C2", "C3", "R2", "R4", "D3", "M2", "K1", "K2", "T2"], "min": {"K1": 2, "K2": 2}},
+}
+ALL = {"cards": CARDS, "min": {}}
 
 
-def mutate(deck, rng, size):
-    d = dict(deck)
-    for _ in range(rng.randint(1, 3)):
-        src = rng.choice([c for c in d if d[c] > 0])
-        dst = rng.choice([c for c in CARDS if c != src])
-        d[src] -= 1
-        d[dst] = d.get(dst, 0) + 1
+def legalize(d, rng, size, arch):
+    allowed = arch["cards"]
+    d = {c: v for c, v in d.items() if c in allowed and v > 0}
+    for c, m in arch["min"].items():
+        d[c] = max(d.get(c, 0), m)
+    total = sum(d.values())
+    while total != size:
+        c = rng.choice(allowed)
+        if total > size and d.get(c, 0) > arch["min"].get(c, 0):
+            d[c] -= 1; total -= 1
+        elif total < size:
+            d[c] = d.get(c, 0) + 1; total += 1
     return {c: v for c, v in d.items() if v}
 
 
-def crossover(a, b, rng, size):
-    child = {c: (a.get(c, 0) if rng.random() < .5 else b.get(c, 0)) for c in CARDS}
-    total = sum(child.values())
-    while total != size:  # repair to exact size
-        c = rng.choice(CARDS)
-        if total > size and child[c] > 0:
-            child[c] -= 1; total -= 1
-        elif total < size:
-            child[c] += 1; total += 1
-    return {c: v for c, v in child.items() if v}
+def random_deck(rng, size, arch=ALL):
+    lands = rng.randint(int(size * .3), int(size * .5))
+    mix = {c: rng.random() for c in arch["cards"] if c != "L"}
+    return legalize(build(lands, size, mix), rng, size, arch)
 
 
-def evolve(pool, size, field, gens, pop_n, games, seed, life=20):
+def mutate(deck, rng, size, arch=ALL):
+    d = dict(deck)
+    for _ in range(rng.randint(1, 3)):
+        src = rng.choice([c for c in d if d[c] > 0])
+        dst = rng.choice([c for c in arch["cards"] if c != src])
+        d[src] -= 1
+        d[dst] = d.get(dst, 0) + 1
+    return legalize(d, rng, size, arch)
+
+
+def crossover(a, b, rng, size, arch=ALL):
+    child = {c: (a.get(c, 0) if rng.random() < .5 else b.get(c, 0)) for c in arch["cards"]}
+    return legalize(child, rng, size, arch)
+
+
+def evolve(pool, size, field, gens, pop_n, games, seed, life=20, arch=ALL):
     rng = random.Random(seed)
-    pop = [random_deck(rng, size) for _ in range(pop_n)]
+    pop = [random_deck(rng, size, arch) for _ in range(pop_n)]
     hof, history = [], []
     kw = {"life": life}
     for g in range(gens):
@@ -239,8 +314,8 @@ def evolve(pool, size, field, gens, pop_n, games, seed, life=20):
         children = list(elite)
         while len(children) < pop_n:
             a, b = rng.sample(elite, 2)
-            child = crossover(a, b, rng, size) if rng.random() < .5 else dict(a)
-            children.append(mutate(child, rng, size))
+            child = crossover(a, b, rng, size, arch) if rng.random() < .5 else dict(a)
+            children.append(mutate(child, rng, size, arch))
         pop = children
     # final, careful evaluation of the last few champions vs the original field
     finals = hof[-8:]
@@ -267,6 +342,13 @@ if __name__ == "__main__":
         json.dump(result, open(os.path.join(OUT, "results.json"), "w"), indent=1)
         print("Evolving 60-card decks...", flush=True)
         result["evolve60"] = evolve(pool, 60, [scale(d, 60) for d in f40], gens, popn, eg, 2)
+        json.dump(result, open(os.path.join(OUT, "results.json"), "w"), indent=1)
+        result["archetypes"] = {}
+        ag, ap, aeg = (4, 12, 40) if quick else (30, 32, 150)
+        for i, (name, arch) in enumerate(ARCHETYPES.items()):
+            print(f"Evolving best {name} deck...", flush=True)
+            result["archetypes"][name] = evolve(pool, 40, f40, ag, ap, aeg, 10 + i, arch=arch)
+            json.dump(result, open(os.path.join(OUT, "results.json"), "w"), indent=1)
         result["seconds"] = round(time.time() - t0)
         json.dump(result, open(os.path.join(OUT, "results.json"), "w"), indent=1)
     print(f"done in {time.time()-t0:.0f}s", flush=True)
