@@ -1,6 +1,6 @@
 {
  "cores": 2,
- "games_per_point_per_opponent": 400,
+ "games_per_point_per_opponent": 3000,
  "experiments": [
   {
    "name": "lands40",
@@ -8,188 +8,205 @@
    "rows": [
     {
      "x": 12,
-     "win": 0.4391,
-     "turns": 10.8819,
-     "screw": 0.1734,
-     "flood": 0.0063,
-     "color_stuck": 0.4859,
+     "win": 0.4395,
+     "turns": 10.9574,
+     "screw": 0.1597,
+     "flood": 0.0058,
+     "color_stuck": 0.4906,
      "won_by": {
-      "flyers": 0.0378,
-      "timeout": 0.0003,
-      "ground": 0.4009
+      "flyers": 0.033,
+      "ground": 0.4065,
+      "timeout": 0.0
      },
      "lost_to": {
-      "combo": 0.0744,
-      "flyers": 0.0453,
-      "timeout": 0.0006,
-      "ground": 0.4406
+      "combo": 0.0762,
+      "flyers": 0.0424,
+      "ground": 0.4417,
+      "timeout": 0.0002
      }
     },
     {
      "x": 13,
-     "win": 0.4903,
-     "turns": 11.0156,
-     "screw": 0.1187,
-     "flood": 0.0084,
-     "color_stuck": 0.4934,
+     "win": 0.4804,
+     "turns": 11.0501,
+     "screw": 0.1163,
+     "flood": 0.0111,
+     "color_stuck": 0.4938,
      "won_by": {
-      "flyers": 0.0334,
-      "ground": 0.4569
+      "flyers": 0.0351,
+      "ground": 0.4453
      },
      "lost_to": {
-      "flyers": 0.0397,
-      "ground": 0.3941,
-      "combo": 0.0759
+      "combo": 0.0755,
+      "drain": 0.0001,
+      "flyers": 0.0384,
+      "ground": 0.4055,
+      "timeout": 0.0002
      }
     },
     {
      "x": 14,
-     "win": 0.5059,
-     "turns": 11.1075,
-     "screw": 0.0831,
-     "flood": 0.015,
-     "color_stuck": 0.4772,
+     "win": 0.4817,
+     "turns": 11.1,
+     "screw": 0.0882,
+     "flood": 0.0183,
+     "color_stuck": 0.4686,
      "won_by": {
-      "flyers": 0.0394,
-      "timeout": 0.0003,
-      "ground": 0.4662
+      "flyers": 0.0343,
+      "ground": 0.4474,
+      "timeout": 0.0
      },
      "lost_to": {
-      "flyers": 0.0381,
-      "ground": 0.3803,
-      "combo": 0.0756
+      "combo": 0.073,
+      "drain": 0.0,
+      "flyers": 0.0373,
+      "ground": 0.4076,
+      "timeout": 0.0003
      }
     },
     {
      "x": 15,
-     "win": 0.4953,
-     "turns": 11.1487,
-     "screw": 0.0597,
-     "flood": 0.0316,
-     "color_stuck": 0.4719,
+     "win": 0.4888,
+     "turns": 11.189,
+     "screw": 0.064,
+     "flood": 0.0288,
+     "color_stuck": 0.4752,
      "won_by": {
-      "flyers": 0.0409,
-      "ground": 0.4544
+      "flyers": 0.0386,
+      "ground": 0.45,
+      "timeout": 0.0001
      },
      "lost_to": {
-      "combo": 0.0741,
-      "flyers": 0.0353,
-      "timeout": 0.0009,
-      "ground": 0.3944
+      "combo": 0.0722,
+      "drain": 0.0001,
+      "flyers": 0.0355,
+      "ground": 0.4032,
+      "timeout": 0.0002
      }
     },
     {
      "x": 16,
-     "win": 0.4988,
-     "turns": 11.1878,
-     "screw": 0.0478,
-     "flood": 0.0397,
-     "color_stuck": 0.4853,
+     "win": 0.484,
+     "turns": 11.2046,
+     "screw": 0.0437,
+     "flood": 0.0447,
+     "color_stuck": 0.4788,
      "won_by": {
-      "flyers": 0.0413,
-      "ground": 0.4575
+      "flyers": 0.0387,
+      "ground": 0.445,
+      "timeout": 0.0003
      },
      "lost_to": {
-      "drain": 0.0003,
-      "combo": 0.0719,
-      "flyers": 0.0347,
-      "timeout": 0.0006,
-      "ground": 0.3937
+      "combo": 0.0715,
+      "drain": 0.0002,
+      "flyers": 0.0343,
+      "ground": 0.4096,
+      "timeout": 0.0004
      }
     },
     {
      "x": 17,
-     "win": 0.4534,
-     "turns": 11.2469,
-     "screw": 0.0319,
-     "flood": 0.0675,
-     "color_stuck": 0.4797,
+     "win": 0.4617,
+     "turns": 11.2764,
+     "screw": 0.0333,
+     "flood": 0.0658,
+     "color_stuck": 0.4705,
      "won_by": {
-      "flyers": 0.0444,
-      "timeout": 0.0009,
-      "ground": 0.4081
+      "flyers": 0.0393,
+      "ground": 0.422,
+      "timeout": 0.0003
      },
      "lost_to": {
-      "combo": 0.08,
-      "flyers": 0.0384,
-      "timeout": 0.0006,
-      "ground": 0.4275
+      "combo": 0.0732,
+      "drain": 0.0,
+      "flyers": 0.0375,
+      "ground": 0.4272,
+      "timeout": 0.0004
      }
     },
     {
      "x": 18,
-     "win": 0.4684,
-     "turns": 11.18,
-     "screw": 0.02,
-     "flood": 0.0978,
-     "color_stuck": 0.4528,
+     "win": 0.449,
+     "turns": 11.2277,
+     "screw": 0.0233,
+     "flood": 0.0921,
+     "color_stuck": 0.4431,
      "won_by": {
-      "flyers": 0.0413,
-      "ground": 0.4272
+      "flyers": 0.0393,
+      "ground": 0.4094,
+      "timeout": 0.0003
      },
      "lost_to": {
-      "combo": 0.0744,
-      "flyers": 0.0375,
-      "timeout": 0.0003,
-      "ground": 0.4194
+      "combo": 0.0738,
+      "drain": 0.0,
+      "flyers": 0.0382,
+      "ground": 0.4385,
+      "timeout": 0.0004
      }
     },
     {
      "x": 19,
-     "win": 0.4497,
-     "turns": 10.9891,
-     "screw": 0.0178,
-     "flood": 0.1378,
-     "color_stuck": 0.435,
+     "win": 0.4213,
+     "turns": 10.968,
+     "screw": 0.0156,
+     "flood": 0.1266,
+     "color_stuck": 0.4309,
      "won_by": {
-      "flyers": 0.0422,
-      "timeout": 0.0006,
-      "ground": 0.4069
+      "decking": 0.0,
+      "flyers": 0.037,
+      "ground": 0.3841,
+      "timeout": 0.0003
      },
      "lost_to": {
-      "drain": 0.0003,
-      "combo": 0.08,
-      "flyers": 0.0409,
-      "ground": 0.4291
+      "combo": 0.0788,
+      "drain": 0.0001,
+      "flyers": 0.0437,
+      "ground": 0.456,
+      "timeout": 0.0001
      }
     },
     {
      "x": 20,
-     "win": 0.4169,
-     "turns": 10.6944,
-     "screw": 0.0125,
-     "flood": 0.1562,
-     "color_stuck": 0.4062,
+     "win": 0.3945,
+     "turns": 10.6737,
+     "screw": 0.0106,
+     "flood": 0.1605,
+     "color_stuck": 0.4002,
      "won_by": {
-      "flyers": 0.0356,
-      "ground": 0.3812
+      "flyers": 0.0337,
+      "ground": 0.3607,
+      "timeout": 0.0002
      },
      "lost_to": {
-      "flyers": 0.0453,
-      "ground": 0.4522,
-      "combo": 0.0856
+      "combo": 0.0828,
+      "drain": 0.0001,
+      "flyers": 0.0458,
+      "ground": 0.4767,
+      "timeout": 0.0
      }
     },
     {
      "x": 21,
-     "win": 0.3766,
-     "turns": 10.7478,
-     "screw": 0.0078,
-     "flood": 0.2259,
-     "color_stuck": 0.4081,
+     "win": 0.361,
+     "turns": 10.7067,
+     "screw": 0.0068,
+     "flood": 0.2093,
+     "color_stuck": 0.404,
      "won_by": {
-      "flyers": 0.0094,
-      "timeout": 0.0003,
-      "ground": 0.3669
+      "flyers": 0.011,
+      "ground": 0.3497,
+      "timeout": 0.0003
      },
      "lost_to": {
-      "flyers": 0.0681,
-      "ground": 0.4747,
-      "combo": 0.0806
+      "combo": 0.0829,
+      "drain": 0.0001,
+      "flyers": 0.0601,
+      "ground": 0.4959,
+      "timeout": 0.0001
      }
     }
    ],
-   "best": 14
+   "best": 15
   },
   {
    "name": "lands60",
@@ -197,264 +214,284 @@
    "rows": [
     {
      "x": 18,
-     "win": 0.4722,
-     "turns": 10.8378,
-     "screw": 0.1566,
-     "flood": 0.0116,
-     "color_stuck": 0.5134,
+     "win": 0.4572,
+     "turns": 10.9833,
+     "screw": 0.1549,
+     "flood": 0.0095,
+     "color_stuck": 0.5033,
      "won_by": {
-      "flyers": 0.0394,
-      "ground": 0.4328
+      "flyers": 0.038,
+      "ground": 0.4191,
+      "timeout": 0.0001
      },
      "lost_to": {
-      "combo": 0.0675,
-      "flyers": 0.0441,
-      "timeout": 0.0003,
-      "ground": 0.4159
+      "combo": 0.0727,
+      "flyers": 0.0412,
+      "ground": 0.4285,
+      "timeout": 0.0004
      }
     },
     {
      "x": 19,
-     "win": 0.4759,
-     "turns": 10.9616,
-     "screw": 0.1272,
+     "win": 0.4597,
+     "turns": 11.0161,
+     "screw": 0.1268,
      "flood": 0.0138,
-     "color_stuck": 0.5075,
+     "color_stuck": 0.5022,
      "won_by": {
-      "flyers": 0.0334,
-      "ground": 0.4425
+      "flyers": 0.0382,
+      "ground": 0.4213,
+      "timeout": 0.0002
      },
      "lost_to": {
-      "combo": 0.0716,
-      "flyers": 0.0366,
-      "timeout": 0.0003,
-      "ground": 0.4156
+      "combo": 0.071,
+      "drain": 0.0002,
+      "flyers": 0.0401,
+      "ground": 0.4285,
+      "timeout": 0.0004
      }
     },
     {
      "x": 20,
-     "win": 0.4937,
-     "turns": 11.0731,
-     "screw": 0.1106,
-     "flood": 0.0169,
-     "color_stuck": 0.4719,
+     "win": 0.4763,
+     "turns": 11.0596,
+     "screw": 0.1088,
+     "flood": 0.0175,
+     "color_stuck": 0.4919,
      "won_by": {
-      "flyers": 0.0453,
-      "ground": 0.4484
+      "flyers": 0.0377,
+      "ground": 0.4384,
+      "timeout": 0.0002
      },
      "lost_to": {
-      "combo": 0.0703,
-      "flyers": 0.0381,
-      "timeout": 0.0003,
-      "ground": 0.3975
+      "combo": 0.0709,
+      "drain": 0.0003,
+      "flyers": 0.0364,
+      "ground": 0.4159,
+      "timeout": 0.0003
      }
     },
     {
      "x": 21,
-     "win": 0.5172,
-     "turns": 11.1541,
-     "screw": 0.0922,
-     "flood": 0.0253,
-     "color_stuck": 0.4834,
+     "win": 0.4892,
+     "turns": 11.1605,
+     "screw": 0.0886,
+     "flood": 0.0259,
+     "color_stuck": 0.494,
      "won_by": {
-      "flyers": 0.0469,
-      "ground": 0.4703
+      "flyers": 0.0422,
+      "ground": 0.4466,
+      "timeout": 0.0003
      },
      "lost_to": {
-      "combo": 0.0606,
-      "flyers": 0.0359,
-      "timeout": 0.0006,
-      "ground": 0.3856
+      "combo": 0.0685,
+      "drain": 0.0001,
+      "flyers": 0.0351,
+      "ground": 0.4065,
+      "timeout": 0.0006
      }
     },
     {
      "x": 22,
-     "win": 0.5072,
-     "turns": 11.1575,
-     "screw": 0.0788,
-     "flood": 0.0309,
-     "color_stuck": 0.4937,
+     "win": 0.49,
+     "turns": 11.1412,
+     "screw": 0.0734,
+     "flood": 0.0325,
+     "color_stuck": 0.4954,
      "won_by": {
-      "flyers": 0.0453,
-      "ground": 0.4619
+      "flyers": 0.0405,
+      "ground": 0.4491,
+      "timeout": 0.0004
      },
      "lost_to": {
-      "drain": 0.0003,
-      "combo": 0.0659,
-      "flyers": 0.0353,
-      "ground": 0.3912
+      "combo": 0.0679,
+      "flyers": 0.0376,
+      "ground": 0.404,
+      "timeout": 0.0005
      }
     },
     {
      "x": 23,
-     "win": 0.4959,
-     "turns": 11.0941,
-     "screw": 0.0616,
-     "flood": 0.0375,
-     "color_stuck": 0.4897,
+     "win": 0.4784,
+     "turns": 11.0478,
+     "screw": 0.064,
+     "flood": 0.0439,
+     "color_stuck": 0.4814,
      "won_by": {
-      "flyers": 0.0409,
-      "ground": 0.455
+      "flyers": 0.039,
+      "ground": 0.4391,
+      "timeout": 0.0003
      },
      "lost_to": {
-      "flyers": 0.0406,
-      "ground": 0.3956,
-      "combo": 0.0678
+      "combo": 0.0698,
+      "drain": 0.0001,
+      "flyers": 0.0379,
+      "ground": 0.4135,
+      "timeout": 0.0003
      }
     },
     {
      "x": 24,
-     "win": 0.4969,
-     "turns": 11.0044,
-     "screw": 0.0497,
-     "flood": 0.0534,
-     "color_stuck": 0.4819,
+     "win": 0.4786,
+     "turns": 11.0433,
+     "screw": 0.047,
+     "flood": 0.053,
+     "color_stuck": 0.4835,
      "won_by": {
-      "flyers": 0.0459,
-      "timeout": 0.0003,
-      "ground": 0.4506
+      "flyers": 0.0395,
+      "ground": 0.4388,
+      "timeout": 0.0003
      },
      "lost_to": {
-      "drain": 0.0003,
-      "combo": 0.0725,
-      "flyers": 0.0384,
-      "timeout": 0.0003,
-      "ground": 0.3916
+      "combo": 0.0719,
+      "drain": 0.0001,
+      "flyers": 0.0386,
+      "ground": 0.4105,
+      "timeout": 0.0003
      }
     },
     {
      "x": 25,
-     "win": 0.4822,
-     "turns": 11.0756,
-     "screw": 0.0416,
-     "flood": 0.0691,
-     "color_stuck": 0.4834,
+     "win": 0.4683,
+     "turns": 11.0398,
+     "screw": 0.04,
+     "flood": 0.0688,
+     "color_stuck": 0.4744,
      "won_by": {
-      "flyers": 0.0456,
-      "ground": 0.4366
+      "flyers": 0.0423,
+      "ground": 0.4257,
+      "timeout": 0.0003
      },
      "lost_to": {
-      "combo": 0.0672,
-      "flyers": 0.0437,
-      "timeout": 0.0003,
-      "ground": 0.4066
+      "combo": 0.0713,
+      "drain": 0.0001,
+      "flyers": 0.039,
+      "ground": 0.4209,
+      "timeout": 0.0003
      }
     },
     {
      "x": 26,
-     "win": 0.5009,
-     "turns": 11.0947,
-     "screw": 0.0294,
-     "flood": 0.0825,
-     "color_stuck": 0.4691,
+     "win": 0.4715,
+     "turns": 11.0786,
+     "screw": 0.0321,
+     "flood": 0.084,
+     "color_stuck": 0.4632,
      "won_by": {
-      "flyers": 0.0438,
-      "ground": 0.4572
+      "flyers": 0.0413,
+      "ground": 0.4298,
+      "timeout": 0.0003
      },
      "lost_to": {
-      "combo": 0.0666,
-      "flyers": 0.0369,
-      "timeout": 0.0003,
-      "ground": 0.3953
+      "combo": 0.0715,
+      "drain": 0.0001,
+      "flyers": 0.0361,
+      "ground": 0.4204,
+      "timeout": 0.0003
      }
     },
     {
      "x": 27,
-     "win": 0.4734,
-     "turns": 11.0959,
-     "screw": 0.03,
-     "flood": 0.0944,
-     "color_stuck": 0.4559,
+     "win": 0.4525,
+     "turns": 11.0696,
+     "screw": 0.0266,
+     "flood": 0.0974,
+     "color_stuck": 0.4536,
      "won_by": {
-      "flyers": 0.0469,
-      "timeout": 0.0003,
-      "ground": 0.4263
+      "flyers": 0.0408,
+      "ground": 0.4116,
+      "timeout": 0.0002
      },
      "lost_to": {
-      "drain": 0.0003,
-      "combo": 0.0728,
-      "flyers": 0.0403,
-      "timeout": 0.0003,
-      "ground": 0.4128
+      "combo": 0.073,
+      "drain": 0.0002,
+      "flyers": 0.038,
+      "ground": 0.436,
+      "timeout": 0.0002
      }
     },
     {
      "x": 28,
-     "win": 0.44,
-     "turns": 10.8528,
-     "screw": 0.0187,
-     "flood": 0.1194,
-     "color_stuck": 0.4425,
+     "win": 0.4269,
+     "turns": 10.8856,
+     "screw": 0.0192,
+     "flood": 0.1215,
+     "color_stuck": 0.4374,
      "won_by": {
-      "flyers": 0.0387,
-      "ground": 0.4012
+      "flyers": 0.0386,
+      "ground": 0.388,
+      "timeout": 0.0004
      },
      "lost_to": {
-      "drain": 0.0003,
-      "combo": 0.0797,
-      "flyers": 0.04,
-      "ground": 0.44
+      "combo": 0.074,
+      "drain": 0.0002,
+      "flyers": 0.0432,
+      "ground": 0.4555,
+      "timeout": 0.0002
      }
     },
     {
      "x": 29,
-     "win": 0.4291,
-     "turns": 10.7725,
-     "screw": 0.0156,
-     "flood": 0.1478,
-     "color_stuck": 0.4406,
+     "win": 0.4251,
+     "turns": 10.8102,
+     "screw": 0.0158,
+     "flood": 0.142,
+     "color_stuck": 0.4355,
      "won_by": {
-      "flyers": 0.0444,
-      "timeout": 0.0006,
-      "ground": 0.3841
+      "flyers": 0.0403,
+      "ground": 0.3846,
+      "timeout": 0.0002
      },
      "lost_to": {
-      "drain": 0.0003,
-      "combo": 0.0725,
-      "flyers": 0.0409,
-      "ground": 0.4572
+      "combo": 0.074,
+      "drain": 0.0002,
+      "flyers": 0.0414,
+      "ground": 0.4593,
+      "timeout": 0.0
      }
     },
     {
      "x": 30,
-     "win": 0.4128,
-     "turns": 10.8106,
-     "screw": 0.01,
-     "flood": 0.1741,
-     "color_stuck": 0.4269,
+     "win": 0.4023,
+     "turns": 10.9013,
+     "screw": 0.0123,
+     "flood": 0.1683,
+     "color_stuck": 0.4278,
      "won_by": {
-      "flyers": 0.0262,
-      "timeout": 0.0003,
-      "ground": 0.3862
+      "flyers": 0.0214,
+      "ground": 0.3805,
+      "timeout": 0.0005
      },
      "lost_to": {
-      "combo": 0.0762,
-      "flyers": 0.0481,
-      "timeout": 0.0003,
-      "ground": 0.4625
+      "combo": 0.0755,
+      "drain": 0.0003,
+      "flyers": 0.0463,
+      "ground": 0.4754,
+      "timeout": 0.0001
      }
     },
     {
      "x": 31,
-     "win": 0.3578,
-     "turns": 10.9234,
-     "screw": 0.0106,
-     "flood": 0.1903,
-     "color_stuck": 0.4238,
+     "win": 0.3446,
+     "turns": 10.9344,
+     "screw": 0.0091,
+     "flood": 0.1978,
+     "color_stuck": 0.4162,
      "won_by": {
-      "flyers": 0.0259,
-      "timeout": 0.0003,
-      "ground": 0.3316
+      "flyers": 0.0207,
+      "ground": 0.3234,
+      "timeout": 0.0005
      },
      "lost_to": {
-      "combo": 0.0797,
-      "flyers": 0.0537,
-      "timeout": 0.0003,
-      "ground": 0.5084
+      "combo": 0.0781,
+      "drain": 0.0002,
+      "flyers": 0.0533,
+      "ground": 0.5235,
+      "timeout": 0.0004
      }
     }
    ],
-   "best": 21
+   "best": 22
   },
   {
    "name": "lands100",
@@ -462,173 +499,174 @@
    "rows": [
     {
      "x": 30,
-     "win": 0.5016,
-     "turns": 14.1022,
-     "screw": 0.1628,
-     "flood": 0.0078,
-     "color_stuck": 0.5234,
+     "win": 0.4922,
+     "turns": 14.085,
+     "screw": 0.1619,
+     "flood": 0.0125,
+     "color_stuck": 0.5194,
      "won_by": {
-      "flyers": 0.0397,
-      "timeout": 0.0006,
-      "ground": 0.4612
+      "flyers": 0.0375,
+      "ground": 0.4531,
+      "timeout": 0.0017
      },
      "lost_to": {
-      "combo": 0.0944,
-      "flyers": 0.0281,
-      "timeout": 0.0028,
-      "ground": 0.3731
+      "combo": 0.0931,
+      "flyers": 0.0266,
+      "ground": 0.3852,
+      "timeout": 0.0029
      }
     },
     {
      "x": 32,
-     "win": 0.5294,
-     "turns": 14.2912,
-     "screw": 0.1309,
-     "flood": 0.0175,
-     "color_stuck": 0.5197,
+     "win": 0.5066,
+     "turns": 14.215,
+     "screw": 0.1259,
+     "flood": 0.0178,
+     "color_stuck": 0.525,
      "won_by": {
-      "flyers": 0.0297,
-      "timeout": 0.0034,
-      "ground": 0.4962
+      "flyers": 0.0308,
+      "ground": 0.4731,
+      "timeout": 0.0026
      },
      "lost_to": {
-      "combo": 0.0956,
-      "flyers": 0.0306,
-      "timeout": 0.0047,
-      "ground": 0.3397
+      "combo": 0.0936,
+      "flyers": 0.0275,
+      "ground": 0.3686,
+      "timeout": 0.0036
      }
     },
     {
      "x": 34,
-     "win": 0.5016,
-     "turns": 14.3222,
-     "screw": 0.1081,
-     "flood": 0.0194,
-     "color_stuck": 0.5028,
+     "win": 0.4946,
+     "turns": 14.4555,
+     "screw": 0.1048,
+     "flood": 0.0236,
+     "color_stuck": 0.5188,
      "won_by": {
-      "flyers": 0.0369,
-      "timeout": 0.0047,
-      "ground": 0.46
+      "flyers": 0.0324,
+      "ground": 0.4569,
+      "timeout": 0.0053
      },
      "lost_to": {
-      "combo": 0.0981,
-      "flyers": 0.0303,
-      "timeout": 0.0038,
-      "ground": 0.3663
+      "combo": 0.0935,
+      "drain": 0.0,
+      "flyers": 0.0291,
+      "ground": 0.3785,
+      "timeout": 0.0043
      }
     },
     {
      "x": 36,
-     "win": 0.5153,
-     "turns": 14.5022,
-     "screw": 0.0866,
-     "flood": 0.0419,
-     "color_stuck": 0.5106,
+     "win": 0.4955,
+     "turns": 14.5078,
+     "screw": 0.083,
+     "flood": 0.0357,
+     "color_stuck": 0.5049,
      "won_by": {
-      "flyers": 0.0347,
-      "timeout": 0.0025,
-      "ground": 0.4781
+      "flyers": 0.0324,
+      "ground": 0.4585,
+      "timeout": 0.0046
      },
      "lost_to": {
       "combo": 0.0919,
-      "flyers": 0.0272,
-      "timeout": 0.005,
-      "ground": 0.3606
+      "flyers": 0.0282,
+      "ground": 0.3786,
+      "timeout": 0.0058
      }
     },
     {
      "x": 38,
-     "win": 0.5222,
-     "turns": 14.4388,
-     "screw": 0.0725,
-     "flood": 0.0459,
-     "color_stuck": 0.5106,
+     "win": 0.4897,
+     "turns": 14.4776,
+     "screw": 0.0674,
+     "flood": 0.0442,
+     "color_stuck": 0.4988,
      "won_by": {
-      "flyers": 0.0387,
-      "timeout": 0.0059,
-      "ground": 0.4775
+      "flyers": 0.0329,
+      "ground": 0.4521,
+      "timeout": 0.0047
      },
      "lost_to": {
-      "combo": 0.09,
-      "flyers": 0.0284,
-      "timeout": 0.0044,
-      "ground": 0.355
+      "combo": 0.0929,
+      "flyers": 0.0295,
+      "ground": 0.383,
+      "timeout": 0.0049
      }
     },
     {
      "x": 40,
-     "win": 0.4997,
-     "turns": 14.4684,
-     "screw": 0.0516,
-     "flood": 0.0581,
-     "color_stuck": 0.485,
+     "win": 0.4729,
+     "turns": 14.5682,
+     "screw": 0.053,
+     "flood": 0.0597,
+     "color_stuck": 0.4942,
      "won_by": {
-      "flyers": 0.035,
-      "timeout": 0.0025,
-      "ground": 0.4622
+      "flyers": 0.0332,
+      "ground": 0.4342,
+      "timeout": 0.0055
      },
      "lost_to": {
-      "combo": 0.0969,
-      "flyers": 0.0244,
-      "timeout": 0.0059,
-      "ground": 0.3731
+      "combo": 0.0935,
+      "flyers": 0.0293,
+      "ground": 0.3988,
+      "timeout": 0.0056
      }
     },
     {
      "x": 42,
-     "win": 0.4909,
-     "turns": 14.4472,
-     "screw": 0.0428,
-     "flood": 0.0822,
-     "color_stuck": 0.4791,
+     "win": 0.4643,
+     "turns": 14.5457,
+     "screw": 0.0411,
+     "flood": 0.0797,
+     "color_stuck": 0.4763,
      "won_by": {
-      "flyers": 0.0394,
-      "timeout": 0.0059,
-      "ground": 0.4456
+      "flyers": 0.0322,
+      "ground": 0.4262,
+      "timeout": 0.0059
      },
      "lost_to": {
-      "combo": 0.0909,
-      "flyers": 0.0297,
-      "timeout": 0.0041,
-      "ground": 0.3844
+      "combo": 0.0947,
+      "flyers": 0.0309,
+      "ground": 0.4052,
+      "timeout": 0.0049
      }
     },
     {
      "x": 44,
-     "win": 0.4537,
-     "turns": 14.2284,
-     "screw": 0.03,
-     "flood": 0.1034,
-     "color_stuck": 0.4425,
+     "win": 0.4338,
+     "turns": 14.4153,
+     "screw": 0.0324,
+     "flood": 0.0969,
+     "color_stuck": 0.4578,
      "won_by": {
-      "flyers": 0.0334,
-      "timeout": 0.0047,
-      "ground": 0.4156
+      "flyers": 0.0295,
+      "ground": 0.3984,
+      "timeout": 0.0059
      },
      "lost_to": {
-      "combo": 0.0969,
-      "flyers": 0.0353,
-      "timeout": 0.0056,
-      "ground": 0.4084
+      "combo": 0.0973,
+      "flyers": 0.0338,
+      "ground": 0.4312,
+      "timeout": 0.0039
      }
     },
     {
      "x": 46,
-     "win": 0.4209,
-     "turns": 14.4637,
-     "screw": 0.0272,
-     "flood": 0.1338,
-     "color_stuck": 0.4453,
+     "win": 0.3948,
+     "turns": 14.5807,
+     "screw": 0.0281,
+     "flood": 0.1224,
+     "color_stuck": 0.4472,
      "won_by": {
-      "flyers": 0.0244,
-      "timeout": 0.0069,
-      "ground": 0.3897
+      "flyers": 0.0215,
+      "ground": 0.3666,
+      "timeout": 0.0067
      },
      "lost_to": {
-      "combo": 0.0984,
-      "flyers": 0.0378,
-      "timeout": 0.005,
-      "ground": 0.4378
+      "combo": 0.098,
+      "flyers": 0.0446,
+      "ground": 0.4555,
+      "timeout": 0.0071
      }
     }
    ],
@@ -642,99 +680,105 @@
      "x": "1.9 (very low)",
      "lands": 14,
      "avg_mv": 2.0,
-     "win": 0.5953,
-     "turns": 10.4372,
-     "screw": 0.0912,
-     "flood": 0.0141,
-     "color_stuck": 0.5269,
+     "win": 0.5673,
+     "turns": 10.6119,
+     "screw": 0.087,
+     "flood": 0.0162,
+     "color_stuck": 0.5211,
      "won_by": {
-      "timeout": 0.0025,
-      "ground": 0.5928
+      "ground": 0.5639,
+      "timeout": 0.0033
      },
      "lost_to": {
-      "combo": 0.0522,
-      "flyers": 0.0344,
-      "timeout": 0.0044,
-      "ground": 0.3137
+      "combo": 0.0527,
+      "drain": 0.0,
+      "flyers": 0.0349,
+      "ground": 0.342,
+      "timeout": 0.0031
      }
     },
     {
      "x": "2.5 (low)",
      "lands": 14,
      "avg_mv": 2.62,
-     "win": 0.4991,
-     "turns": 11.0231,
-     "screw": 0.0969,
-     "flood": 0.0138,
-     "color_stuck": 0.5319,
+     "win": 0.4775,
+     "turns": 11.2189,
+     "screw": 0.0866,
+     "flood": 0.016,
+     "color_stuck": 0.5284,
      "won_by": {
-      "flyers": 0.0206,
-      "timeout": 0.0009,
-      "ground": 0.4775
+      "flyers": 0.0171,
+      "ground": 0.4592,
+      "timeout": 0.0011
      },
      "lost_to": {
-      "drain": 0.0003,
-      "combo": 0.0647,
-      "flyers": 0.0425,
-      "timeout": 0.0013,
-      "ground": 0.3922
+      "combo": 0.0641,
+      "drain": 0.0001,
+      "flyers": 0.0457,
+      "ground": 0.4111,
+      "timeout": 0.0015
      }
     },
     {
      "x": "3.0 (medium)",
      "lands": 15,
      "avg_mv": 3.08,
-     "win": 0.4916,
-     "turns": 11.1656,
-     "screw": 0.0659,
-     "flood": 0.0316,
-     "color_stuck": 0.4753,
+     "win": 0.484,
+     "turns": 11.2146,
+     "screw": 0.0632,
+     "flood": 0.0311,
+     "color_stuck": 0.4774,
      "won_by": {
-      "flyers": 0.0416,
-      "ground": 0.45
+      "flyers": 0.04,
+      "ground": 0.4438,
+      "timeout": 0.0002
      },
      "lost_to": {
-      "flyers": 0.0403,
-      "ground": 0.3978,
-      "combo": 0.0703
+      "combo": 0.072,
+      "drain": 0.0001,
+      "flyers": 0.0379,
+      "ground": 0.4055,
+      "timeout": 0.0005
      }
     },
     {
      "x": "3.6 (high)",
      "lands": 18,
      "avg_mv": 4.0,
-     "win": 0.5206,
-     "turns": 10.5641,
-     "screw": 0.0206,
-     "flood": 0.1231,
-     "color_stuck": 0.4384,
+     "win": 0.5175,
+     "turns": 10.5699,
+     "screw": 0.023,
+     "flood": 0.1222,
+     "color_stuck": 0.4357,
      "won_by": {
-      "ground": 0.5203,
-      "decking": 0.0003
+      "decking": 0.0009,
+      "ground": 0.5165,
+      "timeout": 0.0
      },
      "lost_to": {
-      "flyers": 0.0397,
-      "ground": 0.3563,
-      "combo": 0.0834
+      "combo": 0.0803,
+      "drain": 0.0,
+      "flyers": 0.0378,
+      "ground": 0.3644
      }
     },
     {
      "x": "4.2 (very high)",
-     "lands": 18,
-     "avg_mv": 4.64,
-     "win": 0.4591,
-     "turns": 9.3019,
-     "screw": 0.0194,
-     "flood": 0.1544,
-     "color_stuck": 0.4084,
+     "lands": 20,
+     "avg_mv": 4.65,
+     "win": 0.4507,
+     "turns": 9.3131,
+     "screw": 0.0112,
+     "flood": 0.2531,
+     "color_stuck": 0.4123,
      "won_by": {
-      "ground": 0.4584,
-      "decking": 0.0006
+      "decking": 0.0003,
+      "ground": 0.4504
      },
      "lost_to": {
-      "flyers": 0.0238,
-      "ground": 0.4441,
-      "combo": 0.0731
+      "flyers": 0.0272,
+      "combo": 0.0772,
+      "ground": 0.4449
      }
     }
    ],
@@ -746,246 +790,263 @@
    "rows": [
     {
      "x": 0,
-     "win": 0.4619,
-     "turns": 10.1316,
-     "screw": 0.0362,
-     "flood": 0.07,
-     "color_stuck": 0.4441,
+     "win": 0.4309,
+     "turns": 10.1541,
+     "screw": 0.0341,
+     "flood": 0.0678,
+     "color_stuck": 0.4363,
      "won_by": {
-      "flyers": 0.0397,
-      "ground": 0.4222
+      "flyers": 0.032,
+      "ground": 0.3989
      },
      "lost_to": {
-      "drain": 0.0003,
-      "combo": 0.0841,
-      "flyers": 0.0547,
-      "ground": 0.3991
+      "combo": 0.0859,
+      "drain": 0.0002,
+      "flyers": 0.0575,
+      "ground": 0.4255,
+      "timeout": 0.0
      }
     },
     {
      "x": 1,
-     "win": 0.4697,
-     "turns": 10.3956,
-     "screw": 0.0294,
-     "flood": 0.0666,
-     "color_stuck": 0.4409,
+     "win": 0.4437,
+     "turns": 10.3441,
+     "screw": 0.0301,
+     "flood": 0.0662,
+     "color_stuck": 0.4407,
      "won_by": {
-      "flyers": 0.045,
-      "ground": 0.4247
+      "flyers": 0.0352,
+      "ground": 0.4085,
+      "timeout": 0.0001
      },
      "lost_to": {
-      "drain": 0.0006,
-      "combo": 0.0869,
-      "flyers": 0.0534,
-      "ground": 0.3894
+      "combo": 0.0831,
+      "drain": 0.0002,
+      "flyers": 0.0517,
+      "ground": 0.4213
      }
     },
     {
      "x": 2,
-     "win": 0.4591,
-     "turns": 10.4978,
-     "screw": 0.0247,
-     "flood": 0.0737,
-     "color_stuck": 0.4406,
+     "win": 0.4354,
+     "turns": 10.5672,
+     "screw": 0.0321,
+     "flood": 0.0665,
+     "color_stuck": 0.4448,
      "won_by": {
-      "flyers": 0.035,
-      "ground": 0.4241
+      "flyers": 0.0323,
+      "ground": 0.403,
+      "timeout": 0.0001
      },
      "lost_to": {
-      "drain": 0.0003,
-      "combo": 0.0784,
-      "flyers": 0.0494,
-      "ground": 0.4128
+      "combo": 0.0804,
+      "drain": 0.0002,
+      "flyers": 0.0501,
+      "ground": 0.4338,
+      "timeout": 0.0002
      }
     },
     {
      "x": 3,
-     "win": 0.4519,
-     "turns": 10.6744,
-     "screw": 0.0344,
-     "flood": 0.0741,
-     "color_stuck": 0.4537,
+     "win": 0.4504,
+     "turns": 10.7231,
+     "screw": 0.0311,
+     "flood": 0.0682,
+     "color_stuck": 0.4694,
      "won_by": {
-      "flyers": 0.0338,
-      "ground": 0.4181
+      "flyers": 0.0343,
+      "ground": 0.416,
+      "timeout": 0.0001
      },
      "lost_to": {
-      "combo": 0.0856,
-      "flyers": 0.0466,
-      "timeout": 0.0003,
-      "ground": 0.4156
+      "combo": 0.0768,
+      "drain": 0.0002,
+      "flyers": 0.0443,
+      "ground": 0.428,
+      "timeout": 0.0003
      }
     },
     {
      "x": 4,
-     "win": 0.4519,
-     "turns": 11.0028,
-     "screw": 0.0303,
-     "flood": 0.0672,
-     "color_stuck": 0.4719,
+     "win": 0.4384,
+     "turns": 10.9786,
+     "screw": 0.0335,
+     "flood": 0.0674,
+     "color_stuck": 0.4823,
      "won_by": {
-      "flyers": 0.0391,
-      "timeout": 0.0003,
-      "ground": 0.4125
+      "flyers": 0.0364,
+      "ground": 0.4018,
+      "timeout": 0.0002
      },
      "lost_to": {
-      "flyers": 0.0372,
-      "ground": 0.4344,
-      "combo": 0.0766
+      "combo": 0.077,
+      "drain": 0.0,
+      "flyers": 0.043,
+      "ground": 0.4412,
+      "timeout": 0.0004
      }
     },
     {
      "x": 5,
-     "win": 0.4509,
-     "turns": 11.1438,
-     "screw": 0.0328,
-     "flood": 0.0694,
-     "color_stuck": 0.4813,
+     "win": 0.4502,
+     "turns": 11.2257,
+     "screw": 0.031,
+     "flood": 0.0662,
+     "color_stuck": 0.4866,
      "won_by": {
-      "flyers": 0.0456,
-      "ground": 0.4053
+      "flyers": 0.0388,
+      "ground": 0.4114,
+      "timeout": 0.0
      },
      "lost_to": {
-      "flyers": 0.0422,
-      "ground": 0.4294,
-      "combo": 0.0775
+      "combo": 0.0751,
+      "drain": 0.0,
+      "flyers": 0.0369,
+      "ground": 0.4373,
+      "timeout": 0.0003
      }
     },
     {
      "x": 6,
-     "win": 0.4669,
-     "turns": 11.4528,
-     "screw": 0.0325,
-     "flood": 0.0722,
-     "color_stuck": 0.475,
+     "win": 0.4712,
+     "turns": 11.5329,
+     "screw": 0.0318,
+     "flood": 0.0673,
+     "color_stuck": 0.4823,
      "won_by": {
-      "flyers": 0.0438,
-      "timeout": 0.0003,
-      "ground": 0.4228
+      "decking": 0.0,
+      "flyers": 0.0456,
+      "ground": 0.425,
+      "timeout": 0.0005
      },
      "lost_to": {
-      "combo": 0.0728,
-      "flyers": 0.0363,
-      "timeout": 0.0003,
-      "ground": 0.4238
+      "combo": 0.0719,
+      "drain": 0.0,
+      "flyers": 0.0346,
+      "ground": 0.422,
+      "timeout": 0.0003
      }
     },
     {
      "x": 7,
-     "win": 0.4884,
-     "turns": 11.7703,
-     "screw": 0.0344,
-     "flood": 0.0703,
-     "color_stuck": 0.4731,
+     "win": 0.4618,
+     "turns": 11.7541,
+     "screw": 0.0352,
+     "flood": 0.0685,
+     "color_stuck": 0.4819,
      "won_by": {
-      "flyers": 0.0503,
-      "timeout": 0.0003,
-      "ground": 0.4378
+      "decking": 0.0,
+      "flyers": 0.0424,
+      "ground": 0.4188,
+      "timeout": 0.0006
      },
      "lost_to": {
-      "combo": 0.065,
-      "flyers": 0.0288,
-      "timeout": 0.0006,
-      "ground": 0.4172
+      "combo": 0.0683,
+      "drain": 0.0,
+      "flyers": 0.0312,
+      "ground": 0.4382,
+      "timeout": 0.0005
      }
     },
     {
      "x": 8,
-     "win": 0.4878,
-     "turns": 12.0325,
-     "screw": 0.0331,
-     "flood": 0.0669,
-     "color_stuck": 0.4925,
+     "win": 0.467,
+     "turns": 12.0827,
+     "screw": 0.0335,
+     "flood": 0.0714,
+     "color_stuck": 0.5054,
      "won_by": {
-      "flyers": 0.0488,
-      "timeout": 0.0013,
-      "ground": 0.4372,
-      "decking": 0.0006
+      "decking": 0.0003,
+      "flyers": 0.0443,
+      "ground": 0.4215,
+      "timeout": 0.001
      },
      "lost_to": {
-      "combo": 0.0675,
-      "flyers": 0.0275,
-      "timeout": 0.0013,
-      "ground": 0.4159
+      "combo": 0.0673,
+      "flyers": 0.0274,
+      "ground": 0.4375,
+      "timeout": 0.0007
      }
     },
     {
      "x": 9,
-     "win": 0.5056,
-     "turns": 12.4003,
-     "screw": 0.0325,
-     "flood": 0.0769,
-     "color_stuck": 0.4888,
+     "win": 0.4857,
+     "turns": 12.4324,
+     "screw": 0.0315,
+     "flood": 0.0748,
+     "color_stuck": 0.5022,
      "won_by": {
-      "flyers": 0.0575,
-      "timeout": 0.0009,
-      "ground": 0.4472
+      "decking": 0.0003,
+      "flyers": 0.0521,
+      "ground": 0.4322,
+      "timeout": 0.0011
      },
      "lost_to": {
-      "combo": 0.0647,
-      "flyers": 0.0209,
-      "timeout": 0.0009,
-      "ground": 0.4078
+      "combo": 0.0635,
+      "drain": 0.0,
+      "flyers": 0.0221,
+      "ground": 0.4274,
+      "timeout": 0.0013
      }
     },
     {
      "x": 10,
-     "win": 0.4953,
-     "turns": 12.8481,
-     "screw": 0.0322,
-     "flood": 0.0675,
-     "color_stuck": 0.5028,
+     "win": 0.4763,
+     "turns": 12.8415,
+     "screw": 0.0317,
+     "flood": 0.0695,
+     "color_stuck": 0.506,
      "won_by": {
-      "flyers": 0.0525,
-      "timeout": 0.0025,
-      "ground": 0.4397,
-      "decking": 0.0006
+      "decking": 0.0015,
+      "flyers": 0.0502,
+      "ground": 0.4228,
+      "timeout": 0.0018
      },
      "lost_to": {
-      "combo": 0.065,
-      "flyers": 0.0184,
-      "timeout": 0.0022,
-      "ground": 0.4191
+      "combo": 0.0615,
+      "flyers": 0.0189,
+      "ground": 0.441,
+      "timeout": 0.0023
      }
     },
     {
      "x": 11,
-     "win": 0.515,
-     "turns": 13.1503,
-     "screw": 0.035,
-     "flood": 0.0688,
-     "color_stuck": 0.5003,
+     "win": 0.4878,
+     "turns": 13.148,
+     "screw": 0.0329,
+     "flood": 0.0733,
+     "color_stuck": 0.5082,
      "won_by": {
-      "flyers": 0.0559,
-      "timeout": 0.0016,
-      "ground": 0.4537,
-      "decking": 0.0037
+      "decking": 0.0022,
+      "flyers": 0.0524,
+      "ground": 0.4307,
+      "timeout": 0.0025
      },
      "lost_to": {
-      "combo": 0.0541,
-      "flyers": 0.0125,
-      "timeout": 0.0016,
-      "ground": 0.4169
+      "combo": 0.056,
+      "flyers": 0.0154,
+      "ground": 0.4389,
+      "timeout": 0.002
      }
     },
     {
      "x": 12,
-     "win": 0.5347,
-     "turns": 13.6034,
-     "screw": 0.0344,
-     "flood": 0.0788,
-     "color_stuck": 0.51,
+     "win": 0.5102,
+     "turns": 13.611,
+     "screw": 0.0323,
+     "flood": 0.0728,
+     "color_stuck": 0.508,
      "won_by": {
-      "flyers": 0.0584,
-      "timeout": 0.0034,
-      "ground": 0.4672,
-      "decking": 0.0056
+      "decking": 0.0053,
+      "flyers": 0.0557,
+      "ground": 0.4446,
+      "timeout": 0.0046
      },
      "lost_to": {
-      "combo": 0.0541,
-      "flyers": 0.0138,
-      "timeout": 0.0041,
-      "ground": 0.3934
+      "combo": 0.0511,
+      "flyers": 0.0127,
+      "ground": 0.423,
+      "timeout": 0.0031
      }
     }
    ],
@@ -997,165 +1058,174 @@
    "rows": [
     {
      "x": 0,
-     "win": 0.4647,
-     "turns": 11.2181,
-     "screw": 0.0341,
-     "flood": 0.0747,
-     "color_stuck": 0.4747,
+     "win": 0.4515,
+     "turns": 11.2118,
+     "screw": 0.0329,
+     "flood": 0.0685,
+     "color_stuck": 0.4681,
      "won_by": {
-      "flyers": 0.0419,
-      "ground": 0.4228
+      "flyers": 0.0369,
+      "ground": 0.4145,
+      "timeout": 0.0002
      },
      "lost_to": {
-      "combo": 0.0744,
-      "flyers": 0.0422,
-      "timeout": 0.0003,
-      "ground": 0.4184
+      "combo": 0.0764,
+      "drain": 0.0,
+      "flyers": 0.0395,
+      "ground": 0.4321,
+      "timeout": 0.0005
      }
     },
     {
      "x": 1,
-     "win": 0.4738,
-     "turns": 11.2212,
-     "screw": 0.0294,
-     "flood": 0.0703,
-     "color_stuck": 0.4519,
+     "win": 0.4612,
+     "turns": 11.2272,
+     "screw": 0.0318,
+     "flood": 0.077,
+     "color_stuck": 0.463,
      "won_by": {
-      "flyers": 0.0447,
-      "ground": 0.4291
+      "flyers": 0.0423,
+      "ground": 0.4188,
+      "timeout": 0.0001
      },
      "lost_to": {
-      "combo": 0.0747,
-      "flyers": 0.0334,
-      "ground": 0.4178,
-      "decking": 0.0003
+      "combo": 0.073,
+      "decking": 0.0003,
+      "drain": 0.0,
+      "flyers": 0.0345,
+      "ground": 0.4308,
+      "timeout": 0.0002
      }
     },
     {
      "x": 2,
-     "win": 0.4594,
-     "turns": 11.1006,
-     "screw": 0.0272,
-     "flood": 0.0837,
-     "color_stuck": 0.4581,
+     "win": 0.4419,
+     "turns": 11.2193,
+     "screw": 0.0312,
+     "flood": 0.0799,
+     "color_stuck": 0.4568,
      "won_by": {
-      "flyers": 0.0378,
-      "ground": 0.4216
+      "flyers": 0.0398,
+      "ground": 0.4021
      },
      "lost_to": {
-      "combo": 0.0759,
-      "flyers": 0.0397,
-      "ground": 0.4241,
-      "decking": 0.0009
+      "combo": 0.0774,
+      "decking": 0.0011,
+      "drain": 0.0001,
+      "flyers": 0.0361,
+      "ground": 0.4434
      }
     },
     {
      "x": 3,
-     "win": 0.4619,
-     "turns": 11.2713,
-     "screw": 0.0281,
-     "flood": 0.0872,
-     "color_stuck": 0.4525,
+     "win": 0.4432,
+     "turns": 11.2265,
+     "screw": 0.0318,
+     "flood": 0.0907,
+     "color_stuck": 0.4573,
      "won_by": {
-      "flyers": 0.0491,
-      "ground": 0.4128
+      "flyers": 0.0428,
+      "ground": 0.4004
      },
      "lost_to": {
-      "combo": 0.0756,
-      "flyers": 0.0284,
-      "ground": 0.4328,
-      "decking": 0.0013
+      "combo": 0.0764,
+      "decking": 0.0013,
+      "flyers": 0.0335,
+      "ground": 0.4456
      }
     },
     {
      "x": 4,
-     "win": 0.4519,
-     "turns": 11.0981,
-     "screw": 0.0297,
-     "flood": 0.0953,
-     "color_stuck": 0.4706,
+     "win": 0.4457,
+     "turns": 11.2447,
+     "screw": 0.0306,
+     "flood": 0.096,
+     "color_stuck": 0.4527,
      "won_by": {
-      "flyers": 0.0419,
-      "ground": 0.41
+      "flyers": 0.0424,
+      "ground": 0.4033
      },
      "lost_to": {
-      "combo": 0.0781,
-      "flyers": 0.0388,
-      "ground": 0.4284,
-      "decking": 0.0028
+      "combo": 0.0783,
+      "decking": 0.0035,
+      "drain": 0.0,
+      "flyers": 0.0328,
+      "ground": 0.4397
      }
     },
     {
      "x": 5,
-     "win": 0.4306,
-     "turns": 11.1725,
-     "screw": 0.0303,
-     "flood": 0.1072,
-     "color_stuck": 0.4331,
+     "win": 0.4158,
+     "turns": 11.1028,
+     "screw": 0.0331,
+     "flood": 0.1033,
+     "color_stuck": 0.4344,
      "won_by": {
-      "flyers": 0.0419,
-      "ground": 0.3887
+      "flyers": 0.0394,
+      "ground": 0.3763
      },
      "lost_to": {
-      "combo": 0.0778,
-      "flyers": 0.0325,
-      "ground": 0.4525,
-      "decking": 0.0066
+      "combo": 0.0781,
+      "decking": 0.006,
+      "drain": 0.0,
+      "flyers": 0.032,
+      "ground": 0.4681
      }
     },
     {
      "x": 6,
-     "win": 0.4072,
-     "turns": 10.9437,
-     "screw": 0.0356,
-     "flood": 0.1169,
-     "color_stuck": 0.4413,
+     "win": 0.398,
+     "turns": 10.9882,
+     "screw": 0.0328,
+     "flood": 0.1212,
+     "color_stuck": 0.4433,
      "won_by": {
-      "flyers": 0.0441,
-      "ground": 0.3631
+      "flyers": 0.0408,
+      "ground": 0.3572
      },
      "lost_to": {
-      "combo": 0.085,
-      "flyers": 0.0291,
-      "ground": 0.4709,
-      "decking": 0.0078
+      "combo": 0.0819,
+      "decking": 0.0109,
+      "drain": 0.0,
+      "flyers": 0.0304,
+      "ground": 0.4788
      }
     },
     {
      "x": 7,
-     "win": 0.4053,
-     "turns": 10.9916,
-     "screw": 0.0291,
-     "flood": 0.13,
-     "color_stuck": 0.3956,
+     "win": 0.4004,
+     "turns": 11.001,
+     "screw": 0.0318,
+     "flood": 0.1298,
+     "color_stuck": 0.4047,
      "won_by": {
-      "flyers": 0.0366,
-      "ground": 0.3688
+      "flyers": 0.0403,
+      "ground": 0.3601
      },
      "lost_to": {
-      "drain": 0.0003,
-      "combo": 0.0831,
-      "flyers": 0.0256,
-      "ground": 0.4684,
-      "decking": 0.0172
+      "combo": 0.0793,
+      "decking": 0.0218,
+      "drain": 0.0,
+      "flyers": 0.0271,
+      "ground": 0.4713
      }
     },
     {
      "x": 8,
-     "win": 0.3513,
-     "turns": 10.7256,
-     "screw": 0.0325,
-     "flood": 0.1334,
-     "color_stuck": 0.4156,
+     "win": 0.3432,
+     "turns": 10.7214,
+     "screw": 0.0312,
+     "flood": 0.134,
+     "color_stuck": 0.4027,
      "won_by": {
-      "flyers": 0.0344,
-      "ground": 0.3169
+      "flyers": 0.0327,
+      "ground": 0.3106
      },
      "lost_to": {
-      "combo": 0.0856,
-      "flyers": 0.0309,
-      "ground": 0.4872,
-      "decking": 0.045
+      "combo": 0.081,
+      "decking": 0.0448,
+      "flyers": 0.0264,
+      "ground": 0.5045
      }
     }
    ],
@@ -1167,198 +1237,210 @@
    "rows": [
     {
      "x": 0,
-     "win": 0.4647,
-     "turns": 11.2181,
-     "screw": 0.0341,
-     "flood": 0.0747,
-     "color_stuck": 0.4747,
+     "win": 0.4515,
+     "turns": 11.2118,
+     "screw": 0.0329,
+     "flood": 0.0685,
+     "color_stuck": 0.4681,
      "won_by": {
-      "flyers": 0.0419,
-      "ground": 0.4228
+      "flyers": 0.0369,
+      "ground": 0.4145,
+      "timeout": 0.0002
      },
      "lost_to": {
-      "combo": 0.0744,
-      "flyers": 0.0422,
-      "timeout": 0.0003,
-      "ground": 0.4184
+      "combo": 0.0764,
+      "drain": 0.0,
+      "flyers": 0.0395,
+      "ground": 0.4321,
+      "timeout": 0.0005
      }
     },
     {
      "x": 1,
-     "win": 0.4791,
-     "turns": 11.0169,
-     "screw": 0.0309,
-     "flood": 0.06,
-     "color_stuck": 0.4556,
+     "win": 0.4658,
+     "turns": 11.0617,
+     "screw": 0.0332,
+     "flood": 0.0665,
+     "color_stuck": 0.4682,
      "won_by": {
-      "flyers": 0.0744,
-      "ground": 0.4047
+      "flyers": 0.067,
+      "ground": 0.3985,
+      "timeout": 0.0003
      },
      "lost_to": {
-      "flyers": 0.0334,
-      "ground": 0.4147,
-      "combo": 0.0728
+      "combo": 0.0729,
+      "drain": 0.0,
+      "flyers": 0.0292,
+      "ground": 0.4319,
+      "timeout": 0.0001
      }
     },
     {
      "x": 2,
-     "win": 0.4828,
-     "turns": 10.8069,
-     "screw": 0.0288,
-     "flood": 0.0719,
-     "color_stuck": 0.4581,
+     "win": 0.4668,
+     "turns": 10.8709,
+     "screw": 0.032,
+     "flood": 0.0659,
+     "color_stuck": 0.4614,
      "won_by": {
-      "flyers": 0.1084,
-      "ground": 0.3744
+      "flyers": 0.1036,
+      "ground": 0.3631,
+      "timeout": 0.0001
      },
      "lost_to": {
-      "combo": 0.0747,
-      "flyers": 0.0281,
-      "timeout": 0.0003,
-      "ground": 0.4141
+      "combo": 0.0748,
+      "flyers": 0.0256,
+      "ground": 0.4326,
+      "timeout": 0.0002
      }
     },
     {
      "x": 3,
-     "win": 0.4753,
-     "turns": 10.7384,
-     "screw": 0.0266,
-     "flood": 0.0663,
-     "color_stuck": 0.4637,
+     "win": 0.4556,
+     "turns": 10.7657,
+     "screw": 0.0321,
+     "flood": 0.0667,
+     "color_stuck": 0.4636,
      "won_by": {
-      "flyers": 0.1578,
-      "ground": 0.3175
+      "flyers": 0.1339,
+      "ground": 0.3216,
+      "timeout": 0.0
      },
      "lost_to": {
-      "flyers": 0.0181,
-      "ground": 0.43,
-      "combo": 0.0766
+      "flyers": 0.0205,
+      "combo": 0.0747,
+      "ground": 0.4492
      }
     },
     {
      "x": 4,
-     "win": 0.4756,
-     "turns": 10.5431,
-     "screw": 0.0347,
-     "flood": 0.0638,
-     "color_stuck": 0.4481,
+     "win": 0.4677,
+     "turns": 10.6075,
+     "screw": 0.0322,
+     "flood": 0.0635,
+     "color_stuck": 0.44,
      "won_by": {
-      "flyers": 0.18,
-      "timeout": 0.0003,
-      "ground": 0.2953
+      "flyers": 0.1685,
+      "ground": 0.2991,
+      "timeout": 0.0
      },
      "lost_to": {
-      "flyers": 0.0216,
-      "ground": 0.4356,
-      "combo": 0.0672
+      "combo": 0.0734,
+      "drain": 0.0001,
+      "flyers": 0.0176,
+      "ground": 0.4411,
+      "timeout": 0.0001
      }
     },
     {
      "x": 5,
-     "win": 0.4747,
-     "turns": 10.3322,
-     "screw": 0.0294,
-     "flood": 0.07,
-     "color_stuck": 0.4344,
+     "win": 0.4723,
+     "turns": 10.3888,
+     "screw": 0.0323,
+     "flood": 0.0651,
+     "color_stuck": 0.4403,
      "won_by": {
-      "flyers": 0.1988,
-      "ground": 0.2759
+      "flyers": 0.1989,
+      "ground": 0.2734,
+      "timeout": 0.0
      },
      "lost_to": {
-      "flyers": 0.0156,
-      "ground": 0.4341,
-      "combo": 0.0756
+      "combo": 0.0718,
+      "drain": 0.0001,
+      "flyers": 0.0127,
+      "ground": 0.4431,
+      "timeout": 0.0
      }
     },
     {
      "x": 6,
-     "win": 0.4644,
-     "turns": 10.1613,
-     "screw": 0.0347,
-     "flood": 0.0613,
-     "color_stuck": 0.4381,
+     "win": 0.448,
+     "turns": 10.251,
+     "screw": 0.0325,
+     "flood": 0.0643,
+     "color_stuck": 0.4278,
      "won_by": {
-      "flyers": 0.2169,
-      "ground": 0.2475
+      "flyers": 0.2092,
+      "ground": 0.2387
      },
      "lost_to": {
-      "flyers": 0.0119,
-      "ground": 0.4506,
-      "combo": 0.0731
+      "flyers": 0.0109,
+      "combo": 0.0742,
+      "ground": 0.467
      }
     },
     {
      "x": 7,
-     "win": 0.4697,
-     "turns": 10.1144,
-     "screw": 0.0322,
-     "flood": 0.0728,
-     "color_stuck": 0.3912,
+     "win": 0.462,
+     "turns": 10.1293,
+     "screw": 0.0325,
+     "flood": 0.0655,
+     "color_stuck": 0.4,
      "won_by": {
-      "flyers": 0.2537,
-      "ground": 0.2159
+      "flyers": 0.2465,
+      "ground": 0.2155
      },
      "lost_to": {
-      "drain": 0.0003,
-      "combo": 0.0772,
       "flyers": 0.0075,
-      "ground": 0.4453
+      "combo": 0.0758,
+      "ground": 0.4547
      }
     },
     {
      "x": 8,
-     "win": 0.4709,
-     "turns": 9.9197,
-     "screw": 0.0297,
-     "flood": 0.0628,
-     "color_stuck": 0.4188,
+     "win": 0.4657,
+     "turns": 9.9762,
+     "screw": 0.0326,
+     "flood": 0.0635,
+     "color_stuck": 0.4088,
      "won_by": {
-      "flyers": 0.2853,
-      "ground": 0.1856
+      "flyers": 0.2692,
+      "ground": 0.1965
      },
      "lost_to": {
-      "flyers": 0.0041,
-      "ground": 0.4478,
-      "combo": 0.0772
+      "combo": 0.0724,
+      "drain": 0.0001,
+      "flyers": 0.0047,
+      "ground": 0.4571
      }
     },
     {
      "x": 9,
-     "win": 0.4272,
-     "turns": 9.7681,
-     "screw": 0.0306,
-     "flood": 0.0663,
-     "color_stuck": 0.3966,
+     "win": 0.4354,
+     "turns": 9.8241,
+     "screw": 0.0323,
+     "flood": 0.065,
+     "color_stuck": 0.4014,
      "won_by": {
-      "flyers": 0.2616,
-      "ground": 0.1656
+      "flyers": 0.2657,
+      "ground": 0.1697,
+      "timeout": 0.0
      },
      "lost_to": {
-      "flyers": 0.0044,
-      "ground": 0.4912,
-      "combo": 0.0772
+      "flyers": 0.0036,
+      "combo": 0.0741,
+      "ground": 0.4869
      }
     },
     {
      "x": 10,
-     "win": 0.4562,
-     "turns": 9.6647,
-     "screw": 0.035,
-     "flood": 0.0594,
-     "color_stuck": 0.3613,
+     "win": 0.4503,
+     "turns": 9.6977,
+     "screw": 0.0341,
+     "flood": 0.0659,
+     "color_stuck": 0.3608,
      "won_by": {
-      "flyers": 0.3022,
-      "ground": 0.1541
+      "flyers": 0.2944,
+      "ground": 0.1559
      },
      "lost_to": {
-      "drain": 0.0003,
-      "combo": 0.0753,
-      "flyers": 0.0016,
-      "ground": 0.4666
+      "flyers": 0.0021,
+      "combo": 0.0725,
+      "ground": 0.4752
      }
     }
    ],
-   "best": 2
+   "best": 5
   },
   {
    "name": "ramp",
@@ -1366,167 +1448,179 @@
    "rows": [
     {
      "x": 0,
-     "win": 0.4647,
-     "turns": 11.2181,
-     "screw": 0.0341,
-     "flood": 0.0747,
-     "color_stuck": 0.4747,
+     "win": 0.4515,
+     "turns": 11.2118,
+     "screw": 0.0329,
+     "flood": 0.0685,
+     "color_stuck": 0.4681,
      "won_by": {
-      "flyers": 0.0419,
-      "ground": 0.4228
+      "flyers": 0.0369,
+      "ground": 0.4145,
+      "timeout": 0.0002
      },
      "lost_to": {
-      "combo": 0.0744,
-      "flyers": 0.0422,
-      "timeout": 0.0003,
-      "ground": 0.4184
+      "combo": 0.0764,
+      "drain": 0.0,
+      "flyers": 0.0395,
+      "ground": 0.4321,
+      "timeout": 0.0005
      }
     },
     {
      "x": 1,
-     "win": 0.4619,
-     "turns": 11.1387,
-     "screw": 0.0291,
-     "flood": 0.0453,
-     "color_stuck": 0.4375,
+     "win": 0.4476,
+     "turns": 11.156,
+     "screw": 0.0334,
+     "flood": 0.0435,
+     "color_stuck": 0.4391,
      "won_by": {
-      "flyers": 0.0506,
-      "ground": 0.4113
+      "flyers": 0.0373,
+      "ground": 0.41,
+      "timeout": 0.0003
      },
      "lost_to": {
-      "combo": 0.0744,
-      "flyers": 0.0403,
-      "timeout": 0.0003,
-      "ground": 0.4231
+      "combo": 0.0747,
+      "drain": 0.0001,
+      "flyers": 0.0381,
+      "ground": 0.4391,
+      "timeout": 0.0004
      }
     },
     {
      "x": 2,
-     "win": 0.4334,
-     "turns": 11.0944,
-     "screw": 0.0222,
-     "flood": 0.0413,
-     "color_stuck": 0.4206,
+     "win": 0.4171,
+     "turns": 11.1156,
+     "screw": 0.0231,
+     "flood": 0.0443,
+     "color_stuck": 0.4134,
      "won_by": {
-      "flyers": 0.0309,
-      "ground": 0.4025
+      "flyers": 0.032,
+      "ground": 0.3849,
+      "timeout": 0.0002
      },
      "lost_to": {
-      "combo": 0.0762,
-      "flyers": 0.0419,
-      "timeout": 0.0003,
-      "ground": 0.4478,
-      "decking": 0.0003
+      "combo": 0.0774,
+      "decking": 0.0002,
+      "drain": 0.0001,
+      "flyers": 0.0389,
+      "ground": 0.4661,
+      "timeout": 0.0003
      }
     },
     {
      "x": 3,
-     "win": 0.4328,
-     "turns": 11.0944,
-     "screw": 0.0244,
-     "flood": 0.03,
-     "color_stuck": 0.385,
+     "win": 0.4021,
+     "turns": 11.0555,
+     "screw": 0.0258,
+     "flood": 0.0313,
+     "color_stuck": 0.3943,
      "won_by": {
-      "flyers": 0.0381,
-      "timeout": 0.0003,
-      "ground": 0.3944
+      "flyers": 0.0333,
+      "ground": 0.3686,
+      "timeout": 0.0002
      },
      "lost_to": {
-      "combo": 0.0697,
-      "flyers": 0.0437,
-      "timeout": 0.0003,
-      "ground": 0.4525,
-      "decking": 0.0009
+      "combo": 0.0777,
+      "decking": 0.0003,
+      "flyers": 0.04,
+      "ground": 0.4798,
+      "timeout": 0.0
      }
     },
     {
      "x": 4,
-     "win": 0.3822,
-     "turns": 10.9778,
-     "screw": 0.0172,
-     "flood": 0.0216,
-     "color_stuck": 0.3772,
+     "win": 0.359,
+     "turns": 10.9364,
+     "screw": 0.021,
+     "flood": 0.0282,
+     "color_stuck": 0.3761,
      "won_by": {
-      "flyers": 0.0297,
-      "ground": 0.3525
+      "flyers": 0.0269,
+      "ground": 0.3321,
+      "timeout": 0.0
      },
      "lost_to": {
-      "flyers": 0.0453,
-      "ground": 0.4941,
-      "combo": 0.0784
+      "combo": 0.082,
+      "decking": 0.001,
+      "drain": 0.0001,
+      "flyers": 0.0429,
+      "ground": 0.515,
+      "timeout": 0.0
      }
     },
     {
      "x": 5,
-     "win": 0.36,
-     "turns": 10.9081,
-     "screw": 0.0234,
-     "flood": 0.0175,
-     "color_stuck": 0.3453,
+     "win": 0.3444,
+     "turns": 10.9067,
+     "screw": 0.0235,
+     "flood": 0.0165,
+     "color_stuck": 0.346,
      "won_by": {
-      "flyers": 0.025,
-      "ground": 0.335
+      "flyers": 0.0249,
+      "ground": 0.3195
      },
      "lost_to": {
-      "drain": 0.0003,
-      "combo": 0.0809,
-      "flyers": 0.0416,
-      "ground": 0.5169,
-      "decking": 0.0003
+      "combo": 0.083,
+      "decking": 0.001,
+      "flyers": 0.0454,
+      "ground": 0.5262
      }
     },
     {
      "x": 6,
-     "win": 0.3409,
-     "turns": 10.7294,
-     "screw": 0.0153,
-     "flood": 0.0169,
-     "color_stuck": 0.3337,
+     "win": 0.3186,
+     "turns": 10.7421,
+     "screw": 0.0186,
+     "flood": 0.018,
+     "color_stuck": 0.3372,
      "won_by": {
-      "flyers": 0.0284,
-      "ground": 0.3125
+      "flyers": 0.0239,
+      "ground": 0.2947
      },
      "lost_to": {
-      "flyers": 0.0456,
-      "ground": 0.5291,
-      "combo": 0.0844
+      "combo": 0.0835,
+      "decking": 0.0008,
+      "drain": 0.0002,
+      "flyers": 0.0459,
+      "ground": 0.551
      }
     },
     {
      "x": 7,
-     "win": 0.31,
-     "turns": 10.6594,
+     "win": 0.2993,
+     "turns": 10.6701,
      "screw": 0.0209,
-     "flood": 0.0084,
-     "color_stuck": 0.3478,
+     "flood": 0.0096,
+     "color_stuck": 0.3394,
      "won_by": {
-      "flyers": 0.0241,
-      "ground": 0.2859
+      "flyers": 0.0224,
+      "ground": 0.2769
      },
      "lost_to": {
-      "combo": 0.0872,
-      "flyers": 0.0466,
-      "ground": 0.5547,
-      "decking": 0.0016
+      "combo": 0.0874,
+      "decking": 0.0015,
+      "drain": 0.0001,
+      "flyers": 0.0444,
+      "ground": 0.5673
      }
     },
     {
      "x": 8,
-     "win": 0.2797,
-     "turns": 10.5181,
-     "screw": 0.0153,
-     "flood": 0.0072,
-     "color_stuck": 0.3028,
+     "win": 0.2634,
+     "turns": 10.4969,
+     "screw": 0.0186,
+     "flood": 0.0104,
+     "color_stuck": 0.3034,
      "won_by": {
-      "flyers": 0.0231,
-      "ground": 0.2566
+      "flyers": 0.0182,
+      "ground": 0.2452
      },
      "lost_to": {
-      "drain": 0.0003,
-      "combo": 0.0963,
-      "flyers": 0.0431,
-      "ground": 0.5787,
-      "decking": 0.0019
+      "combo": 0.09,
+      "decking": 0.0015,
+      "drain": 0.0001,
+      "flyers": 0.0455,
+      "ground": 0.5995
      }
     }
    ],
@@ -1538,40 +1632,42 @@
    "rows": [
     {
      "x": "mono-color",
-     "win": 0.5075,
-     "turns": 11.3717,
-     "screw": 0.0314,
-     "flood": 0.0691,
+     "win": 0.4981,
+     "turns": 11.3309,
+     "screw": 0.0331,
+     "flood": 0.067,
      "color_stuck": 0.0,
      "won_by": {
-      "flyers": 0.0422,
-      "timeout": 0.0003,
-      "ground": 0.465
+      "flyers": 0.0412,
+      "ground": 0.4566,
+      "timeout": 0.0003
      },
      "lost_to": {
-      "combo": 0.0719,
-      "flyers": 0.0381,
-      "timeout": 0.0006,
-      "ground": 0.3819
+      "combo": 0.0698,
+      "drain": 0.0,
+      "flyers": 0.0353,
+      "ground": 0.3964,
+      "timeout": 0.0004
      }
     },
     {
      "x": "two colors",
-     "win": 0.4673,
-     "turns": 11.2312,
-     "screw": 0.0323,
-     "flood": 0.0708,
-     "color_stuck": 0.4677,
+     "win": 0.4543,
+     "turns": 11.2264,
+     "screw": 0.0329,
+     "flood": 0.0675,
+     "color_stuck": 0.4708,
      "won_by": {
-      "flyers": 0.0411,
-      "timeout": 0.0002,
-      "ground": 0.4261
+      "flyers": 0.0373,
+      "ground": 0.4167,
+      "timeout": 0.0003
      },
      "lost_to": {
-      "combo": 0.0772,
-      "flyers": 0.0398,
-      "timeout": 0.0005,
-      "ground": 0.4152
+      "combo": 0.0756,
+      "drain": 0.0,
+      "flyers": 0.0382,
+      "ground": 0.4315,
+      "timeout": 0.0003
      }
     }
    ]
@@ -1582,39 +1678,42 @@
    "rows": [
     {
      "x": "mulligan 0-1 or 6-7 landers",
-     "win": 0.4673,
-     "turns": 11.2312,
-     "screw": 0.0323,
-     "flood": 0.0708,
-     "color_stuck": 0.4677,
+     "win": 0.4543,
+     "turns": 11.2264,
+     "screw": 0.0329,
+     "flood": 0.0675,
+     "color_stuck": 0.4708,
      "won_by": {
-      "flyers": 0.0411,
-      "timeout": 0.0002,
-      "ground": 0.4261
+      "flyers": 0.0373,
+      "ground": 0.4167,
+      "timeout": 0.0003
      },
      "lost_to": {
-      "combo": 0.0772,
-      "flyers": 0.0398,
-      "timeout": 0.0005,
-      "ground": 0.4152
+      "combo": 0.0756,
+      "drain": 0.0,
+      "flyers": 0.0382,
+      "ground": 0.4315,
+      "timeout": 0.0003
      }
     },
     {
      "x": "keep every hand",
-     "win": 0.4811,
-     "turns": 11.0573,
-     "screw": 0.0739,
-     "flood": 0.0791,
-     "color_stuck": 0.4731,
+     "win": 0.4581,
+     "turns": 11.0325,
+     "screw": 0.0779,
+     "flood": 0.0782,
+     "color_stuck": 0.48,
      "won_by": {
-      "flyers": 0.0427,
-      "ground": 0.4384
+      "flyers": 0.0373,
+      "ground": 0.4205,
+      "timeout": 0.0003
      },
      "lost_to": {
-      "combo": 0.0697,
-      "flyers": 0.0352,
-      "timeout": 0.0006,
-      "ground": 0.4134
+      "combo": 0.071,
+      "drain": 0.0,
+      "flyers": 0.0366,
+      "ground": 0.4339,
+      "timeout": 0.0003
      }
     }
    ]
@@ -1625,40 +1724,42 @@
    "rows": [
     {
      "x": "on the play",
-     "win": 0.4812,
-     "turns": 11.2539,
-     "screw": 0.0375,
-     "flood": 0.0473,
-     "color_stuck": 0.4744,
+     "win": 0.4604,
+     "turns": 11.213,
+     "screw": 0.0437,
+     "flood": 0.0449,
+     "color_stuck": 0.4713,
      "won_by": {
-      "flyers": 0.0478,
-      "timeout": 0.0003,
-      "ground": 0.4331
+      "flyers": 0.0429,
+      "ground": 0.4173,
+      "timeout": 0.0003
      },
      "lost_to": {
-      "combo": 0.0717,
-      "flyers": 0.0377,
-      "timeout": 0.0005,
-      "ground": 0.4089
+      "combo": 0.0695,
+      "drain": 0.0001,
+      "flyers": 0.0374,
+      "ground": 0.4322,
+      "timeout": 0.0004
      }
     },
     {
      "x": "on the draw",
-     "win": 0.4741,
-     "turns": 11.2425,
-     "screw": 0.0209,
-     "flood": 0.0906,
-     "color_stuck": 0.4745,
+     "win": 0.4586,
+     "turns": 11.2567,
+     "screw": 0.0225,
+     "flood": 0.0922,
+     "color_stuck": 0.4724,
      "won_by": {
-      "flyers": 0.0391,
-      "ground": 0.435
+      "flyers": 0.0336,
+      "ground": 0.4248,
+      "timeout": 0.0002
      },
      "lost_to": {
-      "drain": 0.0002,
-      "combo": 0.0786,
-      "flyers": 0.0389,
-      "timeout": 0.0008,
-      "ground": 0.4075
+      "combo": 0.0768,
+      "drain": 0.0,
+      "flyers": 0.0382,
+      "ground": 0.4261,
+      "timeout": 0.0002
      }
     }
    ]
@@ -1669,170 +1770,173 @@
    "rows": [
     {
      "x": 0,
-     "win": 0.4881,
-     "turns": 11.0412,
-     "screw": 0.0478,
-     "flood": 0.0428,
-     "color_stuck": 0.4512,
+     "win": 0.4518,
+     "turns": 11.1758,
+     "screw": 0.0445,
+     "flood": 0.042,
+     "color_stuck": 0.4585,
      "won_by": {
-      "timeout": 0.0031,
-      "ground": 0.485
+      "ground": 0.4477,
+      "timeout": 0.004
      },
      "lost_to": {
-      "drain": 0.0003,
-      "combo": 0.0578,
-      "flyers": 0.0491,
-      "timeout": 0.0016,
-      "ground": 0.4031
+      "combo": 0.0605,
+      "drain": 0.0001,
+      "flyers": 0.0495,
+      "ground": 0.4346,
+      "timeout": 0.0035
      }
     },
     {
      "x": 1,
-     "win": 0.4247,
-     "turns": 11.1881,
-     "screw": 0.0309,
-     "flood": 0.065,
-     "color_stuck": 0.4503,
+     "win": 0.4436,
+     "turns": 11.1535,
+     "screw": 0.0463,
+     "flood": 0.0431,
+     "color_stuck": 0.4651,
      "won_by": {
-      "timeout": 0.0031,
-      "ground": 0.4216
+      "ground": 0.4405,
+      "timeout": 0.0031
      },
      "lost_to": {
-      "combo": 0.0697,
-      "flyers": 0.0581,
-      "timeout": 0.0022,
-      "ground": 0.4453
+      "combo": 0.0601,
+      "drain": 0.0001,
+      "flyers": 0.0481,
+      "ground": 0.4448,
+      "timeout": 0.0033
      }
     },
     {
      "x": 2,
-     "win": 0.3884,
-     "turns": 11.2353,
-     "screw": 0.0203,
-     "flood": 0.0925,
-     "color_stuck": 0.44,
+     "win": 0.4462,
+     "turns": 11.1614,
+     "screw": 0.0439,
+     "flood": 0.0425,
+     "color_stuck": 0.4538,
      "won_by": {
-      "timeout": 0.0028,
-      "ground": 0.3856
+      "ground": 0.4433,
+      "timeout": 0.0028
      },
      "lost_to": {
-      "combo": 0.0722,
-      "flyers": 0.0588,
-      "timeout": 0.0022,
-      "ground": 0.4784
+      "combo": 0.0628,
+      "flyers": 0.0474,
+      "ground": 0.4412,
+      "timeout": 0.0025
      }
     },
     {
      "x": 3,
-     "win": 0.3337,
-     "turns": 11.2206,
-     "screw": 0.0153,
-     "flood": 0.1225,
-     "color_stuck": 0.4434,
+     "win": 0.4314,
+     "turns": 11.1689,
+     "screw": 0.044,
+     "flood": 0.0392,
+     "color_stuck": 0.4549,
      "won_by": {
-      "timeout": 0.0025,
-      "ground": 0.3312
+      "ground": 0.4286,
+      "timeout": 0.0027
      },
      "lost_to": {
-      "combo": 0.0722,
-      "flyers": 0.0603,
-      "timeout": 0.0025,
-      "ground": 0.5312
+      "combo": 0.0661,
+      "drain": 0.0001,
+      "flyers": 0.0509,
+      "ground": 0.4485,
+      "timeout": 0.003
      }
     },
     {
      "x": 4,
-     "win": 0.2825,
-     "turns": 11.2031,
-     "screw": 0.0097,
-     "flood": 0.16,
-     "color_stuck": 0.4363,
+     "win": 0.433,
+     "turns": 11.1437,
+     "screw": 0.0449,
+     "flood": 0.0422,
+     "color_stuck": 0.4533,
      "won_by": {
-      "timeout": 0.0038,
-      "ground": 0.2787
+      "ground": 0.4314,
+      "timeout": 0.0016
      },
      "lost_to": {
-      "drain": 0.0006,
-      "combo": 0.0794,
-      "flyers": 0.0731,
-      "timeout": 0.0016,
-      "ground": 0.5628
+      "combo": 0.063,
+      "drain": 0.0002,
+      "flyers": 0.0494,
+      "ground": 0.4524,
+      "timeout": 0.0021
      }
     },
     {
      "x": 5,
-     "win": 0.2472,
-     "turns": 11.1541,
-     "screw": 0.0097,
-     "flood": 0.1987,
-     "color_stuck": 0.4284,
+     "win": 0.4333,
+     "turns": 11.1364,
+     "screw": 0.048,
+     "flood": 0.0412,
+     "color_stuck": 0.4504,
      "won_by": {
-      "timeout": 0.0047,
-      "ground": 0.2425
+      "ground": 0.4317,
+      "timeout": 0.0016
      },
      "lost_to": {
-      "drain": 0.0003,
-      "combo": 0.0878,
-      "flyers": 0.07,
-      "timeout": 0.0031,
-      "ground": 0.5916
+      "combo": 0.0655,
+      "drain": 0.0001,
+      "flyers": 0.051,
+      "ground": 0.4477,
+      "timeout": 0.0024
      }
     },
     {
      "x": 6,
-     "win": 0.1909,
-     "turns": 11.0044,
-     "screw": 0.0031,
-     "flood": 0.25,
-     "color_stuck": 0.3953,
+     "win": 0.4309,
+     "turns": 11.1495,
+     "screw": 0.0446,
+     "flood": 0.0414,
+     "color_stuck": 0.4431,
      "won_by": {
-      "timeout": 0.0022,
-      "ground": 0.1888
+      "decking": 0.0,
+      "ground": 0.4291,
+      "timeout": 0.0018
      },
      "lost_to": {
-      "drain": 0.0003,
-      "combo": 0.0903,
-      "flyers": 0.0731,
-      "timeout": 0.0016,
-      "ground": 0.6438
+      "combo": 0.0678,
+      "drain": 0.0001,
+      "flyers": 0.0499,
+      "ground": 0.4493,
+      "timeout": 0.002
      }
     },
     {
      "x": 7,
-     "win": 0.1562,
-     "turns": 10.8025,
-     "screw": 0.0028,
-     "flood": 0.2888,
-     "color_stuck": 0.4044,
+     "win": 0.4124,
+     "turns": 11.1283,
+     "screw": 0.0455,
+     "flood": 0.0435,
+     "color_stuck": 0.445,
      "won_by": {
-      "timeout": 0.0013,
-      "ground": 0.155
+      "ground": 0.4109,
+      "timeout": 0.0015
      },
      "lost_to": {
-      "drain": 0.0003,
-      "combo": 0.0919,
-      "flyers": 0.0762,
-      "timeout": 0.0022,
-      "ground": 0.6731
+      "combo": 0.0707,
+      "drain": 0.0002,
+      "flyers": 0.0481,
+      "ground": 0.4665,
+      "timeout": 0.0021
      }
     },
     {
      "x": 8,
-     "win": 0.1125,
-     "turns": 10.645,
-     "screw": 0.0016,
-     "flood": 0.3403,
-     "color_stuck": 0.4047,
+     "win": 0.4163,
+     "turns": 11.0499,
+     "screw": 0.0433,
+     "flood": 0.0413,
+     "color_stuck": 0.4432,
      "won_by": {
-      "timeout": 0.0006,
-      "ground": 0.1119
+      "ground": 0.4148,
+      "timeout": 0.0014
      },
      "lost_to": {
+      "combo": 0.0695,
       "drain": 0.0003,
-      "combo": 0.0988,
-      "flyers": 0.0788,
-      "timeout": 0.0006,
-      "ground": 0.7091
+      "flyers": 0.0473,
+      "ground": 0.4647,
+      "timeout": 0.002
      }
     }
    ],
@@ -1844,166 +1948,177 @@
    "rows": [
     {
      "x": 0,
-     "win": 0.6184,
-     "turns": 11.5753,
-     "screw": 0.0359,
-     "flood": 0.0906,
-     "color_stuck": 0.47,
+     "win": 0.6043,
+     "turns": 11.5644,
+     "screw": 0.0328,
+     "flood": 0.0923,
+     "color_stuck": 0.4853,
      "won_by": {
-      "ground": 0.6156,
-      "decking": 0.0028
+      "decking": 0.003,
+      "ground": 0.6013
      },
      "lost_to": {
-      "flyers": 0.0231,
-      "ground": 0.2928,
-      "combo": 0.0656
+      "combo": 0.0673,
+      "drain": 0.0,
+      "flyers": 0.0234,
+      "ground": 0.3049,
+      "timeout": 0.0
      }
     },
     {
      "x": 1,
-     "win": 0.6381,
-     "turns": 11.6928,
-     "screw": 0.0238,
-     "flood": 0.1359,
-     "color_stuck": 0.4822,
+     "win": 0.6176,
+     "turns": 11.5628,
+     "screw": 0.031,
+     "flood": 0.0889,
+     "color_stuck": 0.4733,
      "won_by": {
-      "ground": 0.6341,
-      "decking": 0.0041
+      "decking": 0.0025,
+      "ground": 0.6151
      },
      "lost_to": {
-      "combo": 0.0612,
-      "flyers": 0.0231,
-      "ground": 0.2772,
-      "decking": 0.0003
+      "combo": 0.067,
+      "decking": 0.0001,
+      "flyers": 0.0233,
+      "ground": 0.2919
      }
     },
     {
      "x": 2,
-     "win": 0.5963,
-     "turns": 11.815,
-     "screw": 0.0169,
-     "flood": 0.1603,
-     "color_stuck": 0.4491,
+     "win": 0.5977,
+     "turns": 11.6376,
+     "screw": 0.0325,
+     "flood": 0.0884,
+     "color_stuck": 0.4576,
      "won_by": {
-      "ground": 0.5934,
-      "decking": 0.0028
+      "decking": 0.0025,
+      "ground": 0.5952
      },
      "lost_to": {
-      "drain": 0.0003,
-      "combo": 0.0656,
-      "flyers": 0.0222,
-      "ground": 0.3156
+      "combo": 0.068,
+      "drain": 0.0,
+      "flyers": 0.0266,
+      "ground": 0.3077
      }
     },
     {
      "x": 3,
-     "win": 0.5403,
-     "turns": 12.0297,
-     "screw": 0.0081,
-     "flood": 0.2206,
-     "color_stuck": 0.4275,
+     "win": 0.5723,
+     "turns": 11.8165,
+     "screw": 0.0323,
+     "flood": 0.0791,
+     "color_stuck": 0.4562,
      "won_by": {
-      "timeout": 0.0003,
-      "ground": 0.5372,
-      "decking": 0.0028
+      "decking": 0.0025,
+      "ground": 0.5698
      },
      "lost_to": {
-      "flyers": 0.0291,
-      "ground": 0.3578,
-      "combo": 0.0728
+      "combo": 0.068,
+      "decking": 0.0,
+      "drain": 0.0,
+      "flyers": 0.0286,
+      "ground": 0.331,
+      "timeout": 0.0
      }
     },
     {
      "x": 4,
-     "win": 0.5322,
-     "turns": 11.9928,
-     "screw": 0.0047,
-     "flood": 0.2669,
-     "color_stuck": 0.3934,
+     "win": 0.5678,
+     "turns": 11.8123,
+     "screw": 0.0317,
+     "flood": 0.0813,
+     "color_stuck": 0.4313,
      "won_by": {
-      "ground": 0.5284,
-      "decking": 0.0037
+      "decking": 0.0026,
+      "ground": 0.5652
      },
      "lost_to": {
-      "flyers": 0.0263,
-      "ground": 0.3731,
-      "combo": 0.0684
+      "combo": 0.0715,
+      "drain": 0.0,
+      "flyers": 0.0259,
+      "ground": 0.3347
      }
     },
     {
      "x": 5,
-     "win": 0.4425,
-     "turns": 12.1616,
-     "screw": 0.0081,
-     "flood": 0.3316,
-     "color_stuck": 0.4138,
+     "win": 0.5255,
+     "turns": 12.0168,
+     "screw": 0.0323,
+     "flood": 0.0772,
+     "color_stuck": 0.4326,
      "won_by": {
-      "ground": 0.4403,
-      "decking": 0.0022
+      "decking": 0.0036,
+      "ground": 0.5218,
+      "timeout": 0.0001
      },
      "lost_to": {
-      "combo": 0.0725,
-      "flyers": 0.0344,
-      "ground": 0.4494,
-      "decking": 0.0013
+      "combo": 0.0696,
+      "decking": 0.0,
+      "flyers": 0.0283,
+      "ground": 0.3765,
+      "timeout": 0.0001
      }
     },
     {
      "x": 6,
-     "win": 0.4141,
-     "turns": 11.9956,
-     "screw": 0.0025,
-     "flood": 0.3797,
-     "color_stuck": 0.4094,
+     "win": 0.5031,
+     "turns": 11.8753,
+     "screw": 0.0306,
+     "flood": 0.0767,
+     "color_stuck": 0.433,
      "won_by": {
-      "timeout": 0.0003,
-      "ground": 0.4113,
-      "decking": 0.0025
+      "decking": 0.0035,
+      "ground": 0.4995,
+      "timeout": 0.0001
      },
      "lost_to": {
-      "combo": 0.0725,
-      "flyers": 0.0309,
-      "ground": 0.4822,
-      "decking": 0.0003
+      "combo": 0.074,
+      "decking": 0.0001,
+      "drain": 0.0,
+      "flyers": 0.0288,
+      "ground": 0.3939,
+      "timeout": 0.0001
      }
     },
     {
      "x": 7,
-     "win": 0.2959,
-     "turns": 12.0784,
-     "screw": 0.0013,
-     "flood": 0.4416,
-     "color_stuck": 0.4572,
+     "win": 0.4497,
+     "turns": 12.0465,
+     "screw": 0.0318,
+     "flood": 0.0733,
+     "color_stuck": 0.4498,
      "won_by": {
-      "timeout": 0.0009,
-      "ground": 0.2944,
-      "decking": 0.0006
+      "decking": 0.0022,
+      "ground": 0.447,
+      "timeout": 0.0005
      },
      "lost_to": {
-      "combo": 0.0756,
-      "flyers": 0.0431,
-      "timeout": 0.0003,
-      "ground": 0.5844,
-      "decking": 0.0006
+      "combo": 0.0743,
+      "decking": 0.0002,
+      "flyers": 0.0301,
+      "ground": 0.4453,
+      "timeout": 0.0004
      }
     },
     {
      "x": 8,
-     "win": 0.2816,
-     "turns": 12.0409,
-     "screw": 0.0009,
-     "flood": 0.505,
-     "color_stuck": 0.3981,
+     "win": 0.4373,
+     "turns": 11.9865,
+     "screw": 0.032,
+     "flood": 0.0733,
+     "color_stuck": 0.4228,
      "won_by": {
-      "timeout": 0.0006,
-      "ground": 0.2806,
-      "decking": 0.0003
+      "decking": 0.0017,
+      "ground": 0.4352,
+      "timeout": 0.0004
      },
      "lost_to": {
-      "combo": 0.0816,
-      "flyers": 0.0347,
-      "ground": 0.6016,
-      "decking": 0.0006
+      "combo": 0.0738,
+      "decking": 0.0004,
+      "drain": 0.0,
+      "flyers": 0.0279,
+      "ground": 0.4603,
+      "timeout": 0.0003
      }
     }
    ],
@@ -2015,171 +2130,177 @@
    "rows": [
     {
      "x": 0,
-     "win": 0.4881,
-     "turns": 11.0412,
-     "screw": 0.0478,
-     "flood": 0.0428,
-     "color_stuck": 0.4512,
+     "win": 0.4518,
+     "turns": 11.1758,
+     "screw": 0.0445,
+     "flood": 0.042,
+     "color_stuck": 0.4585,
      "won_by": {
-      "timeout": 0.0031,
-      "ground": 0.485
+      "ground": 0.4477,
+      "timeout": 0.004
      },
      "lost_to": {
-      "drain": 0.0003,
-      "combo": 0.0578,
-      "flyers": 0.0491,
-      "timeout": 0.0016,
-      "ground": 0.4031
+      "combo": 0.0605,
+      "drain": 0.0001,
+      "flyers": 0.0495,
+      "ground": 0.4346,
+      "timeout": 0.0035
      }
     },
     {
      "x": 1,
-     "win": 0.4653,
-     "turns": 10.9775,
-     "screw": 0.0469,
-     "flood": 0.0375,
-     "color_stuck": 0.4581,
+     "win": 0.4287,
+     "turns": 11.1325,
+     "screw": 0.0456,
+     "flood": 0.0415,
+     "color_stuck": 0.4691,
      "won_by": {
-      "timeout": 0.0028,
-      "ground": 0.4625
+      "ground": 0.4255,
+      "timeout": 0.0032
      },
      "lost_to": {
-      "combo": 0.0622,
-      "flyers": 0.0488,
-      "timeout": 0.0013,
-      "ground": 0.4225
+      "combo": 0.0636,
+      "drain": 0.0,
+      "flyers": 0.0519,
+      "ground": 0.4525,
+      "timeout": 0.0033
      }
     },
     {
      "x": 2,
-     "win": 0.4403,
-     "turns": 10.9222,
-     "screw": 0.0409,
-     "flood": 0.0459,
-     "color_stuck": 0.4644,
+     "win": 0.4169,
+     "turns": 10.9721,
+     "screw": 0.0443,
+     "flood": 0.0424,
+     "color_stuck": 0.467,
      "won_by": {
-      "drain": 0.0009,
-      "timeout": 0.0009,
-      "ground": 0.4384
+      "drain": 0.0013,
+      "ground": 0.4138,
+      "timeout": 0.0018
      },
      "lost_to": {
-      "combo": 0.0697,
-      "flyers": 0.0563,
-      "timeout": 0.0009,
-      "ground": 0.4328
+      "combo": 0.068,
+      "drain": 0.0001,
+      "flyers": 0.0522,
+      "ground": 0.4606,
+      "timeout": 0.0022
      }
     },
     {
      "x": 3,
-     "win": 0.4247,
-     "turns": 10.9853,
-     "screw": 0.0456,
-     "flood": 0.0431,
-     "color_stuck": 0.4909,
+     "win": 0.3946,
+     "turns": 10.8899,
+     "screw": 0.0445,
+     "flood": 0.0396,
+     "color_stuck": 0.473,
      "won_by": {
-      "drain": 0.0019,
-      "timeout": 0.0013,
-      "ground": 0.4216
+      "drain": 0.0047,
+      "ground": 0.3883,
+      "timeout": 0.0017
      },
      "lost_to": {
-      "drain": 0.0003,
-      "combo": 0.0681,
-      "flyers": 0.0591,
-      "timeout": 0.0019,
-      "ground": 0.4459
+      "combo": 0.0722,
+      "drain": 0.0002,
+      "flyers": 0.0566,
+      "ground": 0.4745,
+      "timeout": 0.0019
      }
     },
     {
      "x": 4,
-     "win": 0.4203,
-     "turns": 10.7497,
-     "screw": 0.0453,
-     "flood": 0.0447,
-     "color_stuck": 0.4734,
+     "win": 0.386,
+     "turns": 10.7153,
+     "screw": 0.0442,
+     "flood": 0.0414,
+     "color_stuck": 0.4791,
      "won_by": {
-      "drain": 0.0066,
-      "timeout": 0.0006,
-      "ground": 0.4131
+      "drain": 0.0085,
+      "ground": 0.3766,
+      "timeout": 0.0009
      },
      "lost_to": {
-      "combo": 0.0725,
-      "flyers": 0.0566,
-      "timeout": 0.0013,
-      "ground": 0.4494
+      "combo": 0.0723,
+      "drain": 0.0002,
+      "flyers": 0.0582,
+      "ground": 0.482,
+      "timeout": 0.0012
      }
     },
     {
      "x": 5,
-     "win": 0.3972,
-     "turns": 10.6284,
-     "screw": 0.05,
-     "flood": 0.0353,
-     "color_stuck": 0.4816,
+     "win": 0.3677,
+     "turns": 10.5633,
+     "screw": 0.048,
+     "flood": 0.0404,
+     "color_stuck": 0.4823,
      "won_by": {
-      "drain": 0.0172,
-      "timeout": 0.0006,
-      "ground": 0.3794
+      "drain": 0.0169,
+      "ground": 0.3504,
+      "timeout": 0.0004
      },
      "lost_to": {
-      "combo": 0.0806,
-      "flyers": 0.0663,
-      "timeout": 0.0013,
-      "ground": 0.4547
+      "combo": 0.0772,
+      "drain": 0.0,
+      "flyers": 0.0604,
+      "ground": 0.4942,
+      "timeout": 0.0005
      }
     },
     {
      "x": 6,
-     "win": 0.3828,
-     "turns": 10.6212,
-     "screw": 0.0506,
-     "flood": 0.04,
-     "color_stuck": 0.4928,
+     "win": 0.3564,
+     "turns": 10.3871,
+     "screw": 0.0463,
+     "flood": 0.0406,
+     "color_stuck": 0.4811,
      "won_by": {
-      "drain": 0.0291,
-      "ground": 0.3538
+      "drain": 0.026,
+      "ground": 0.3301,
+      "timeout": 0.0002
      },
      "lost_to": {
-      "combo": 0.0784,
-      "flyers": 0.0609,
-      "timeout": 0.0003,
-      "ground": 0.4775
+      "combo": 0.0797,
+      "drain": 0.0,
+      "flyers": 0.0619,
+      "ground": 0.5018,
+      "timeout": 0.0003
      }
     },
     {
      "x": 7,
-     "win": 0.3584,
-     "turns": 10.4566,
-     "screw": 0.0481,
-     "flood": 0.045,
-     "color_stuck": 0.465,
+     "win": 0.3311,
+     "turns": 10.2878,
+     "screw": 0.0458,
+     "flood": 0.0436,
+     "color_stuck": 0.4856,
      "won_by": {
-      "drain": 0.0378,
-      "ground": 0.3206
+      "drain": 0.0388,
+      "ground": 0.2921,
+      "timeout": 0.0002
      },
      "lost_to": {
-      "drain": 0.0003,
-      "combo": 0.0806,
-      "flyers": 0.0631,
-      "timeout": 0.0006,
-      "ground": 0.4969
+      "combo": 0.0807,
+      "flyers": 0.0635,
+      "ground": 0.5245,
+      "timeout": 0.0002
      }
     },
     {
      "x": 8,
-     "win": 0.3588,
-     "turns": 10.1416,
-     "screw": 0.0391,
-     "flood": 0.0403,
-     "color_stuck": 0.4928,
+     "win": 0.3257,
+     "turns": 10.0848,
+     "screw": 0.0437,
+     "flood": 0.0408,
+     "color_stuck": 0.4921,
      "won_by": {
-      "drain": 0.05,
-      "ground": 0.3087
+      "ground": 0.2749,
+      "drain": 0.0508
      },
      "lost_to": {
-      "combo": 0.0803,
-      "flyers": 0.0672,
-      "timeout": 0.0003,
-      "ground": 0.4934
+      "combo": 0.0833,
+      "flyers": 0.0638,
+      "ground": 0.527,
+      "timeout": 0.0001
      }
     }
    ],
@@ -2193,242 +2314,253 @@
      "x": "1 of each piece, 0 tutors",
      "pieces": 1,
      "tutors": 0,
-     "win": 0.4684,
-     "turns": 11.2022,
-     "screw": 0.0437,
-     "flood": 0.0469,
-     "color_stuck": 0.3081,
+     "win": 0.4287,
+     "turns": 11.2477,
+     "screw": 0.0435,
+     "flood": 0.0426,
+     "color_stuck": 0.3032,
      "won_by": {
-      "combo": 0.0834,
-      "timeout": 0.0013,
-      "ground": 0.3837
+      "combo": 0.0796,
+      "ground": 0.3464,
+      "timeout": 0.0027
      },
      "lost_to": {
-      "combo": 0.0647,
-      "flyers": 0.0581,
-      "timeout": 0.005,
-      "ground": 0.4037
+      "combo": 0.0639,
+      "drain": 0.0003,
+      "flyers": 0.0573,
+      "ground": 0.4457,
+      "timeout": 0.0041
      }
     },
     {
      "x": "1 of each piece, 2 tutors",
      "pieces": 1,
      "tutors": 2,
-     "win": 0.4575,
-     "turns": 10.7581,
-     "screw": 0.0456,
-     "flood": 0.0425,
-     "color_stuck": 0.3013,
+     "win": 0.4301,
+     "turns": 10.6472,
+     "screw": 0.0443,
+     "flood": 0.0426,
+     "color_stuck": 0.3028,
      "won_by": {
-      "combo": 0.2234,
-      "timeout": 0.0022,
-      "ground": 0.2319
+      "combo": 0.2175,
+      "ground": 0.2104,
+      "timeout": 0.0022
      },
      "lost_to": {
-      "combo": 0.0719,
-      "flyers": 0.0572,
-      "timeout": 0.0028,
-      "ground": 0.4106
+      "combo": 0.0706,
+      "drain": 0.0001,
+      "flyers": 0.0577,
+      "ground": 0.4393,
+      "timeout": 0.0022
      }
     },
     {
      "x": "1 of each piece, 4 tutors",
      "pieces": 1,
      "tutors": 4,
-     "win": 0.4628,
-     "turns": 10.22,
-     "screw": 0.0437,
-     "flood": 0.0456,
-     "color_stuck": 0.3209,
+     "win": 0.441,
+     "turns": 10.0767,
+     "screw": 0.0428,
+     "flood": 0.0442,
+     "color_stuck": 0.3329,
      "won_by": {
-      "combo": 0.3084,
-      "timeout": 0.0009,
-      "ground": 0.1534
+      "combo": 0.3106,
+      "ground": 0.1296,
+      "timeout": 0.0008
      },
      "lost_to": {
-      "combo": 0.0709,
-      "flyers": 0.0541,
-      "timeout": 0.0013,
-      "ground": 0.4109
+      "combo": 0.0708,
+      "decking": 0.0003,
+      "drain": 0.0001,
+      "flyers": 0.052,
+      "ground": 0.4348,
+      "timeout": 0.001
      }
     },
     {
      "x": "2 of each piece, 0 tutors",
      "pieces": 2,
      "tutors": 0,
-     "win": 0.4928,
-     "turns": 10.7131,
-     "screw": 0.0453,
-     "flood": 0.0481,
-     "color_stuck": 0.2616,
+     "win": 0.464,
+     "turns": 10.6767,
+     "screw": 0.0451,
+     "flood": 0.0422,
+     "color_stuck": 0.272,
      "won_by": {
-      "combo": 0.2338,
-      "timeout": 0.0006,
-      "ground": 0.2584
+      "combo": 0.2344,
+      "ground": 0.2288,
+      "timeout": 0.0008
      },
      "lost_to": {
-      "combo": 0.0641,
-      "flyers": 0.055,
-      "timeout": 0.0019,
-      "ground": 0.3862
+      "combo": 0.0648,
+      "drain": 0.0001,
+      "flyers": 0.0541,
+      "ground": 0.4155,
+      "timeout": 0.0015
      }
     },
     {
      "x": "2 of each piece, 2 tutors",
      "pieces": 2,
      "tutors": 2,
-     "win": 0.5294,
-     "turns": 9.9922,
+     "win": 0.5061,
+     "turns": 9.943,
      "screw": 0.0437,
-     "flood": 0.0503,
-     "color_stuck": 0.2866,
+     "flood": 0.042,
+     "color_stuck": 0.2903,
      "won_by": {
-      "combo": 0.3875,
-      "timeout": 0.0006,
-      "ground": 0.1412
+      "combo": 0.3779,
+      "ground": 0.1279,
+      "timeout": 0.0003
      },
      "lost_to": {
-      "combo": 0.0691,
-      "flyers": 0.0462,
-      "timeout": 0.0003,
-      "ground": 0.355
+      "combo": 0.0664,
+      "drain": 0.0001,
+      "flyers": 0.0485,
+      "ground": 0.3784,
+      "timeout": 0.0005
      }
     },
     {
      "x": "2 of each piece, 4 tutors",
      "pieces": 2,
      "tutors": 4,
-     "win": 0.5381,
-     "turns": 9.4869,
-     "screw": 0.0462,
-     "flood": 0.0488,
-     "color_stuck": 0.3006,
+     "win": 0.5061,
+     "turns": 9.454,
+     "screw": 0.0439,
+     "flood": 0.0428,
+     "color_stuck": 0.2955,
      "won_by": {
-      "ground": 0.0778,
-      "combo": 0.4603
+      "combo": 0.438,
+      "ground": 0.068,
+      "timeout": 0.0001
      },
      "lost_to": {
-      "combo": 0.0622,
-      "flyers": 0.0441,
-      "timeout": 0.0006,
-      "ground": 0.355
+      "combo": 0.0669,
+      "decking": 0.0001,
+      "flyers": 0.0457,
+      "ground": 0.381,
+      "timeout": 0.0003
      }
     },
     {
      "x": "3 of each piece, 0 tutors",
      "pieces": 3,
      "tutors": 0,
-     "win": 0.5456,
-     "turns": 10.1037,
-     "screw": 0.0444,
-     "flood": 0.0481,
-     "color_stuck": 0.275,
+     "win": 0.5245,
+     "turns": 9.9893,
+     "screw": 0.0458,
+     "flood": 0.0421,
+     "color_stuck": 0.2818,
      "won_by": {
-      "combo": 0.3881,
-      "timeout": 0.0003,
-      "ground": 0.1572
+      "combo": 0.3805,
+      "ground": 0.1439,
+      "timeout": 0.0002
      },
      "lost_to": {
-      "combo": 0.0631,
-      "flyers": 0.0469,
-      "timeout": 0.0009,
-      "ground": 0.3434
+      "combo": 0.0626,
+      "drain": 0.0001,
+      "flyers": 0.048,
+      "ground": 0.3642,
+      "timeout": 0.0006
      }
     },
     {
      "x": "3 of each piece, 2 tutors",
      "pieces": 3,
      "tutors": 2,
-     "win": 0.5675,
-     "turns": 9.4347,
-     "screw": 0.0369,
-     "flood": 0.0409,
-     "color_stuck": 0.2997,
+     "win": 0.5507,
+     "turns": 9.4069,
+     "screw": 0.0406,
+     "flood": 0.0442,
+     "color_stuck": 0.2928,
      "won_by": {
-      "ground": 0.0803,
-      "combo": 0.4872
+      "combo": 0.4785,
+      "ground": 0.0722
      },
      "lost_to": {
-      "flyers": 0.0406,
-      "ground": 0.3269,
-      "combo": 0.065
+      "combo": 0.0629,
+      "flyers": 0.0421,
+      "ground": 0.3442,
+      "timeout": 0.0001
      }
     },
     {
      "x": "3 of each piece, 4 tutors",
      "pieces": 3,
      "tutors": 4,
-     "win": 0.5581,
-     "turns": 9.09,
-     "screw": 0.0381,
-     "flood": 0.0462,
-     "color_stuck": 0.3041,
+     "win": 0.5441,
+     "turns": 8.992,
+     "screw": 0.042,
+     "flood": 0.0418,
+     "color_stuck": 0.3069,
      "won_by": {
-      "ground": 0.0353,
-      "combo": 0.5228
+      "combo": 0.5094,
+      "ground": 0.0348
      },
      "lost_to": {
-      "flyers": 0.0378,
-      "ground": 0.3428,
-      "combo": 0.0612
+      "flyers": 0.0393,
+      "combo": 0.0621,
+      "ground": 0.3545
      }
     },
     {
      "x": "4 of each piece, 0 tutors",
      "pieces": 4,
      "tutors": 0,
-     "win": 0.6012,
-     "turns": 9.4475,
-     "screw": 0.0441,
-     "flood": 0.0469,
-     "color_stuck": 0.2484,
+     "win": 0.5818,
+     "turns": 9.3527,
+     "screw": 0.0438,
+     "flood": 0.0425,
+     "color_stuck": 0.257,
      "won_by": {
-      "ground": 0.0881,
-      "combo": 0.5131
+      "combo": 0.4985,
+      "ground": 0.0833,
+      "timeout": 0.0
      },
      "lost_to": {
-      "combo": 0.0628,
-      "flyers": 0.0425,
-      "timeout": 0.0003,
-      "ground": 0.2931
+      "flyers": 0.0409,
+      "combo": 0.0612,
+      "ground": 0.3161
      }
     },
     {
      "x": "4 of each piece, 2 tutors",
      "pieces": 4,
      "tutors": 2,
-     "win": 0.63,
-     "turns": 9.0328,
-     "screw": 0.0422,
-     "flood": 0.0447,
-     "color_stuck": 0.2722,
+     "win": 0.5951,
+     "turns": 8.9411,
+     "screw": 0.044,
+     "flood": 0.0404,
+     "color_stuck": 0.2785,
      "won_by": {
-      "ground": 0.0428,
-      "combo": 0.5872
+      "combo": 0.5552,
+      "ground": 0.04
      },
      "lost_to": {
-      "flyers": 0.0319,
-      "ground": 0.2828,
-      "combo": 0.0553
+      "combo": 0.0583,
+      "flyers": 0.0345,
+      "ground": 0.312,
+      "timeout": 0.0
      }
     },
     {
      "x": "4 of each piece, 4 tutors",
      "pieces": 4,
      "tutors": 4,
-     "win": 0.5909,
-     "turns": 8.7103,
-     "screw": 0.045,
-     "flood": 0.0437,
-     "color_stuck": 0.2963,
+     "win": 0.5653,
+     "turns": 8.6914,
+     "screw": 0.0425,
+     "flood": 0.0421,
+     "color_stuck": 0.2824,
      "won_by": {
-      "ground": 0.0194,
-      "combo": 0.5716
+      "combo": 0.546,
+      "ground": 0.0193
      },
      "lost_to": {
-      "flyers": 0.04,
-      "ground": 0.3125,
-      "combo": 0.0566
+      "flyers": 0.0357,
+      "combo": 0.0582,
+      "ground": 0.3409
      }
     }
    ],
@@ -2440,115 +2572,117 @@
    "rows": [
     {
      "x": 0,
-     "win": 0.3187,
-     "turns": 7.8438,
-     "screw": 0.045,
-     "flood": 0.04,
-     "color_stuck": 0.3925,
+     "win": 0.3257,
+     "turns": 7.8945,
+     "screw": 0.0342,
+     "flood": 0.0552,
+     "color_stuck": 0.3897,
      "won_by": {
-      "flyers": 0.0425,
-      "ground": 0.2762
+      "flyers": 0.0502,
+      "ground": 0.2755
      },
      "lost_to": {
-      "ground": 0.0088,
-      "combo": 0.6725
+      "combo": 0.6605,
+      "ground": 0.0138
      }
     },
     {
      "x": 2,
-     "win": 0.38,
-     "turns": 8.4913,
-     "screw": 0.0312,
-     "flood": 0.0525,
-     "color_stuck": 0.4375,
+     "win": 0.3642,
+     "turns": 8.2602,
+     "screw": 0.033,
+     "flood": 0.0585,
+     "color_stuck": 0.4298,
      "won_by": {
-      "flyers": 0.065,
-      "ground": 0.315
+      "flyers": 0.0593,
+      "ground": 0.3048
      },
      "lost_to": {
-      "ground": 0.0213,
-      "combo": 0.5988
+      "combo": 0.6197,
+      "ground": 0.0162
      }
     },
     {
      "x": 4,
-     "win": 0.3937,
-     "turns": 8.7713,
-     "screw": 0.0413,
-     "flood": 0.0688,
-     "color_stuck": 0.4675,
+     "win": 0.3678,
+     "turns": 8.6718,
+     "screw": 0.0355,
+     "flood": 0.0585,
+     "color_stuck": 0.4517,
      "won_by": {
-      "flyers": 0.0712,
-      "ground": 0.3225
+      "flyers": 0.0738,
+      "ground": 0.294
      },
      "lost_to": {
-      "ground": 0.0262,
-      "combo": 0.58
+      "combo": 0.6113,
+      "ground": 0.0208
      }
     },
     {
      "x": 6,
-     "win": 0.44,
-     "turns": 9.2363,
-     "screw": 0.03,
-     "flood": 0.0525,
-     "color_stuck": 0.465,
+     "win": 0.4015,
+     "turns": 9.166,
+     "screw": 0.0325,
+     "flood": 0.0578,
+     "color_stuck": 0.4755,
      "won_by": {
-      "flyers": 0.1113,
-      "ground": 0.3287
+      "flyers": 0.0967,
+      "ground": 0.3048
      },
      "lost_to": {
-      "ground": 0.0225,
-      "combo": 0.5375
+      "combo": 0.5727,
+      "ground": 0.0258
      }
     },
     {
      "x": 8,
-     "win": 0.45,
-     "turns": 9.885,
-     "screw": 0.0262,
-     "flood": 0.055,
-     "color_stuck": 0.495,
+     "win": 0.4487,
+     "turns": 9.7823,
+     "screw": 0.0293,
+     "flood": 0.0572,
+     "color_stuck": 0.5037,
      "won_by": {
-      "flyers": 0.0775,
-      "ground": 0.3725
+      "flyers": 0.0672,
+      "ground": 0.3815
      },
      "lost_to": {
-      "ground": 0.0275,
-      "combo": 0.5225
+      "combo": 0.5245,
+      "ground": 0.0268
      }
     },
     {
      "x": 10,
-     "win": 0.4988,
-     "turns": 10.5887,
-     "screw": 0.0338,
-     "flood": 0.0587,
-     "color_stuck": 0.5175,
+     "win": 0.4885,
+     "turns": 10.5467,
+     "screw": 0.0305,
+     "flood": 0.0622,
+     "color_stuck": 0.5152,
      "won_by": {
-      "flyers": 0.0938,
+      "flyers": 0.0835,
       "ground": 0.405
      },
      "lost_to": {
-      "ground": 0.0325,
-      "combo": 0.4688
+      "combo": 0.4737,
+      "ground": 0.0378
      }
     },
     {
      "x": 12,
      "win": 0.52,
-     "turns": 11.595,
-     "screw": 0.035,
-     "flood": 0.0612,
-     "color_stuck": 0.4963,
+     "turns": 11.6743,
+     "screw": 0.0375,
+     "flood": 0.059,
+     "color_stuck": 0.5095,
      "won_by": {
-      "flyers": 0.11,
-      "timeout": 0.0013,
-      "ground": 0.4088
+      "flyers": 0.109,
+      "decking": 0.0005,
+      "ground": 0.41,
+      "timeout": 0.0005
      },
      "lost_to": {
-      "ground": 0.0413,
-      "combo": 0.4387
+      "combo": 0.4318,
+      "ground": 0.048,
+      "timeout": 0.0002
      }
     }
    ],
@@ -2560,149 +2694,154 @@
    "rows": [
     {
      "x": "aggro",
-     "win": 0.5059,
-     "turns": 10.6484,
-     "screw": 0.0478,
-     "flood": 0.0481,
-     "color_stuck": 0.5128,
+     "win": 0.4713,
+     "turns": 10.7363,
+     "screw": 0.0444,
+     "flood": 0.0428,
+     "color_stuck": 0.5232,
      "won_by": {
-      "timeout": 0.0022,
-      "ground": 0.5038
+      "ground": 0.4681,
+      "timeout": 0.0032
      },
      "lost_to": {
-      "combo": 0.06,
-      "flyers": 0.0503,
-      "timeout": 0.0022,
-      "ground": 0.3816
+      "combo": 0.0618,
+      "drain": 0.0001,
+      "flyers": 0.05,
+      "ground": 0.4135,
+      "timeout": 0.0034
      }
     },
     {
      "x": "midrange",
-     "win": 0.4772,
-     "turns": 11.2328,
-     "screw": 0.0319,
-     "flood": 0.0684,
-     "color_stuck": 0.4778,
+     "win": 0.4616,
+     "turns": 11.2425,
+     "screw": 0.0314,
+     "flood": 0.0645,
+     "color_stuck": 0.4738,
      "won_by": {
-      "flyers": 0.035,
-      "timeout": 0.0006,
-      "ground": 0.4416
+      "flyers": 0.0383,
+      "ground": 0.4232,
+      "timeout": 0.0002
      },
      "lost_to": {
-      "combo": 0.0728,
-      "flyers": 0.04,
-      "timeout": 0.0003,
-      "ground": 0.4097
+      "combo": 0.0743,
+      "drain": 0.0001,
+      "flyers": 0.0373,
+      "ground": 0.4265,
+      "timeout": 0.0001
      }
     },
     {
      "x": "control",
-     "win": 0.5822,
-     "turns": 11.3778,
-     "screw": 0.0288,
-     "flood": 0.1444,
-     "color_stuck": 0.4703,
+     "win": 0.57,
+     "turns": 11.3744,
+     "screw": 0.0228,
+     "flood": 0.1445,
+     "color_stuck": 0.4701,
      "won_by": {
-      "ground": 0.5803,
-      "decking": 0.0019
+      "decking": 0.0018,
+      "ground": 0.5681
      },
      "lost_to": {
-      "combo": 0.07,
-      "flyers": 0.0238,
-      "ground": 0.3219,
-      "decking": 0.0022
+      "combo": 0.0678,
+      "decking": 0.0021,
+      "drain": 0.0,
+      "flyers": 0.0237,
+      "ground": 0.3363
      }
     },
     {
      "x": "flyers",
-     "win": 0.445,
-     "turns": 10.3791,
-     "screw": 0.0431,
-     "flood": 0.0447,
-     "color_stuck": 0.3772,
+     "win": 0.4302,
+     "turns": 10.4299,
+     "screw": 0.0452,
+     "flood": 0.0417,
+     "color_stuck": 0.3632,
      "won_by": {
-      "flyers": 0.2703,
-      "timeout": 0.0003,
-      "ground": 0.1744
+      "flyers": 0.2595,
+      "ground": 0.1701,
+      "timeout": 0.0006
      },
      "lost_to": {
-      "drain": 0.0003,
-      "combo": 0.0697,
-      "flyers": 0.0153,
-      "timeout": 0.0009,
-      "ground": 0.4688
+      "combo": 0.0698,
+      "flyers": 0.0163,
+      "ground": 0.483,
+      "timeout": 0.0007
      }
     },
     {
      "x": "ramp",
-     "win": 0.6272,
-     "turns": 10.0353,
-     "screw": 0.0072,
-     "flood": 0.0513,
-     "color_stuck": 0.2841,
+     "win": 0.6119,
+     "turns": 10.0123,
+     "screw": 0.0095,
+     "flood": 0.0499,
+     "color_stuck": 0.2876,
      "won_by": {
-      "ground": 0.6272
+      "decking": 0.0,
+      "ground": 0.6119
      },
      "lost_to": {
-      "combo": 0.0737,
-      "flyers": 0.0334,
-      "ground": 0.265,
-      "decking": 0.0006
+      "combo": 0.0776,
+      "decking": 0.0004,
+      "drain": 0.0001,
+      "flyers": 0.0338,
+      "ground": 0.2762
      }
     },
     {
      "x": "goodstuff",
-     "win": 0.4913,
-     "turns": 11.465,
-     "screw": 0.0372,
-     "flood": 0.0644,
-     "color_stuck": 0.4541,
+     "win": 0.468,
+     "turns": 11.5463,
+     "screw": 0.0317,
+     "flood": 0.0682,
+     "color_stuck": 0.4721,
      "won_by": {
-      "timeout": 0.0006,
-      "ground": 0.4906
+      "decking": 0.0,
+      "ground": 0.4672,
+      "timeout": 0.0008
      },
      "lost_to": {
-      "combo": 0.0659,
-      "flyers": 0.0534,
-      "timeout": 0.0003,
-      "ground": 0.3891
+      "combo": 0.0704,
+      "flyers": 0.0497,
+      "ground": 0.4113,
+      "timeout": 0.0006
      }
     },
     {
      "x": "tribal",
-     "win": 0.2981,
-     "turns": 10.8569,
-     "screw": 0.0109,
-     "flood": 0.1591,
-     "color_stuck": 0.3809,
+     "win": 0.4332,
+     "turns": 10.8145,
+     "screw": 0.0463,
+     "flood": 0.0402,
+     "color_stuck": 0.3959,
      "won_by": {
       "drain": 0.0006,
-      "timeout": 0.0038,
-      "ground": 0.2938
+      "ground": 0.4309,
+      "timeout": 0.0017
      },
      "lost_to": {
-      "drain": 0.0003,
-      "combo": 0.0791,
-      "flyers": 0.0819,
-      "timeout": 0.0034,
-      "ground": 0.5372
+      "combo": 0.0622,
+      "drain": 0.0,
+      "flyers": 0.0487,
+      "ground": 0.454,
+      "timeout": 0.0018
      }
     },
     {
      "x": "combo",
-     "win": 0.5747,
-     "turns": 8.7881,
-     "screw": 0.05,
-     "flood": 0.0428,
-     "color_stuck": 0.2769,
+     "win": 0.5639,
+     "turns": 8.6674,
+     "screw": 0.043,
+     "flood": 0.0419,
+     "color_stuck": 0.2781,
      "won_by": {
-      "ground": 0.0213,
-      "combo": 0.5534
+      "combo": 0.5446,
+      "ground": 0.0192
      },
      "lost_to": {
-      "flyers": 0.0391,
-      "ground": 0.3275,
-      "combo": 0.0587
+      "flyers": 0.0342,
+      "combo": 0.0601,
+      "ground": 0.3417
      }
     }
    ]
@@ -2714,170 +2853,917 @@
   "history": [
    {
     "gen": 0,
-    "best_score": 0.5778,
-    "top10_lands": 16.0,
+    "best_score": 0.5617,
+    "top10_lands": 15.9,
     "best": {
+     "C1": 2,
+     "C2": 1,
      "C3": 1,
-     "C4": 1,
      "C5": 2,
-     "C6": 1,
-     "F3": 1,
-     "R2": 2,
-     "R4": 1,
-     "D3": 2,
-     "M2": 1,
-     "LD": 1,
-     "AR": 4,
-     "K1": 3,
-     "K2": 3,
-     "T2": 2,
-     "L": 15
-    },
-    "best_avg_mv": 3.0
-   },
-   {
-    "gen": 1,
-    "best_score": 0.5744,
-    "top10_lands": 13.8,
-    "best": {
-     "L": 13,
-     "C1": 5,
-     "C5": 5,
      "C6": 2,
      "F3": 2,
      "R2": 2,
-     "D3": 1,
+     "R4": 2,
      "M2": 2,
-     "LD": 2,
-     "AR": 1,
-     "K1": 1,
+     "P3": 1,
+     "K1": 2,
      "K2": 2,
      "T2": 1,
-     "C2": 1
+     "L": 18
+    },
+    "best_avg_mv": 3.09
+   },
+   {
+    "gen": 1,
+    "best_score": 0.6031,
+    "top10_lands": 16.6,
+    "best": {
+     "C1": 2,
+     "C2": 1,
+     "C3": 1,
+     "C5": 2,
+     "C6": 2,
+     "F3": 2,
+     "R2": 3,
+     "R4": 2,
+     "P3": 3,
+     "K1": 2,
+     "K2": 2,
+     "T2": 1,
+     "L": 17
+    },
+    "best_avg_mv": 3.13
+   },
+   {
+    "gen": 2,
+    "best_score": 0.5696,
+    "top10_lands": 17.1,
+    "best": {
+     "C1": 2,
+     "C2": 1,
+     "C3": 1,
+     "C5": 2,
+     "C6": 2,
+     "F3": 2,
+     "R2": 3,
+     "R4": 2,
+     "P3": 3,
+     "K1": 2,
+     "K2": 2,
+     "T2": 1,
+     "L": 17
+    },
+    "best_avg_mv": 3.13
+   },
+   {
+    "gen": 3,
+    "best_score": 0.5633,
+    "top10_lands": 17.0,
+    "best": {
+     "C1": 3,
+     "C2": 1,
+     "C5": 2,
+     "C6": 2,
+     "F3": 2,
+     "R2": 4,
+     "R4": 2,
+     "P3": 2,
+     "K1": 2,
+     "K2": 1,
+     "T2": 2,
+     "L": 17
     },
     "best_avg_mv": 2.96
    },
    {
-    "gen": 2,
-    "best_score": 0.5524,
-    "top10_lands": 13.8,
-    "best": {
-     "C1": 2,
-     "C2": 3,
-     "C5": 2,
-     "C6": 1,
-     "F3": 1,
-     "R2": 1,
-     "R4": 2,
-     "D3": 3,
-     "M2": 1,
-     "LD": 2,
-     "AR": 2,
-     "K1": 2,
-     "K2": 1,
-     "T2": 3,
-     "L": 14
-    },
-    "best_avg_mv": 2.81
-   },
-   {
-    "gen": 3,
-    "best_score": 0.6022,
-    "top10_lands": 13.4,
-    "best": {
-     "L": 13,
-     "C1": 5,
-     "C2": 1,
-     "C5": 2,
-     "C6": 1,
-     "R2": 1,
-     "D3": 3,
-     "M2": 2,
-     "LD": 2,
-     "AR": 2,
-     "K1": 2,
-     "K2": 2,
-     "T2": 3,
-     "R4": 1
-    },
-    "best_avg_mv": 2.59
-   },
-   {
     "gen": 4,
-    "best_score": 0.601,
-    "top10_lands": 13.3,
+    "best_score": 0.5991,
+    "top10_lands": 16.5,
     "best": {
-     "L": 13,
-     "C1": 6,
-     "C2": 1,
-     "C5": 2,
-     "C6": 1,
-     "R2": 2,
-     "D3": 2,
-     "M2": 2,
-     "LD": 1,
-     "AR": 1,
-     "K1": 2,
-     "K2": 2,
-     "T2": 4,
-     "C4": 1
+     "L": 17,
+     "C1": 3,
+     "C2": 3,
+     "C4": 1,
+     "C5": 3,
+     "C6": 3,
+     "R2": 1,
+     "D3": 1,
+     "P3": 1,
+     "K1": 1,
+     "K2": 3,
+     "T2": 3
     },
-    "best_avg_mv": 2.48
+    "best_avg_mv": 3.13
    },
    {
     "gen": 5,
-    "best_score": 0.6271,
-    "top10_lands": 13.4,
+    "best_score": 0.6194,
+    "top10_lands": 16.6,
     "best": {
-     "L": 14,
-     "C1": 6,
+     "L": 16,
+     "C1": 3,
      "C2": 1,
-     "C5": 2,
-     "F3": 1,
+     "C5": 4,
+     "C6": 2,
      "R2": 2,
      "R4": 2,
-     "D3": 1,
      "M2": 1,
-     "LD": 1,
-     "K1": 3,
-     "K2": 2,
-     "T2": 3,
-     "C6": 1
+     "P3": 1,
+     "K1": 4,
+     "K2": 3,
+     "T2": 1
     },
-    "best_avg_mv": 2.62
+    "best_avg_mv": 3.21
+   },
+   {
+    "gen": 6,
+    "best_score": 0.6081,
+    "top10_lands": 16.4,
+    "best": {
+     "L": 16,
+     "C1": 3,
+     "C2": 1,
+     "C5": 4,
+     "C6": 2,
+     "R2": 2,
+     "R4": 2,
+     "M2": 1,
+     "P3": 1,
+     "K1": 4,
+     "K2": 3,
+     "T2": 1
+    },
+    "best_avg_mv": 3.21
+   },
+   {
+    "gen": 7,
+    "best_score": 0.6009,
+    "top10_lands": 16.3,
+    "best": {
+     "L": 16,
+     "C1": 3,
+     "C2": 1,
+     "C5": 4,
+     "C6": 2,
+     "R2": 2,
+     "R4": 2,
+     "M2": 1,
+     "P3": 1,
+     "K1": 4,
+     "K2": 3,
+     "T2": 1
+    },
+    "best_avg_mv": 3.21
+   },
+   {
+    "gen": 8,
+    "best_score": 0.6109,
+    "top10_lands": 15.9,
+    "best": {
+     "L": 16,
+     "C1": 2,
+     "C2": 2,
+     "C5": 2,
+     "C6": 2,
+     "R2": 3,
+     "M2": 1,
+     "P3": 1,
+     "K1": 5,
+     "K2": 3,
+     "T2": 3
+    },
+    "best_avg_mv": 2.88
+   },
+   {
+    "gen": 9,
+    "best_score": 0.605,
+    "top10_lands": 15.8,
+    "best": {
+     "L": 16,
+     "C1": 2,
+     "C2": 2,
+     "C5": 2,
+     "C6": 3,
+     "R2": 3,
+     "M2": 1,
+     "K1": 5,
+     "K2": 3,
+     "T2": 2,
+     "C4": 1
+    },
+    "best_avg_mv": 3.08
+   },
+   {
+    "gen": 10,
+    "best_score": 0.6309,
+    "top10_lands": 15.4,
+    "best": {
+     "L": 14,
+     "C1": 3,
+     "C2": 2,
+     "C5": 1,
+     "C6": 1,
+     "R2": 4,
+     "R4": 3,
+     "D3": 1,
+     "K1": 5,
+     "K2": 4,
+     "T2": 2
+    },
+    "best_avg_mv": 2.77
+   },
+   {
+    "gen": 11,
+    "best_score": 0.6088,
+    "top10_lands": 14.8,
+    "best": {
+     "L": 14,
+     "C1": 2,
+     "C2": 2,
+     "C5": 1,
+     "C6": 1,
+     "R2": 4,
+     "R4": 3,
+     "D3": 1,
+     "K1": 5,
+     "K2": 5,
+     "T2": 2
+    },
+    "best_avg_mv": 2.85
+   },
+   {
+    "gen": 12,
+    "best_score": 0.6088,
+    "top10_lands": 14.7,
+    "best": {
+     "L": 15,
+     "C1": 2,
+     "C2": 1,
+     "C5": 1,
+     "R2": 5,
+     "R4": 2,
+     "P3": 1,
+     "K1": 6,
+     "K2": 5,
+     "T2": 2
+    },
+    "best_avg_mv": 2.68
+   },
+   {
+    "gen": 13,
+    "best_score": 0.6225,
+    "top10_lands": 14.5,
+    "best": {
+     "L": 15,
+     "C1": 2,
+     "C2": 1,
+     "C5": 1,
+     "R2": 5,
+     "R4": 2,
+     "P3": 1,
+     "K1": 6,
+     "K2": 5,
+     "T2": 2
+    },
+    "best_avg_mv": 2.68
+   },
+   {
+    "gen": 14,
+    "best_score": 0.6078,
+    "top10_lands": 14.6,
+    "best": {
+     "L": 16,
+     "C1": 2,
+     "C2": 1,
+     "C6": 2,
+     "R2": 4,
+     "R4": 3,
+     "K1": 6,
+     "K2": 5,
+     "T2": 1
+    },
+    "best_avg_mv": 2.96
+   },
+   {
+    "gen": 15,
+    "best_score": 0.605,
+    "top10_lands": 15.2,
+    "best": {
+     "L": 16,
+     "C1": 2,
+     "C2": 1,
+     "C6": 2,
+     "R2": 4,
+     "R4": 3,
+     "K1": 6,
+     "K2": 6
+    },
+    "best_avg_mv": 3.0
+   },
+   {
+    "gen": 16,
+    "best_score": 0.6078,
+    "top10_lands": 15.4,
+    "best": {
+     "L": 15,
+     "C1": 4,
+     "R2": 5,
+     "R4": 2,
+     "P3": 1,
+     "K1": 6,
+     "K2": 6,
+     "T2": 1
+    },
+    "best_avg_mv": 2.52
+   },
+   {
+    "gen": 17,
+    "best_score": 0.6238,
+    "top10_lands": 15.6,
+    "best": {
+     "L": 15,
+     "C1": 2,
+     "C2": 3,
+     "C5": 2,
+     "R2": 5,
+     "R4": 1,
+     "K1": 5,
+     "K2": 6,
+     "T2": 1
+    },
+    "best_avg_mv": 2.68
+   },
+   {
+    "gen": 18,
+    "best_score": 0.6231,
+    "top10_lands": 15.4,
+    "best": {
+     "L": 16,
+     "C1": 3,
+     "C6": 1,
+     "R2": 5,
+     "R4": 1,
+     "D3": 2,
+     "K1": 6,
+     "K2": 6
+    },
+    "best_avg_mv": 2.71
+   },
+   {
+    "gen": 19,
+    "best_score": 0.6188,
+    "top10_lands": 15.5,
+    "best": {
+     "L": 16,
+     "C1": 2,
+     "C6": 1,
+     "R2": 4,
+     "R4": 2,
+     "K1": 7,
+     "K2": 8
+    },
+    "best_avg_mv": 2.88
+   },
+   {
+    "gen": 20,
+    "best_score": 0.6381,
+    "top10_lands": 15.8,
+    "best": {
+     "L": 16,
+     "C1": 4,
+     "R2": 5,
+     "K1": 8,
+     "K2": 6,
+     "T2": 1
+    },
+    "best_avg_mv": 2.42
+   },
+   {
+    "gen": 21,
+    "best_score": 0.6178,
+    "top10_lands": 15.6,
+    "best": {
+     "L": 16,
+     "C1": 4,
+     "R2": 5,
+     "K1": 8,
+     "K2": 6,
+     "T2": 1
+    },
+    "best_avg_mv": 2.42
+   },
+   {
+    "gen": 22,
+    "best_score": 0.6306,
+    "top10_lands": 15.8,
+    "best": {
+     "L": 17,
+     "C1": 4,
+     "C6": 1,
+     "R2": 1,
+     "K1": 7,
+     "K2": 8,
+     "AR": 1,
+     "C2": 1
+    },
+    "best_avg_mv": 2.65
+   },
+   {
+    "gen": 23,
+    "best_score": 0.6556,
+    "top10_lands": 15.9,
+    "best": {
+     "L": 17,
+     "C1": 4,
+     "C6": 1,
+     "R2": 1,
+     "K1": 8,
+     "K2": 9
+    },
+    "best_avg_mv": 2.74
+   },
+   {
+    "gen": 24,
+    "best_score": 0.6653,
+    "top10_lands": 16.1,
+    "best": {
+     "L": 17,
+     "C1": 4,
+     "R2": 1,
+     "K1": 8,
+     "K2": 10
+    },
+    "best_avg_mv": 2.61
+   },
+   {
+    "gen": 25,
+    "best_score": 0.6525,
+    "top10_lands": 16.9,
+    "best": {
+     "L": 17,
+     "C1": 4,
+     "R2": 1,
+     "K1": 8,
+     "K2": 10
+    },
+    "best_avg_mv": 2.61
+   },
+   {
+    "gen": 26,
+    "best_score": 0.6744,
+    "top10_lands": 16.9,
+    "best": {
+     "L": 17,
+     "C1": 3,
+     "R2": 1,
+     "K1": 9,
+     "K2": 10
+    },
+    "best_avg_mv": 2.7
+   },
+   {
+    "gen": 27,
+    "best_score": 0.6531,
+    "top10_lands": 17.1,
+    "best": {
+     "L": 17,
+     "C1": 4,
+     "K1": 8,
+     "K2": 10,
+     "C5": 1
+    },
+    "best_avg_mv": 2.74
+   },
+   {
+    "gen": 28,
+    "best_score": 0.6616,
+    "top10_lands": 17.1,
+    "best": {
+     "L": 17,
+     "C1": 3,
+     "C6": 1,
+     "K1": 9,
+     "K2": 9,
+     "R2": 1
+    },
+    "best_avg_mv": 2.83
+   },
+   {
+    "gen": 29,
+    "best_score": 0.6613,
+    "top10_lands": 17.0,
+    "best": {
+     "L": 17,
+     "C1": 3,
+     "C6": 1,
+     "K1": 10,
+     "K2": 9
+    },
+    "best_avg_mv": 2.87
+   },
+   {
+    "gen": 30,
+    "best_score": 0.6503,
+    "top10_lands": 16.9,
+    "best": {
+     "L": 17,
+     "C1": 5,
+     "K1": 9,
+     "K2": 9
+    },
+    "best_avg_mv": 2.57
+   },
+   {
+    "gen": 31,
+    "best_score": 0.665,
+    "top10_lands": 16.7,
+    "best": {
+     "L": 17,
+     "C1": 3,
+     "R2": 1,
+     "K1": 9,
+     "K2": 10
+    },
+    "best_avg_mv": 2.7
+   },
+   {
+    "gen": 32,
+    "best_score": 0.6575,
+    "top10_lands": 16.7,
+    "best": {
+     "L": 17,
+     "C1": 4,
+     "K1": 9,
+     "K2": 10
+    },
+    "best_avg_mv": 2.65
+   },
+   {
+    "gen": 33,
+    "best_score": 0.6588,
+    "top10_lands": 16.6,
+    "best": {
+     "L": 17,
+     "C1": 4,
+     "R2": 1,
+     "K1": 8,
+     "K2": 10
+    },
+    "best_avg_mv": 2.61
+   },
+   {
+    "gen": 34,
+    "best_score": 0.665,
+    "top10_lands": 16.7,
+    "best": {
+     "L": 17,
+     "C1": 4,
+     "K1": 9,
+     "K2": 10
+    },
+    "best_avg_mv": 2.65
+   },
+   {
+    "gen": 35,
+    "best_score": 0.6644,
+    "top10_lands": 16.8,
+    "best": {
+     "L": 17,
+     "C1": 4,
+     "K1": 9,
+     "K2": 10
+    },
+    "best_avg_mv": 2.65
+   },
+   {
+    "gen": 36,
+    "best_score": 0.6656,
+    "top10_lands": 17.1,
+    "best": {
+     "L": 18,
+     "C1": 3,
+     "K1": 9,
+     "K2": 10
+    },
+    "best_avg_mv": 2.73
+   },
+   {
+    "gen": 37,
+    "best_score": 0.6634,
+    "top10_lands": 17.2,
+    "best": {
+     "L": 18,
+     "C1": 3,
+     "K1": 9,
+     "K2": 10
+    },
+    "best_avg_mv": 2.73
+   },
+   {
+    "gen": 38,
+    "best_score": 0.6547,
+    "top10_lands": 17.6,
+    "best": {
+     "L": 18,
+     "C1": 2,
+     "K1": 9,
+     "K2": 10,
+     "C5": 1
+    },
+    "best_avg_mv": 2.91
+   },
+   {
+    "gen": 39,
+    "best_score": 0.6472,
+    "top10_lands": 17.7,
+    "best": {
+     "L": 17,
+     "C1": 3,
+     "K1": 8,
+     "K2": 11,
+     "C2": 1
+    },
+    "best_avg_mv": 2.7
+   },
+   {
+    "gen": 40,
+    "best_score": 0.6584,
+    "top10_lands": 18.1,
+    "best": {
+     "L": 19,
+     "C1": 3,
+     "K1": 9,
+     "K2": 9
+    },
+    "best_avg_mv": 2.71
+   },
+   {
+    "gen": 41,
+    "best_score": 0.6509,
+    "top10_lands": 18.3,
+    "best": {
+     "L": 18,
+     "C1": 3,
+     "K1": 10,
+     "K2": 9
+    },
+    "best_avg_mv": 2.73
+   },
+   {
+    "gen": 42,
+    "best_score": 0.6578,
+    "top10_lands": 18.2,
+    "best": {
+     "L": 18,
+     "C1": 2,
+     "K1": 10,
+     "K2": 9,
+     "C2": 1
+    },
+    "best_avg_mv": 2.77
+   },
+   {
+    "gen": 43,
+    "best_score": 0.6459,
+    "top10_lands": 18.3,
+    "best": {
+     "L": 20,
+     "C1": 1,
+     "K1": 9,
+     "K2": 9,
+     "C5": 1
+    },
+    "best_avg_mv": 3.0
+   },
+   {
+    "gen": 44,
+    "best_score": 0.65,
+    "top10_lands": 18.0,
+    "best": {
+     "L": 18,
+     "C1": 1,
+     "K1": 9,
+     "K2": 11,
+     "C2": 1
+    },
+    "best_avg_mv": 2.86
+   },
+   {
+    "gen": 45,
+    "best_score": 0.6497,
+    "top10_lands": 18.2,
+    "best": {
+     "L": 18,
+     "C1": 1,
+     "K1": 9,
+     "K2": 11,
+     "C2": 1
+    },
+    "best_avg_mv": 2.86
+   },
+   {
+    "gen": 46,
+    "best_score": 0.6478,
+    "top10_lands": 17.9,
+    "best": {
+     "L": 18,
+     "C1": 2,
+     "K1": 10,
+     "K2": 9,
+     "R2": 1
+    },
+    "best_avg_mv": 2.77
+   },
+   {
+    "gen": 47,
+    "best_score": 0.6403,
+    "top10_lands": 17.9,
+    "best": {
+     "L": 18,
+     "C1": 1,
+     "K1": 9,
+     "K2": 11,
+     "C2": 1
+    },
+    "best_avg_mv": 2.86
+   },
+   {
+    "gen": 48,
+    "best_score": 0.6378,
+    "top10_lands": 17.9,
+    "best": {
+     "L": 18,
+     "C1": 1,
+     "C2": 1,
+     "K1": 9,
+     "K2": 10,
+     "R2": 1
+    },
+    "best_avg_mv": 2.82
+   },
+   {
+    "gen": 49,
+    "best_score": 0.6459,
+    "top10_lands": 18.0,
+    "best": {
+     "L": 17,
+     "C1": 2,
+     "K1": 10,
+     "K2": 10,
+     "C2": 1
+    },
+    "best_avg_mv": 2.78
+   },
+   {
+    "gen": 50,
+    "best_score": 0.6462,
+    "top10_lands": 17.9,
+    "best": {
+     "L": 19,
+     "C1": 1,
+     "K1": 9,
+     "K2": 10,
+     "C2": 1
+    },
+    "best_avg_mv": 2.86
+   },
+   {
+    "gen": 51,
+    "best_score": 0.6406,
+    "top10_lands": 18.2,
+    "best": {
+     "L": 19,
+     "C1": 1,
+     "K1": 9,
+     "K2": 10,
+     "C2": 1
+    },
+    "best_avg_mv": 2.86
+   },
+   {
+    "gen": 52,
+    "best_score": 0.6431,
+    "top10_lands": 18.3,
+    "best": {
+     "L": 18,
+     "C1": 1,
+     "K1": 10,
+     "K2": 10,
+     "C5": 1
+    },
+    "best_avg_mv": 3.0
+   },
+   {
+    "gen": 53,
+    "best_score": 0.6456,
+    "top10_lands": 18.3,
+    "best": {
+     "L": 18,
+     "C1": 1,
+     "K1": 10,
+     "K2": 10,
+     "C2": 1
+    },
+    "best_avg_mv": 2.86
+   },
+   {
+    "gen": 54,
+    "best_score": 0.6384,
+    "top10_lands": 18.3,
+    "best": {
+     "L": 18,
+     "C1": 1,
+     "K1": 10,
+     "K2": 10,
+     "C2": 1
+    },
+    "best_avg_mv": 2.86
+   },
+   {
+    "gen": 55,
+    "best_score": 0.6466,
+    "top10_lands": 18.5,
+    "best": {
+     "L": 18,
+     "C1": 2,
+     "K1": 10,
+     "K2": 10
+    },
+    "best_avg_mv": 2.82
+   },
+   {
+    "gen": 56,
+    "best_score": 0.64,
+    "top10_lands": 18.5,
+    "best": {
+     "L": 18,
+     "C1": 1,
+     "K1": 10,
+     "K2": 10,
+     "C2": 1
+    },
+    "best_avg_mv": 2.86
+   },
+   {
+    "gen": 57,
+    "best_score": 0.6403,
+    "top10_lands": 18.1,
+    "best": {
+     "L": 18,
+     "C1": 1,
+     "K1": 10,
+     "K2": 10,
+     "C2": 1
+    },
+    "best_avg_mv": 2.86
+   },
+   {
+    "gen": 58,
+    "best_score": 0.6462,
+    "top10_lands": 18.3,
+    "best": {
+     "L": 18,
+     "C1": 1,
+     "K1": 10,
+     "K2": 10,
+     "C2": 1
+    },
+    "best_avg_mv": 2.86
+   },
+   {
+    "gen": 59,
+    "best_score": 0.6359,
+    "top10_lands": 18.3,
+    "best": {
+     "L": 18,
+     "K1": 10,
+     "K2": 10,
+     "C2": 1,
+     "C5": 1
+    },
+    "best_avg_mv": 3.05
    }
   ],
   "champion": {
-   "L": 14,
-   "C1": 6,
-   "C2": 1,
-   "C5": 2,
-   "F3": 1,
-   "R2": 2,
-   "R4": 2,
-   "D3": 1,
-   "M2": 1,
-   "LD": 1,
-   "K1": 3,
-   "K2": 2,
-   "T2": 3,
-   "C6": 1
+   "L": 18,
+   "C1": 2,
+   "K1": 10,
+   "K2": 10
   },
   "champion_vs_field": {
-   "win": 0.6492,
-   "turns": 8.9152,
-   "screw": 0.0379,
-   "flood": 0.0394,
-   "color_stuck": 0.5742,
+   "win": 0.7511,
+   "turns": 6.3506,
+   "screw": 0.0229,
+   "flood": 0.0894,
+   "color_stuck": 0.2434,
    "won_by": {
-    "combo": 0.4842,
-    "flyers": 0.0063,
-    "ground": 0.1588
+    "combo": 0.7508,
+    "ground": 0.0003
    },
    "lost_to": {
-    "flyers": 0.0238,
-    "ground": 0.2685,
-    "combo": 0.0585
+    "flyers": 0.0077,
+    "combo": 0.0159,
+    "ground": 0.2253
    }
   }
  },
@@ -2887,175 +3773,1009 @@
   "history": [
    {
     "gen": 0,
-    "best_score": 0.5833,
+    "best_score": 0.5504,
     "top10_lands": 22.9,
     "best": {
-     "C1": 5,
-     "C2": 1,
-     "C3": 3,
-     "C5": 3,
-     "C6": 3,
-     "F3": 4,
+     "C1": 2,
+     "C2": 3,
+     "C3": 1,
+     "C5": 2,
+     "C6": 4,
+     "F3": 3,
      "R2": 3,
      "R4": 1,
-     "D3": 1,
-     "M2": 4,
-     "LD": 4,
-     "K1": 4,
-     "K2": 3,
-     "L": 21
-    },
-    "best_avg_mv": 2.95
-   },
-   {
-    "gen": 1,
-    "best_score": 0.5795,
-    "top10_lands": 23.4,
-    "best": {
-     "C1": 2,
-     "C2": 1,
-     "C3": 2,
-     "C4": 1,
-     "C5": 4,
-     "C6": 2,
-     "R2": 3,
-     "R4": 3,
-     "M2": 1,
-     "LD": 2,
-     "AR": 4,
-     "K1": 4,
-     "K2": 4,
+     "D3": 4,
+     "P3": 1,
+     "AR": 3,
+     "K1": 3,
+     "K2": 2,
      "T2": 4,
-     "L": 22,
-     "D3": 1
-    },
-    "best_avg_mv": 3.03
-   },
-   {
-    "gen": 2,
-    "best_score": 0.5655,
-    "top10_lands": 22.6,
-    "best": {
-     "C1": 2,
-     "C2": 1,
-     "C3": 3,
-     "C4": 2,
-     "C5": 3,
-     "C6": 3,
-     "R2": 3,
-     "R4": 3,
-     "M2": 1,
-     "LD": 2,
-     "AR": 4,
-     "K1": 4,
-     "K2": 3,
-     "T2": 4,
-     "L": 22
-    },
-    "best_avg_mv": 3.08
-   },
-   {
-    "gen": 3,
-    "best_score": 0.5822,
-    "top10_lands": 22.0,
-    "best": {
-     "C1": 2,
-     "C2": 1,
-     "C3": 2,
-     "C5": 4,
-     "C6": 2,
-     "R2": 3,
-     "R4": 3,
-     "M2": 1,
-     "LD": 2,
-     "AR": 4,
-     "K1": 4,
-     "K2": 5,
-     "T2": 4,
-     "L": 22,
-     "D3": 1
+     "L": 24
     },
     "best_avg_mv": 3.0
    },
    {
-    "gen": 4,
-    "best_score": 0.5698,
-    "top10_lands": 22.2,
+    "gen": 1,
+    "best_score": 0.5369,
+    "top10_lands": 22.7,
     "best": {
-     "L": 22,
      "C1": 2,
-     "C2": 1,
-     "C3": 3,
+     "C2": 6,
+     "C3": 4,
      "C5": 4,
-     "C6": 1,
-     "R2": 3,
-     "R4": 3,
+     "C6": 4,
+     "F3": 2,
+     "D3": 4,
+     "M2": 1,
+     "P3": 1,
+     "K1": 1,
+     "K2": 2,
+     "T2": 4,
+     "L": 25
+    },
+    "best_avg_mv": 3.14
+   },
+   {
+    "gen": 2,
+    "best_score": 0.5689,
+    "top10_lands": 25.3,
+    "best": {
+     "L": 26,
+     "C1": 2,
+     "C2": 6,
+     "C3": 3,
+     "C5": 2,
+     "C6": 6,
+     "F3": 2,
+     "M2": 1,
+     "P3": 2,
+     "K1": 3,
+     "K2": 2,
+     "T2": 4,
+     "R2": 1
+    },
+    "best_avg_mv": 3.18
+   },
+   {
+    "gen": 3,
+    "best_score": 0.5727,
+    "top10_lands": 26.5,
+    "best": {
+     "L": 26,
+     "C1": 4,
+     "C2": 3,
+     "C5": 3,
+     "C6": 4,
+     "F3": 2,
+     "R2": 1,
+     "R4": 1,
+     "D3": 2,
+     "M2": 1,
+     "P3": 1,
+     "AR": 2,
+     "K1": 4,
+     "K2": 3,
+     "T2": 3
+    },
+    "best_avg_mv": 3.03
+   },
+   {
+    "gen": 4,
+    "best_score": 0.6009,
+    "top10_lands": 26.7,
+    "best": {
+     "L": 28,
+     "C1": 3,
+     "C2": 5,
+     "C3": 2,
+     "C5": 2,
+     "C6": 4,
+     "F3": 1,
      "D3": 1,
      "M2": 1,
-     "LD": 2,
-     "AR": 4,
-     "K1": 4,
-     "K2": 5,
-     "T2": 4
+     "P3": 1,
+     "K1": 3,
+     "K2": 4,
+     "T2": 5
     },
-    "best_avg_mv": 2.92
+    "best_avg_mv": 2.97
    },
    {
     "gen": 5,
-    "best_score": 0.5833,
-    "top10_lands": 22.3,
+    "best_score": 0.6041,
+    "top10_lands": 27.3,
     "best": {
-     "L": 23,
-     "C1": 3,
-     "C2": 1,
-     "C3": 2,
-     "C4": 1,
-     "C5": 5,
-     "C6": 1,
-     "R2": 4,
-     "R4": 2,
-     "D3": 1,
-     "LD": 2,
-     "AR": 4,
-     "K1": 5,
+     "L": 29,
+     "C1": 2,
+     "C2": 5,
+     "C3": 1,
+     "C5": 3,
+     "C6": 4,
+     "M2": 1,
+     "P3": 1,
+     "K1": 4,
      "K2": 4,
-     "T2": 2
+     "T2": 5,
+     "R4": 1
+    },
+    "best_avg_mv": 3.13
+   },
+   {
+    "gen": 6,
+    "best_score": 0.5919,
+    "top10_lands": 28.2,
+    "best": {
+     "L": 28,
+     "C1": 3,
+     "C2": 4,
+     "C5": 2,
+     "C6": 5,
+     "R2": 4,
+     "D3": 1,
+     "K1": 1,
+     "K2": 4,
+     "T2": 8
+    },
+    "best_avg_mv": 2.91
+   },
+   {
+    "gen": 7,
+    "best_score": 0.5988,
+    "top10_lands": 27.6,
+    "best": {
+     "L": 29,
+     "C1": 4,
+     "C2": 4,
+     "C3": 2,
+     "C5": 3,
+     "C6": 2,
+     "R2": 1,
+     "K1": 4,
+     "K2": 5,
+     "T2": 4,
+     "AR": 1,
+     "D3": 1
+    },
+    "best_avg_mv": 2.81
+   },
+   {
+    "gen": 8,
+    "best_score": 0.5928,
+    "top10_lands": 27.4,
+    "best": {
+     "L": 25,
+     "C1": 4,
+     "C2": 5,
+     "C5": 2,
+     "C6": 3,
+     "R2": 5,
+     "K1": 3,
+     "K2": 4,
+     "T2": 8,
+     "M2": 1
+    },
+    "best_avg_mv": 2.6
+   },
+   {
+    "gen": 9,
+    "best_score": 0.6106,
+    "top10_lands": 26.5,
+    "best": {
+     "L": 25,
+     "C1": 4,
+     "C2": 4,
+     "C5": 2,
+     "C6": 3,
+     "R2": 5,
+     "K1": 5,
+     "K2": 5,
+     "T2": 4,
+     "D3": 1,
+     "AR": 1,
+     "R4": 1
+    },
+    "best_avg_mv": 2.77
+   },
+   {
+    "gen": 10,
+    "best_score": 0.5941,
+    "top10_lands": 26.0,
+    "best": {
+     "L": 25,
+     "C1": 4,
+     "C2": 4,
+     "C5": 2,
+     "C6": 3,
+     "R2": 5,
+     "K1": 5,
+     "K2": 5,
+     "T2": 4,
+     "D3": 1,
+     "AR": 1,
+     "R4": 1
+    },
+    "best_avg_mv": 2.77
+   },
+   {
+    "gen": 11,
+    "best_score": 0.5909,
+    "top10_lands": 25.3,
+    "best": {
+     "L": 25,
+     "C1": 4,
+     "C2": 4,
+     "C5": 2,
+     "C6": 3,
+     "R2": 5,
+     "K1": 5,
+     "K2": 5,
+     "T2": 4,
+     "D3": 1,
+     "AR": 1,
+     "R4": 1
+    },
+    "best_avg_mv": 2.77
+   },
+   {
+    "gen": 12,
+    "best_score": 0.6031,
+    "top10_lands": 25.1,
+    "best": {
+     "L": 25,
+     "C1": 6,
+     "C2": 8,
+     "C5": 3,
+     "C6": 3,
+     "R4": 1,
+     "K1": 5,
+     "K2": 5,
+     "T2": 3,
+     "R2": 1
+    },
+    "best_avg_mv": 2.77
+   },
+   {
+    "gen": 13,
+    "best_score": 0.5978,
+    "top10_lands": 25.1,
+    "best": {
+     "L": 25,
+     "C1": 5,
+     "C2": 7,
+     "C5": 1,
+     "C6": 3,
+     "R2": 4,
+     "K1": 6,
+     "K2": 5,
+     "T2": 3,
+     "R4": 1
+    },
+    "best_avg_mv": 2.66
+   },
+   {
+    "gen": 14,
+    "best_score": 0.6103,
+    "top10_lands": 24.7,
+    "best": {
+     "L": 25,
+     "C1": 3,
+     "C2": 4,
+     "C5": 1,
+     "C6": 4,
+     "R2": 5,
+     "R4": 1,
+     "D3": 2,
+     "K1": 6,
+     "K2": 6,
+     "T2": 2,
+     "C4": 1
     },
     "best_avg_mv": 2.97
+   },
+   {
+    "gen": 15,
+    "best_score": 0.6109,
+    "top10_lands": 24.7,
+    "best": {
+     "L": 25,
+     "C1": 2,
+     "C2": 4,
+     "C5": 1,
+     "C6": 4,
+     "R2": 5,
+     "R4": 1,
+     "D3": 2,
+     "K1": 6,
+     "K2": 7,
+     "T2": 2,
+     "C4": 1
+    },
+    "best_avg_mv": 3.03
+   },
+   {
+    "gen": 16,
+    "best_score": 0.6147,
+    "top10_lands": 24.6,
+    "best": {
+     "L": 25,
+     "C1": 5,
+     "C2": 4,
+     "C5": 1,
+     "C6": 3,
+     "R2": 5,
+     "R4": 1,
+     "K1": 7,
+     "K2": 6,
+     "T2": 2,
+     "D3": 1
+    },
+    "best_avg_mv": 2.74
+   },
+   {
+    "gen": 17,
+    "best_score": 0.6062,
+    "top10_lands": 24.7,
+    "best": {
+     "L": 25,
+     "C1": 5,
+     "C2": 4,
+     "C5": 1,
+     "C6": 3,
+     "R2": 5,
+     "R4": 1,
+     "K1": 7,
+     "K2": 6,
+     "T2": 2,
+     "D3": 1
+    },
+    "best_avg_mv": 2.74
+   },
+   {
+    "gen": 18,
+    "best_score": 0.605,
+    "top10_lands": 24.2,
+    "best": {
+     "L": 24,
+     "C1": 5,
+     "C2": 3,
+     "C6": 3,
+     "R2": 7,
+     "R4": 1,
+     "K1": 7,
+     "K2": 6,
+     "T2": 3,
+     "C3": 1
+    },
+    "best_avg_mv": 2.64
+   },
+   {
+    "gen": 19,
+    "best_score": 0.6125,
+    "top10_lands": 24.3,
+    "best": {
+     "L": 25,
+     "C1": 5,
+     "C2": 4,
+     "C5": 1,
+     "C6": 3,
+     "R2": 5,
+     "R4": 1,
+     "K1": 7,
+     "K2": 7,
+     "T2": 1,
+     "D3": 1
+    },
+    "best_avg_mv": 2.77
+   },
+   {
+    "gen": 20,
+    "best_score": 0.6216,
+    "top10_lands": 24.5,
+    "best": {
+     "L": 24,
+     "C1": 4,
+     "C2": 4,
+     "C5": 1,
+     "C6": 3,
+     "R2": 5,
+     "R4": 1,
+     "D3": 2,
+     "K1": 8,
+     "K2": 7,
+     "T2": 1
+    },
+    "best_avg_mv": 2.83
+   },
+   {
+    "gen": 21,
+    "best_score": 0.6122,
+    "top10_lands": 24.6,
+    "best": {
+     "L": 25,
+     "C1": 5,
+     "C2": 4,
+     "C6": 4,
+     "R2": 4,
+     "R4": 1,
+     "K1": 9,
+     "K2": 8
+    },
+    "best_avg_mv": 2.86
+   },
+   {
+    "gen": 22,
+    "best_score": 0.6072,
+    "top10_lands": 24.1,
+    "best": {
+     "L": 23,
+     "C1": 6,
+     "C2": 1,
+     "C6": 3,
+     "R2": 5,
+     "R4": 1,
+     "D3": 2,
+     "K1": 9,
+     "K2": 8,
+     "T2": 2
+    },
+    "best_avg_mv": 2.73
+   },
+   {
+    "gen": 23,
+    "best_score": 0.6181,
+    "top10_lands": 23.9,
+    "best": {
+     "L": 24,
+     "C1": 4,
+     "C2": 4,
+     "C5": 1,
+     "C6": 3,
+     "R2": 5,
+     "D3": 2,
+     "K1": 7,
+     "K2": 9,
+     "R4": 1
+    },
+    "best_avg_mv": 2.86
+   },
+   {
+    "gen": 24,
+    "best_score": 0.6212,
+    "top10_lands": 23.7,
+    "best": {
+     "L": 25,
+     "C1": 6,
+     "C2": 2,
+     "C6": 4,
+     "R2": 5,
+     "K1": 9,
+     "K2": 9
+    },
+    "best_avg_mv": 2.8
+   },
+   {
+    "gen": 25,
+    "best_score": 0.6278,
+    "top10_lands": 24.3,
+    "best": {
+     "L": 25,
+     "C1": 6,
+     "C2": 2,
+     "C6": 4,
+     "R2": 4,
+     "K1": 9,
+     "K2": 10
+    },
+    "best_avg_mv": 2.83
+   },
+   {
+    "gen": 26,
+    "best_score": 0.6344,
+    "top10_lands": 24.9,
+    "best": {
+     "L": 25,
+     "C1": 6,
+     "C2": 2,
+     "C6": 4,
+     "R2": 4,
+     "K1": 9,
+     "K2": 10
+    },
+    "best_avg_mv": 2.83
+   },
+   {
+    "gen": 27,
+    "best_score": 0.6278,
+    "top10_lands": 25.2,
+    "best": {
+     "L": 25,
+     "C1": 4,
+     "C2": 4,
+     "C6": 4,
+     "R2": 3,
+     "K1": 10,
+     "K2": 10
+    },
+    "best_avg_mv": 2.91
+   },
+   {
+    "gen": 28,
+    "best_score": 0.6347,
+    "top10_lands": 25.0,
+    "best": {
+     "L": 25,
+     "C1": 3,
+     "C2": 4,
+     "C6": 3,
+     "R2": 3,
+     "K1": 11,
+     "K2": 10,
+     "C5": 1
+    },
+    "best_avg_mv": 2.94
+   },
+   {
+    "gen": 29,
+    "best_score": 0.6294,
+    "top10_lands": 25.4,
+    "best": {
+     "L": 25,
+     "C1": 4,
+     "C2": 3,
+     "C6": 4,
+     "R2": 3,
+     "K1": 10,
+     "K2": 10,
+     "T2": 1
+    },
+    "best_avg_mv": 2.91
+   },
+   {
+    "gen": 30,
+    "best_score": 0.6388,
+    "top10_lands": 25.2,
+    "best": {
+     "L": 27,
+     "C1": 2,
+     "C2": 2,
+     "C6": 3,
+     "R2": 5,
+     "K1": 11,
+     "K2": 10
+    },
+    "best_avg_mv": 2.94
+   },
+   {
+    "gen": 31,
+    "best_score": 0.6347,
+    "top10_lands": 25.1,
+    "best": {
+     "L": 27,
+     "C1": 2,
+     "C2": 2,
+     "C6": 3,
+     "R2": 4,
+     "K1": 12,
+     "K2": 10
+    },
+    "best_avg_mv": 2.97
+   },
+   {
+    "gen": 32,
+    "best_score": 0.6272,
+    "top10_lands": 25.3,
+    "best": {
+     "L": 27,
+     "C1": 1,
+     "C2": 2,
+     "C6": 3,
+     "R2": 4,
+     "K1": 13,
+     "K2": 10
+    },
+    "best_avg_mv": 3.03
+   },
+   {
+    "gen": 33,
+    "best_score": 0.6188,
+    "top10_lands": 25.7,
+    "best": {
+     "L": 28,
+     "C1": 1,
+     "C2": 2,
+     "C6": 3,
+     "R2": 4,
+     "K1": 12,
+     "K2": 10
+    },
+    "best_avg_mv": 3.03
+   },
+   {
+    "gen": 34,
+    "best_score": 0.6262,
+    "top10_lands": 26.4,
+    "best": {
+     "L": 27,
+     "C1": 1,
+     "C2": 2,
+     "C6": 3,
+     "R2": 4,
+     "K1": 12,
+     "K2": 10,
+     "AR": 1
+    },
+    "best_avg_mv": 3.0
+   },
+   {
+    "gen": 35,
+    "best_score": 0.6453,
+    "top10_lands": 26.7,
+    "best": {
+     "L": 26,
+     "C1": 4,
+     "C2": 1,
+     "C6": 3,
+     "R2": 2,
+     "K1": 13,
+     "K2": 11
+    },
+    "best_avg_mv": 2.94
+   },
+   {
+    "gen": 36,
+    "best_score": 0.6328,
+    "top10_lands": 26.4,
+    "best": {
+     "L": 26,
+     "C1": 4,
+     "C2": 1,
+     "C6": 3,
+     "R2": 1,
+     "K1": 13,
+     "K2": 12
+    },
+    "best_avg_mv": 2.97
+   },
+   {
+    "gen": 37,
+    "best_score": 0.6328,
+    "top10_lands": 26.3,
+    "best": {
+     "L": 26,
+     "C1": 4,
+     "C2": 1,
+     "C6": 3,
+     "R2": 1,
+     "K1": 13,
+     "K2": 12
+    },
+    "best_avg_mv": 2.97
+   },
+   {
+    "gen": 38,
+    "best_score": 0.6391,
+    "top10_lands": 26.3,
+    "best": {
+     "L": 27,
+     "C1": 1,
+     "C2": 1,
+     "C6": 1,
+     "R2": 4,
+     "K1": 13,
+     "K2": 12,
+     "C5": 1
+    },
+    "best_avg_mv": 2.94
+   },
+   {
+    "gen": 39,
+    "best_score": 0.6325,
+    "top10_lands": 26.9,
+    "best": {
+     "L": 27,
+     "C2": 1,
+     "C6": 3,
+     "K1": 13,
+     "K2": 14,
+     "R2": 1,
+     "AR": 1
+    },
+    "best_avg_mv": 3.18
+   },
+   {
+    "gen": 40,
+    "best_score": 0.6397,
+    "top10_lands": 27.2,
+    "best": {
+     "L": 27,
+     "C2": 1,
+     "R2": 1,
+     "AR": 1,
+     "K1": 14,
+     "K2": 15,
+     "M2": 1
+    },
+    "best_avg_mv": 2.88
+   },
+   {
+    "gen": 41,
+    "best_score": 0.6272,
+    "top10_lands": 26.9,
+    "best": {
+     "L": 26,
+     "C1": 1,
+     "C2": 1,
+     "C6": 3,
+     "R2": 2,
+     "K1": 12,
+     "K2": 15
+    },
+    "best_avg_mv": 3.12
+   },
+   {
+    "gen": 42,
+    "best_score": 0.6388,
+    "top10_lands": 27.2,
+    "best": {
+     "L": 27,
+     "C1": 1,
+     "C2": 1,
+     "C6": 1,
+     "R2": 4,
+     "K1": 13,
+     "K2": 12,
+     "C5": 1
+    },
+    "best_avg_mv": 2.94
+   },
+   {
+    "gen": 43,
+    "best_score": 0.6225,
+    "top10_lands": 26.8,
+    "best": {
+     "L": 27,
+     "C1": 1,
+     "C2": 1,
+     "C6": 1,
+     "R2": 3,
+     "K1": 15,
+     "K2": 12
+    },
+    "best_avg_mv": 2.91
+   },
+   {
+    "gen": 44,
+    "best_score": 0.6306,
+    "top10_lands": 26.5,
+    "best": {
+     "L": 27,
+     "C2": 1,
+     "R2": 1,
+     "AR": 1,
+     "K1": 14,
+     "K2": 15,
+     "C4": 1
+    },
+    "best_avg_mv": 2.94
+   },
+   {
+    "gen": 45,
+    "best_score": 0.6281,
+    "top10_lands": 26.8,
+    "best": {
+     "L": 28,
+     "C1": 1,
+     "C2": 1,
+     "R2": 4,
+     "K1": 14,
+     "K2": 12
+    },
+    "best_avg_mv": 2.78
+   },
+   {
+    "gen": 46,
+    "best_score": 0.6188,
+    "top10_lands": 26.8,
+    "best": {
+     "L": 27,
+     "C1": 3,
+     "K1": 14,
+     "K2": 14,
+     "C5": 1,
+     "R4": 1
+    },
+    "best_avg_mv": 2.91
+   },
+   {
+    "gen": 47,
+    "best_score": 0.6278,
+    "top10_lands": 26.8,
+    "best": {
+     "L": 26,
+     "C1": 2,
+     "C2": 1,
+     "R2": 2,
+     "K1": 14,
+     "K2": 15
+    },
+    "best_avg_mv": 2.79
+   },
+   {
+    "gen": 48,
+    "best_score": 0.6353,
+    "top10_lands": 27.5,
+    "best": {
+     "L": 27,
+     "C1": 2,
+     "C5": 1,
+     "K1": 15,
+     "K2": 15
+    },
+    "best_avg_mv": 2.94
+   },
+   {
+    "gen": 49,
+    "best_score": 0.6441,
+    "top10_lands": 27.6,
+    "best": {
+     "L": 27,
+     "C1": 2,
+     "K1": 16,
+     "K2": 15
+    },
+    "best_avg_mv": 2.88
+   },
+   {
+    "gen": 50,
+    "best_score": 0.6238,
+    "top10_lands": 27.6,
+    "best": {
+     "L": 28,
+     "C1": 4,
+     "K1": 14,
+     "K2": 14
+    },
+    "best_avg_mv": 2.75
+   },
+   {
+    "gen": 51,
+    "best_score": 0.6341,
+    "top10_lands": 27.5,
+    "best": {
+     "L": 27,
+     "C1": 2,
+     "C5": 1,
+     "K1": 15,
+     "K2": 14,
+     "C2": 1
+    },
+    "best_avg_mv": 2.91
+   },
+   {
+    "gen": 52,
+    "best_score": 0.6275,
+    "top10_lands": 27.3,
+    "best": {
+     "L": 28,
+     "C1": 3,
+     "K1": 15,
+     "K2": 14
+    },
+    "best_avg_mv": 2.81
+   },
+   {
+    "gen": 53,
+    "best_score": 0.6341,
+    "top10_lands": 27.8,
+    "best": {
+     "L": 28,
+     "C1": 1,
+     "C2": 1,
+     "R2": 1,
+     "K1": 15,
+     "K2": 14
+    },
+    "best_avg_mv": 2.88
+   },
+   {
+    "gen": 54,
+    "best_score": 0.6338,
+    "top10_lands": 27.9,
+    "best": {
+     "L": 28,
+     "C1": 2,
+     "K1": 14,
+     "K2": 16
+    },
+    "best_avg_mv": 2.88
+   },
+   {
+    "gen": 55,
+    "best_score": 0.6306,
+    "top10_lands": 27.7,
+    "best": {
+     "L": 27,
+     "C2": 1,
+     "R2": 1,
+     "K1": 14,
+     "K2": 15,
+     "AR": 1,
+     "C1": 1
+    },
+    "best_avg_mv": 2.85
+   },
+   {
+    "gen": 56,
+    "best_score": 0.6297,
+    "top10_lands": 27.5,
+    "best": {
+     "L": 28,
+     "K1": 13,
+     "K2": 16,
+     "C1": 1,
+     "R2": 1,
+     "C5": 1
+    },
+    "best_avg_mv": 2.97
+   },
+   {
+    "gen": 57,
+    "best_score": 0.6319,
+    "top10_lands": 27.7,
+    "best": {
+     "L": 28,
+     "C1": 3,
+     "K1": 14,
+     "K2": 15
+    },
+    "best_avg_mv": 2.81
+   },
+   {
+    "gen": 58,
+    "best_score": 0.6316,
+    "top10_lands": 27.7,
+    "best": {
+     "L": 27,
+     "C1": 3,
+     "C5": 1,
+     "K1": 15,
+     "K2": 14
+    },
+    "best_avg_mv": 2.88
+   },
+   {
+    "gen": 59,
+    "best_score": 0.6331,
+    "top10_lands": 27.7,
+    "best": {
+     "L": 28,
+     "C1": 3,
+     "K1": 14,
+     "K2": 15
+    },
+    "best_avg_mv": 2.81
    }
   ],
   "champion": {
-   "L": 23,
+   "L": 28,
    "C1": 3,
-   "C2": 1,
-   "C3": 2,
-   "C4": 1,
-   "C5": 5,
-   "C6": 1,
-   "R2": 4,
-   "R4": 2,
-   "D3": 1,
-   "LD": 2,
-   "AR": 4,
-   "K1": 5,
-   "K2": 4,
-   "T2": 2
+   "K1": 14,
+   "K2": 15
   },
   "champion_vs_field": {
-   "win": 0.5979,
-   "turns": 9.1402,
-   "screw": 0.0315,
-   "flood": 0.0725,
-   "color_stuck": 0.4404,
+   "win": 0.7421,
+   "turns": 6.3884,
+   "screw": 0.0198,
+   "flood": 0.1145,
+   "color_stuck": 0.2436,
    "won_by": {
-    "drain": 0.0004,
-    "combo": 0.4123,
-    "ground": 0.1852
+    "combo": 0.7416,
+    "ground": 0.0005
    },
    "lost_to": {
-    "flyers": 0.0325,
-    "ground": 0.3108,
-    "combo": 0.0587
+    "flyers": 0.0103,
+    "combo": 0.0181,
+    "ground": 0.2295
    }
   }
  },
@@ -3066,93 +4786,450 @@
    "history": [
     {
      "gen": 0,
-     "best_score": 0.525,
-     "top10_lands": 14.8,
+     "best_score": 0.54,
+     "top10_lands": 13.7,
      "best": {
-      "C1": 1,
+      "C1": 4,
       "C2": 5,
-      "C3": 1,
-      "C4": 1,
-      "F3": 6,
-      "R2": 6,
-      "LD": 3,
-      "AR": 3,
-      "L": 14
+      "C3": 6,
+      "F3": 5,
+      "R2": 3,
+      "P3": 2,
+      "AR": 2,
+      "L": 13
      },
-     "best_avg_mv": 2.42
+     "best_avg_mv": 2.33
     },
     {
      "gen": 1,
-     "best_score": 0.5519,
-     "top10_lands": 11.9,
+     "best_score": 0.5492,
+     "top10_lands": 12.9,
      "best": {
-      "C1": 4,
-      "C2": 4,
+      "L": 14,
+      "C1": 6,
+      "C2": 6,
       "C3": 1,
-      "C4": 4,
-      "F3": 6,
-      "R2": 5,
-      "AR": 4,
-      "L": 12
+      "F3": 5,
+      "R2": 3,
+      "P3": 3,
+      "AR": 2
      },
-     "best_avg_mv": 2.39
+     "best_avg_mv": 2.12
     },
     {
      "gen": 2,
-     "best_score": 0.5536,
-     "top10_lands": 11.9,
+     "best_score": 0.5557,
+     "top10_lands": 12.7,
      "best": {
-      "L": 12,
-      "C1": 4,
-      "C2": 4,
-      "C4": 4,
+      "L": 14,
+      "C1": 6,
+      "C2": 6,
       "F3": 7,
-      "R2": 7,
+      "R2": 3,
+      "P3": 2,
       "AR": 2
      },
-     "best_avg_mv": 2.39
+     "best_avg_mv": 2.12
     },
     {
      "gen": 3,
-     "best_score": 0.5433,
-     "top10_lands": 11.6,
+     "best_score": 0.5942,
+     "top10_lands": 12.6,
      "best": {
-      "L": 13,
-      "C1": 5,
-      "C2": 5,
+      "L": 14,
+      "C1": 7,
+      "C2": 7,
       "C3": 1,
-      "C4": 3,
-      "F3": 7,
-      "R2": 4,
-      "AR": 2
+      "F3": 6,
+      "R2": 3,
+      "P3": 2
      },
-     "best_avg_mv": 2.33
+     "best_avg_mv": 2.08
+    },
+    {
+     "gen": 4,
+     "best_score": 0.5925,
+     "top10_lands": 12.6,
+     "best": {
+      "L": 12,
+      "C1": 8,
+      "C2": 7,
+      "C3": 1,
+      "C4": 1,
+      "F3": 7,
+      "R2": 1,
+      "P3": 2,
+      "AR": 1
+     },
+     "best_avg_mv": 2.14
+    },
+    {
+     "gen": 5,
+     "best_score": 0.5883,
+     "top10_lands": 12.7,
+     "best": {
+      "L": 12,
+      "C1": 8,
+      "C2": 7,
+      "C3": 1,
+      "C4": 1,
+      "F3": 7,
+      "R2": 1,
+      "P3": 2,
+      "AR": 1
+     },
+     "best_avg_mv": 2.14
+    },
+    {
+     "gen": 6,
+     "best_score": 0.5983,
+     "top10_lands": 12.2,
+     "best": {
+      "L": 12,
+      "C1": 7,
+      "C2": 7,
+      "C3": 2,
+      "F3": 5,
+      "R2": 6,
+      "P3": 1
+     },
+     "best_avg_mv": 2.04
+    },
+    {
+     "gen": 7,
+     "best_score": 0.6025,
+     "top10_lands": 11.5,
+     "best": {
+      "L": 11,
+      "C1": 9,
+      "C2": 9,
+      "C4": 1,
+      "F3": 5,
+      "R2": 3,
+      "P3": 2
+     },
+     "best_avg_mv": 2.0
+    },
+    {
+     "gen": 8,
+     "best_score": 0.5921,
+     "top10_lands": 11.0,
+     "best": {
+      "L": 11,
+      "C1": 8,
+      "C2": 9,
+      "C4": 1,
+      "F3": 5,
+      "R2": 6
+     },
+     "best_avg_mv": 1.97
+    },
+    {
+     "gen": 9,
+     "best_score": 0.5933,
+     "top10_lands": 11.0,
+     "best": {
+      "L": 11,
+      "C1": 8,
+      "C2": 9,
+      "C4": 1,
+      "F3": 5,
+      "R2": 6
+     },
+     "best_avg_mv": 1.97
+    },
+    {
+     "gen": 10,
+     "best_score": 0.5846,
+     "top10_lands": 10.7,
+     "best": {
+      "L": 11,
+      "C1": 11,
+      "C2": 9,
+      "F3": 5,
+      "R2": 2,
+      "P3": 1,
+      "AR": 1
+     },
+     "best_avg_mv": 1.83
+    },
+    {
+     "gen": 11,
+     "best_score": 0.6025,
+     "top10_lands": 10.4,
+     "best": {
+      "L": 9,
+      "C1": 10,
+      "C2": 9,
+      "F3": 6,
+      "R2": 6
+     },
+     "best_avg_mv": 1.87
+    },
+    {
+     "gen": 12,
+     "best_score": 0.5842,
+     "top10_lands": 10.7,
+     "best": {
+      "L": 11,
+      "C1": 11,
+      "C2": 8,
+      "C3": 1,
+      "F3": 8,
+      "R2": 1
+     },
+     "best_avg_mv": 1.93
+    },
+    {
+     "gen": 13,
+     "best_score": 0.5971,
+     "top10_lands": 10.5,
+     "best": {
+      "L": 9,
+      "C1": 10,
+      "C2": 9,
+      "F3": 6,
+      "R2": 6
+     },
+     "best_avg_mv": 1.87
+    },
+    {
+     "gen": 14,
+     "best_score": 0.6004,
+     "top10_lands": 10.4,
+     "best": {
+      "L": 10,
+      "C1": 11,
+      "C2": 8,
+      "C3": 1,
+      "F3": 8,
+      "R2": 2
+     },
+     "best_avg_mv": 1.93
+    },
+    {
+     "gen": 15,
+     "best_score": 0.5879,
+     "top10_lands": 10.1,
+     "best": {
+      "L": 10,
+      "C1": 11,
+      "C2": 10,
+      "F3": 6,
+      "R2": 2,
+      "C3": 1
+     },
+     "best_avg_mv": 1.87
+    },
+    {
+     "gen": 16,
+     "best_score": 0.5821,
+     "top10_lands": 9.9,
+     "best": {
+      "L": 10,
+      "C1": 11,
+      "C2": 9,
+      "F3": 7,
+      "R2": 3
+     },
+     "best_avg_mv": 1.87
+    },
+    {
+     "gen": 17,
+     "best_score": 0.6054,
+     "top10_lands": 9.9,
+     "best": {
+      "L": 10,
+      "C1": 11,
+      "C2": 9,
+      "F3": 6,
+      "R2": 3,
+      "C4": 1
+     },
+     "best_avg_mv": 1.9
+    },
+    {
+     "gen": 18,
+     "best_score": 0.5971,
+     "top10_lands": 9.7,
+     "best": {
+      "L": 10,
+      "C1": 11,
+      "C2": 9,
+      "F3": 6,
+      "R2": 4
+     },
+     "best_avg_mv": 1.83
+    },
+    {
+     "gen": 19,
+     "best_score": 0.5804,
+     "top10_lands": 9.9,
+     "best": {
+      "L": 10,
+      "C1": 11,
+      "C2": 9,
+      "F3": 6,
+      "R2": 4
+     },
+     "best_avg_mv": 1.83
+    },
+    {
+     "gen": 20,
+     "best_score": 0.5796,
+     "top10_lands": 9.8,
+     "best": {
+      "L": 11,
+      "C1": 11,
+      "C2": 9,
+      "F3": 6,
+      "R2": 3
+     },
+     "best_avg_mv": 1.83
+    },
+    {
+     "gen": 21,
+     "best_score": 0.5904,
+     "top10_lands": 9.7,
+     "best": {
+      "L": 9,
+      "C1": 13,
+      "C2": 9,
+      "F3": 5,
+      "R2": 4
+     },
+     "best_avg_mv": 1.74
+    },
+    {
+     "gen": 22,
+     "best_score": 0.5817,
+     "top10_lands": 9.6,
+     "best": {
+      "L": 10,
+      "C1": 11,
+      "C2": 9,
+      "F3": 6,
+      "R2": 3,
+      "C3": 1
+     },
+     "best_avg_mv": 1.87
+    },
+    {
+     "gen": 23,
+     "best_score": 0.5854,
+     "top10_lands": 10.0,
+     "best": {
+      "L": 10,
+      "C1": 11,
+      "C2": 9,
+      "F3": 6,
+      "R2": 3,
+      "C3": 1
+     },
+     "best_avg_mv": 1.87
+    },
+    {
+     "gen": 24,
+     "best_score": 0.5763,
+     "top10_lands": 10.1,
+     "best": {
+      "L": 10,
+      "C1": 11,
+      "C2": 9,
+      "F3": 6,
+      "R2": 3,
+      "C3": 1
+     },
+     "best_avg_mv": 1.87
+    },
+    {
+     "gen": 25,
+     "best_score": 0.6012,
+     "top10_lands": 10.1,
+     "best": {
+      "L": 10,
+      "C1": 13,
+      "C2": 8,
+      "F3": 6,
+      "R2": 3
+     },
+     "best_avg_mv": 1.77
+    },
+    {
+     "gen": 26,
+     "best_score": 0.5796,
+     "top10_lands": 10.1,
+     "best": {
+      "L": 10,
+      "C1": 12,
+      "C2": 10,
+      "F3": 6,
+      "R2": 2
+     },
+     "best_avg_mv": 1.8
+    },
+    {
+     "gen": 27,
+     "best_score": 0.5921,
+     "top10_lands": 9.9,
+     "best": {
+      "L": 10,
+      "C1": 13,
+      "C2": 9,
+      "F3": 5,
+      "R2": 3
+     },
+     "best_avg_mv": 1.73
+    },
+    {
+     "gen": 28,
+     "best_score": 0.5971,
+     "top10_lands": 9.7,
+     "best": {
+      "L": 10,
+      "C1": 12,
+      "C2": 10,
+      "F3": 5,
+      "R2": 3
+     },
+     "best_avg_mv": 1.77
+    },
+    {
+     "gen": 29,
+     "best_score": 0.58,
+     "top10_lands": 9.5,
+     "best": {
+      "L": 10,
+      "C1": 12,
+      "C2": 8,
+      "F3": 5,
+      "R2": 4,
+      "C3": 1
+     },
+     "best_avg_mv": 1.8
     }
    ],
    "champion": {
-    "L": 13,
-    "C1": 5,
-    "C2": 5,
-    "C3": 1,
-    "C4": 3,
-    "F3": 7,
-    "R2": 4,
-    "AR": 2
+    "L": 10,
+    "C1": 12,
+    "C2": 10,
+    "F3": 5,
+    "R2": 3
    },
    "champion_vs_field": {
-    "win": 0.5372,
-    "turns": 9.7144,
-    "screw": 0.1141,
-    "flood": 0.0109,
-    "color_stuck": 0.5572,
+    "win": 0.6438,
+    "turns": 8.9548,
+    "screw": 0.2643,
+    "flood": 0.001,
+    "color_stuck": 0.7115,
     "won_by": {
-     "flyers": 0.2503,
-     "ground": 0.2869
+     "flyers": 0.1124,
+     "ground": 0.5313
     },
     "lost_to": {
-     "flyers": 0.0181,
-     "ground": 0.3841,
-     "combo": 0.0606
+     "flyers": 0.0185,
+     "combo": 0.0536,
+     "ground": 0.2842
     }
    }
   },
@@ -3162,106 +5239,482 @@
    "history": [
     {
      "gen": 0,
-     "best_score": 0.6437,
-     "top10_lands": 15.5,
+     "best_score": 0.6511,
+     "top10_lands": 15.8,
      "best": {
       "C2": 3,
-      "C3": 2,
+      "C3": 1,
+      "C4": 2,
+      "C5": 3,
+      "C6": 4,
+      "F3": 4,
+      "R2": 2,
+      "R4": 2,
+      "D3": 1,
+      "L": 18
+     },
+     "best_avg_mv": 3.77
+    },
+    {
+     "gen": 1,
+     "best_score": 0.6318,
+     "top10_lands": 16.1,
+     "best": {
+      "C2": 3,
+      "C3": 1,
       "C4": 1,
       "C5": 3,
       "C6": 4,
       "F3": 1,
-      "R2": 3,
+      "R2": 4,
       "R4": 3,
-      "D3": 4,
-      "M2": 2,
+      "D3": 5,
+      "M2": 1,
       "L": 14
      },
      "best_avg_mv": 3.54
     },
     {
-     "gen": 1,
-     "best_score": 0.5962,
-     "top10_lands": 15.6,
+     "gen": 2,
+     "best_score": 0.6167,
+     "top10_lands": 15.7,
      "best": {
-      "L": 15,
-      "C2": 2,
+      "C2": 4,
       "C3": 2,
       "C4": 1,
-      "C5": 2,
+      "C5": 4,
       "C6": 4,
-      "F3": 1,
       "R2": 3,
-      "R4": 2,
-      "D3": 5,
-      "M2": 3
+      "R4": 3,
+      "D3": 4,
+      "L": 15
      },
-     "best_avg_mv": 3.44
+     "best_avg_mv": 3.68
     },
     {
-     "gen": 2,
-     "best_score": 0.6357,
-     "top10_lands": 14.7,
+     "gen": 3,
+     "best_score": 0.6342,
+     "top10_lands": 16.5,
      "best": {
+      "L": 17,
+      "C2": 2,
+      "C3": 1,
+      "C5": 3,
+      "C6": 5,
+      "R2": 2,
+      "R4": 5,
+      "D3": 3,
+      "M2": 2
+     },
+     "best_avg_mv": 3.87
+    },
+    {
+     "gen": 4,
+     "best_score": 0.6479,
+     "top10_lands": 17.2,
+     "best": {
+      "L": 16,
       "C2": 3,
       "C3": 2,
       "C5": 3,
-      "C6": 5,
-      "F3": 1,
+      "C6": 6,
+      "R2": 2,
+      "R4": 4,
+      "D3": 3,
+      "M2": 1
+     },
+     "best_avg_mv": 3.92
+    },
+    {
+     "gen": 5,
+     "best_score": 0.6417,
+     "top10_lands": 16.2,
+     "best": {
+      "L": 16,
+      "C2": 1,
+      "C5": 3,
+      "C6": 6,
+      "R2": 2,
+      "R4": 5,
+      "D3": 4,
+      "M2": 1,
+      "C3": 1,
+      "C4": 1
+     },
+     "best_avg_mv": 4.08
+    },
+    {
+     "gen": 6,
+     "best_score": 0.6312,
+     "top10_lands": 16.3,
+     "best": {
+      "C2": 4,
+      "C5": 3,
+      "C6": 6,
       "R2": 3,
       "R4": 3,
       "D3": 5,
       "M2": 1,
-      "L": 14
+      "L": 15
+     },
+     "best_avg_mv": 3.76
+    },
+    {
+     "gen": 7,
+     "best_score": 0.6154,
+     "top10_lands": 16.0,
+     "best": {
+      "C2": 4,
+      "C5": 3,
+      "C6": 6,
+      "R2": 3,
+      "R4": 3,
+      "D3": 5,
+      "M2": 1,
+      "L": 15
+     },
+     "best_avg_mv": 3.76
+    },
+    {
+     "gen": 8,
+     "best_score": 0.6146,
+     "top10_lands": 16.2,
+     "best": {
+      "L": 17,
+      "C2": 4,
+      "C5": 4,
+      "C6": 8,
+      "R4": 1,
+      "D3": 6
+     },
+     "best_avg_mv": 4.26
+    },
+    {
+     "gen": 9,
+     "best_score": 0.6142,
+     "top10_lands": 15.9,
+     "best": {
+      "L": 15,
+      "C2": 6,
+      "C5": 3,
+      "C6": 7,
+      "R4": 4,
+      "D3": 4,
+      "M2": 1
+     },
+     "best_avg_mv": 3.96
+    },
+    {
+     "gen": 10,
+     "best_score": 0.6162,
+     "top10_lands": 15.6,
+     "best": {
+      "L": 17,
+      "C2": 4,
+      "C5": 3,
+      "C6": 9,
+      "R4": 1,
+      "D3": 6
+     },
+     "best_avg_mv": 4.3
+    },
+    {
+     "gen": 11,
+     "best_score": 0.6067,
+     "top10_lands": 15.4,
+     "best": {
+      "L": 15,
+      "C2": 4,
+      "C5": 2,
+      "C6": 7,
+      "R4": 7,
+      "D3": 5
+     },
+     "best_avg_mv": 4.12
+    },
+    {
+     "gen": 12,
+     "best_score": 0.5904,
+     "top10_lands": 15.1,
+     "best": {
+      "L": 15,
+      "C2": 7,
+      "C5": 2,
+      "C6": 8,
+      "R4": 4,
+      "D3": 4
+     },
+     "best_avg_mv": 4.0
+    },
+    {
+     "gen": 13,
+     "best_score": 0.5696,
+     "top10_lands": 15.4,
+     "best": {
+      "L": 16,
+      "C2": 5,
+      "C5": 3,
+      "C6": 10,
+      "D3": 6
+     },
+     "best_avg_mv": 4.29
+    },
+    {
+     "gen": 14,
+     "best_score": 0.5663,
+     "top10_lands": 15.6,
+     "best": {
+      "L": 16,
+      "C2": 5,
+      "C5": 3,
+      "C6": 10,
+      "D3": 6
+     },
+     "best_avg_mv": 4.29
+    },
+    {
+     "gen": 15,
+     "best_score": 0.5542,
+     "top10_lands": 15.6,
+     "best": {
+      "L": 16,
+      "C2": 5,
+      "C5": 3,
+      "C6": 10,
+      "D3": 6
+     },
+     "best_avg_mv": 4.29
+    },
+    {
+     "gen": 16,
+     "best_score": 0.5737,
+     "top10_lands": 16.0,
+     "best": {
+      "L": 16,
+      "C2": 6,
+      "C5": 2,
+      "C6": 10,
+      "D3": 6
+     },
+     "best_avg_mv": 4.17
+    },
+    {
+     "gen": 17,
+     "best_score": 0.5746,
+     "top10_lands": 15.8,
+     "best": {
+      "L": 15,
+      "C2": 7,
+      "C6": 8,
+      "R4": 4,
+      "D3": 5,
+      "F3": 1
+     },
+     "best_avg_mv": 3.84
+    },
+    {
+     "gen": 18,
+     "best_score": 0.5521,
+     "top10_lands": 15.9,
+     "best": {
+      "L": 16,
+      "C2": 8,
+      "C6": 9,
+      "F3": 1,
+      "R4": 3,
+      "D3": 3
+     },
+     "best_avg_mv": 3.92
+    },
+    {
+     "gen": 19,
+     "best_score": 0.57,
+     "top10_lands": 15.7,
+     "best": {
+      "L": 15,
+      "C2": 9,
+      "C6": 9,
+      "R4": 3,
+      "D3": 3,
+      "M2": 1
+     },
+     "best_avg_mv": 3.8
+    },
+    {
+     "gen": 20,
+     "best_score": 0.5742,
+     "top10_lands": 15.5,
+     "best": {
+      "L": 15,
+      "C2": 9,
+      "C6": 7,
+      "R4": 3,
+      "D3": 4,
+      "M2": 1,
+      "C3": 1
+     },
+     "best_avg_mv": 3.56
+    },
+    {
+     "gen": 21,
+     "best_score": 0.5971,
+     "top10_lands": 15.3,
+     "best": {
+      "L": 15,
+      "C2": 6,
+      "C6": 9,
+      "R4": 2,
+      "D3": 6,
+      "C5": 1,
+      "M2": 1
+     },
+     "best_avg_mv": 3.96
+    },
+    {
+     "gen": 22,
+     "best_score": 0.5917,
+     "top10_lands": 15.5,
+     "best": {
+      "L": 16,
+      "C2": 9,
+      "C6": 7,
+      "R4": 3,
+      "D3": 4,
+      "C3": 1
+     },
+     "best_avg_mv": 3.62
+    },
+    {
+     "gen": 23,
+     "best_score": 0.5904,
+     "top10_lands": 15.4,
+     "best": {
+      "L": 15,
+      "C2": 6,
+      "C6": 9,
+      "R4": 2,
+      "D3": 6,
+      "C5": 1,
+      "M2": 1
+     },
+     "best_avg_mv": 3.96
+    },
+    {
+     "gen": 24,
+     "best_score": 0.5933,
+     "top10_lands": 15.8,
+     "best": {
+      "L": 16,
+      "C2": 7,
+      "C6": 8,
+      "F3": 2,
+      "R4": 2,
+      "D3": 4,
+      "M2": 1
+     },
+     "best_avg_mv": 3.75
+    },
+    {
+     "gen": 25,
+     "best_score": 0.5979,
+     "top10_lands": 16.1,
+     "best": {
+      "L": 17,
+      "C2": 9,
+      "C6": 7,
+      "F3": 2,
+      "R4": 1,
+      "D3": 3,
+      "C5": 1
      },
      "best_avg_mv": 3.65
     },
     {
-     "gen": 3,
-     "best_score": 0.645,
-     "top10_lands": 13.7,
+     "gen": 26,
+     "best_score": 0.59,
+     "top10_lands": 16.1,
      "best": {
-      "C2": 3,
-      "C3": 1,
-      "C5": 3,
-      "C6": 6,
-      "F3": 1,
-      "R2": 3,
-      "R4": 3,
-      "D3": 5,
-      "M2": 1,
-      "L": 14
+      "L": 17,
+      "C2": 9,
+      "C6": 7,
+      "F3": 2,
+      "R4": 1,
+      "D3": 3,
+      "C5": 1
      },
-     "best_avg_mv": 3.77
+     "best_avg_mv": 3.65
+    },
+    {
+     "gen": 27,
+     "best_score": 0.5938,
+     "top10_lands": 16.2,
+     "best": {
+      "L": 16,
+      "C2": 9,
+      "C5": 2,
+      "C6": 7,
+      "F3": 3,
+      "D3": 2,
+      "M2": 1
+     },
+     "best_avg_mv": 3.62
+    },
+    {
+     "gen": 28,
+     "best_score": 0.5917,
+     "top10_lands": 16.2,
+     "best": {
+      "L": 16,
+      "C2": 9,
+      "C5": 1,
+      "C6": 5,
+      "F3": 3,
+      "R4": 2,
+      "D3": 4
+     },
+     "best_avg_mv": 3.42
+    },
+    {
+     "gen": 29,
+     "best_score": 0.6262,
+     "top10_lands": 16.3,
+     "best": {
+      "L": 15,
+      "C2": 7,
+      "C5": 1,
+      "C6": 6,
+      "R4": 3,
+      "D3": 6,
+      "M2": 1,
+      "R2": 1
+     },
+     "best_avg_mv": 3.56
     }
    ],
    "champion": {
-    "C2": 3,
-    "C3": 1,
-    "C5": 3,
+    "L": 15,
+    "C2": 7,
+    "C5": 1,
     "C6": 6,
-    "F3": 1,
-    "R2": 3,
     "R4": 3,
-    "D3": 5,
+    "D3": 6,
     "M2": 1,
-    "L": 14
+    "R2": 1
    },
    "champion_vs_field": {
-    "win": 0.6312,
-    "turns": 10.5325,
-    "screw": 0.0688,
-    "flood": 0.0444,
-    "color_stuck": 0.3797,
+    "win": 0.6771,
+    "turns": 10.5778,
+    "screw": 0.046,
+    "flood": 0.0799,
+    "color_stuck": 0.3822,
     "won_by": {
-     "flyers": 0.0103,
-     "ground": 0.6209
+     "ground": 0.6771
     },
     "lost_to": {
-     "combo": 0.0709,
-     "flyers": 0.0241,
-     "ground": 0.2728,
-     "decking": 0.0009
+     "combo": 0.0762,
+     "decking": 0.0024,
+     "flyers": 0.0372,
+     "ground": 0.2071
     }
    }
   },
@@ -3271,8 +5724,8 @@
    "history": [
     {
      "gen": 0,
-     "best_score": 0.6875,
-     "top10_lands": 16.5,
+     "best_score": 0.6511,
+     "top10_lands": 16.2,
      "best": {
       "C4": 1,
       "C5": 4,
@@ -3288,77 +5741,466 @@
     },
     {
      "gen": 1,
-     "best_score": 0.6385,
-     "top10_lands": 15.7,
+     "best_score": 0.661,
+     "top10_lands": 15.5,
      "best": {
-      "C4": 1,
+      "L": 17,
       "C5": 3,
-      "C6": 5,
-      "R2": 4,
+      "C6": 6,
+      "F3": 1,
+      "R2": 3,
       "R4": 4,
       "D3": 3,
-      "M2": 3,
-      "L": 17
+      "M2": 3
      },
-     "best_avg_mv": 3.83
+     "best_avg_mv": 3.96
     },
     {
      "gen": 2,
-     "best_score": 0.6196,
-     "top10_lands": 16.8,
+     "best_score": 0.6467,
+     "top10_lands": 16.0,
      "best": {
       "L": 17,
-      "C4": 1,
-      "C5": 3,
-      "C6": 5,
-      "F3": 2,
+      "C5": 2,
+      "C6": 6,
+      "F3": 1,
       "R2": 3,
-      "R4": 4,
-      "D3": 2,
-      "M2": 3
+      "R4": 5,
+      "D3": 4,
+      "M2": 2
      },
-     "best_avg_mv": 3.87
+     "best_avg_mv": 3.96
     },
     {
      "gen": 3,
-     "best_score": 0.63,
-     "top10_lands": 16.6,
+     "best_score": 0.6284,
+     "top10_lands": 16.2,
      "best": {
-      "L": 17,
+      "L": 16,
+      "C5": 3,
+      "C6": 6,
+      "R2": 3,
+      "R4": 4,
+      "D3": 6,
+      "M2": 2
+     },
+     "best_avg_mv": 3.96
+    },
+    {
+     "gen": 4,
+     "best_score": 0.6562,
+     "top10_lands": 16.2,
+     "best": {
+      "L": 16,
+      "C5": 3,
+      "C6": 7,
+      "R2": 3,
+      "R4": 4,
+      "D3": 5,
+      "M2": 1,
+      "F3": 1
+     },
+     "best_avg_mv": 4.12
+    },
+    {
+     "gen": 5,
+     "best_score": 0.6217,
+     "top10_lands": 15.9,
+     "best": {
+      "L": 15,
       "C5": 4,
-      "C6": 5,
-      "R2": 4,
-      "R4": 3,
+      "C6": 7,
+      "R2": 3,
+      "R4": 6,
       "D3": 4,
+      "C4": 1
+     },
+     "best_avg_mv": 4.32
+    },
+    {
+     "gen": 6,
+     "best_score": 0.6379,
+     "top10_lands": 15.8,
+     "best": {
+      "L": 16,
+      "C5": 4,
+      "C6": 8,
+      "R2": 3,
+      "R4": 6,
+      "D3": 3
+     },
+     "best_avg_mv": 4.46
+    },
+    {
+     "gen": 7,
+     "best_score": 0.6279,
+     "top10_lands": 15.7,
+     "best": {
+      "L": 16,
+      "C5": 4,
+      "C6": 8,
+      "R2": 3,
+      "R4": 6,
+      "D3": 3
+     },
+     "best_avg_mv": 4.46
+    },
+    {
+     "gen": 8,
+     "best_score": 0.6012,
+     "top10_lands": 15.6,
+     "best": {
+      "L": 15,
+      "C5": 3,
+      "C6": 8,
+      "R2": 3,
+      "R4": 7,
+      "D3": 4
+     },
+     "best_avg_mv": 4.36
+    },
+    {
+     "gen": 9,
+     "best_score": 0.5746,
+     "top10_lands": 15.3,
+     "best": {
+      "L": 16,
+      "C5": 3,
+      "C6": 8,
+      "R2": 3,
+      "R4": 7,
+      "D3": 3
+     },
+     "best_avg_mv": 4.42
+    },
+    {
+     "gen": 10,
+     "best_score": 0.5804,
+     "top10_lands": 14.8,
+     "best": {
+      "L": 15,
+      "C5": 4,
+      "C6": 8,
+      "R2": 3,
+      "R4": 8,
+      "D3": 2
+     },
+     "best_avg_mv": 4.48
+    },
+    {
+     "gen": 11,
+     "best_score": 0.5854,
+     "top10_lands": 14.4,
+     "best": {
+      "L": 13,
+      "C5": 3,
+      "C6": 8,
+      "R2": 3,
+      "R4": 9,
+      "D3": 3,
+      "M2": 1
+     },
+     "best_avg_mv": 4.3
+    },
+    {
+     "gen": 12,
+     "best_score": 0.5721,
+     "top10_lands": 14.2,
+     "best": {
+      "L": 14,
+      "C5": 3,
+      "C6": 8,
+      "R2": 3,
+      "R4": 9,
+      "D3": 3
+     },
+     "best_avg_mv": 4.38
+    },
+    {
+     "gen": 13,
+     "best_score": 0.5758,
+     "top10_lands": 15.0,
+     "best": {
+      "L": 15,
+      "C5": 3,
+      "C6": 8,
+      "R2": 3,
+      "R4": 9,
+      "D3": 2
+     },
+     "best_avg_mv": 4.44
+    },
+    {
+     "gen": 14,
+     "best_score": 0.5704,
+     "top10_lands": 15.4,
+     "best": {
+      "L": 15,
+      "C5": 3,
+      "C6": 7,
+      "R2": 3,
+      "R4": 10,
+      "D3": 1,
+      "M2": 1
+     },
+     "best_avg_mv": 4.32
+    },
+    {
+     "gen": 15,
+     "best_score": 0.5792,
+     "top10_lands": 15.6,
+     "best": {
+      "L": 16,
+      "C6": 7,
+      "R2": 3,
+      "R4": 13,
+      "M2": 1
+     },
+     "best_avg_mv": 4.25
+    },
+    {
+     "gen": 16,
+     "best_score": 0.6125,
+     "top10_lands": 15.6,
+     "best": {
+      "L": 15,
+      "C5": 1,
+      "C6": 6,
+      "R2": 4,
+      "R4": 12,
+      "D3": 1,
+      "M2": 1
+     },
+     "best_avg_mv": 4.08
+    },
+    {
+     "gen": 17,
+     "best_score": 0.5696,
+     "top10_lands": 15.0,
+     "best": {
+      "L": 16,
+      "C5": 2,
+      "C6": 3,
+      "R2": 4,
+      "R4": 13,
+      "D3": 1,
+      "F3": 1
+     },
+     "best_avg_mv": 3.92
+    },
+    {
+     "gen": 18,
+     "best_score": 0.5725,
+     "top10_lands": 15.4,
+     "best": {
+      "L": 15,
+      "C5": 1,
+      "C6": 6,
+      "R2": 4,
+      "R4": 11,
+      "D3": 1,
+      "M2": 1,
+      "F3": 1
+     },
+     "best_avg_mv": 4.04
+    },
+    {
+     "gen": 19,
+     "best_score": 0.5942,
+     "top10_lands": 15.6,
+     "best": {
+      "L": 16,
+      "C5": 2,
+      "C6": 4,
+      "F3": 1,
+      "R2": 3,
+      "R4": 11,
       "M2": 3
      },
-     "best_avg_mv": 3.83
+     "best_avg_mv": 3.88
+    },
+    {
+     "gen": 20,
+     "best_score": 0.5854,
+     "top10_lands": 15.4,
+     "best": {
+      "L": 15,
+      "C5": 2,
+      "C6": 3,
+      "F3": 1,
+      "R2": 3,
+      "R4": 14,
+      "M2": 2
+     },
+     "best_avg_mv": 3.88
+    },
+    {
+     "gen": 21,
+     "best_score": 0.5833,
+     "top10_lands": 15.6,
+     "best": {
+      "L": 15,
+      "C5": 1,
+      "C6": 5,
+      "R2": 3,
+      "R4": 13,
+      "M2": 3
+     },
+     "best_avg_mv": 3.96
+    },
+    {
+     "gen": 22,
+     "best_score": 0.595,
+     "top10_lands": 15.8,
+     "best": {
+      "L": 16,
+      "C5": 2,
+      "C6": 2,
+      "F3": 3,
+      "R2": 3,
+      "R4": 12,
+      "D3": 1,
+      "M2": 1
+     },
+     "best_avg_mv": 3.75
+    },
+    {
+     "gen": 23,
+     "best_score": 0.6021,
+     "top10_lands": 15.7,
+     "best": {
+      "L": 16,
+      "C5": 2,
+      "C6": 2,
+      "F3": 3,
+      "R2": 4,
+      "R4": 12,
+      "D3": 1
+     },
+     "best_avg_mv": 3.75
+    },
+    {
+     "gen": 24,
+     "best_score": 0.5904,
+     "top10_lands": 15.5,
+     "best": {
+      "L": 16,
+      "C5": 2,
+      "C6": 2,
+      "F3": 3,
+      "R2": 3,
+      "R4": 12,
+      "D3": 1,
+      "M2": 1
+     },
+     "best_avg_mv": 3.75
+    },
+    {
+     "gen": 25,
+     "best_score": 0.5817,
+     "top10_lands": 15.1,
+     "best": {
+      "L": 15,
+      "C5": 2,
+      "C6": 5,
+      "F3": 2,
+      "R2": 3,
+      "R4": 10,
+      "D3": 1,
+      "M2": 1,
+      "C4": 1
+     },
+     "best_avg_mv": 4.04
+    },
+    {
+     "gen": 26,
+     "best_score": 0.5783,
+     "top10_lands": 14.9,
+     "best": {
+      "L": 15,
+      "C5": 2,
+      "C6": 5,
+      "F3": 2,
+      "R2": 3,
+      "R4": 10,
+      "D3": 1,
+      "M2": 1,
+      "C4": 1
+     },
+     "best_avg_mv": 4.04
+    },
+    {
+     "gen": 27,
+     "best_score": 0.6133,
+     "top10_lands": 15.0,
+     "best": {
+      "L": 15,
+      "C5": 2,
+      "C6": 5,
+      "F3": 2,
+      "R2": 3,
+      "R4": 10,
+      "M2": 3
+     },
+     "best_avg_mv": 3.92
+    },
+    {
+     "gen": 28,
+     "best_score": 0.5883,
+     "top10_lands": 15.0,
+     "best": {
+      "L": 15,
+      "C5": 3,
+      "C6": 3,
+      "F3": 2,
+      "R2": 3,
+      "R4": 12,
+      "M2": 2
+     },
+     "best_avg_mv": 3.88
+    },
+    {
+     "gen": 29,
+     "best_score": 0.5942,
+     "top10_lands": 14.7,
+     "best": {
+      "L": 14,
+      "C5": 4,
+      "C6": 6,
+      "F3": 2,
+      "R2": 3,
+      "R4": 9,
+      "M2": 2
+     },
+     "best_avg_mv": 4.15
     }
    ],
    "champion": {
-    "C4": 1,
-    "C5": 3,
-    "C6": 5,
+    "L": 16,
+    "C5": 2,
+    "C6": 2,
+    "F3": 3,
     "R2": 4,
-    "R4": 4,
-    "D3": 3,
-    "M2": 3,
-    "L": 17
+    "R4": 12,
+    "D3": 1
    },
    "champion_vs_field": {
-    "win": 0.6575,
-    "turns": 10.9681,
-    "screw": 0.0147,
-    "flood": 0.1203,
-    "color_stuck": 0.3931,
+    "win": 0.6235,
+    "turns": 13.833,
+    "screw": 0.0462,
+    "flood": 0.0519,
+    "color_stuck": 0.5024,
     "won_by": {
-     "ground": 0.6575
+     "decking": 0.0585,
+     "flyers": 0.0635,
+     "ground": 0.4981,
+     "timeout": 0.0034
     },
     "lost_to": {
-     "combo": 0.0666,
-     "flyers": 0.0144,
-     "ground": 0.2562,
-     "decking": 0.0053
+     "combo": 0.0328,
+     "flyers": 0.0053,
+     "ground": 0.3373,
+     "timeout": 0.0011
     }
    }
   },
@@ -3368,104 +6210,436 @@
    "history": [
     {
      "gen": 0,
-     "best_score": 0.5354,
-     "top10_lands": 15.4,
+     "best_score": 0.5422,
+     "top10_lands": 16.6,
      "best": {
-      "C2": 3,
+      "C2": 2,
       "C3": 2,
-      "R2": 3,
+      "R2": 4,
+      "D3": 1,
+      "K1": 3,
+      "K2": 5,
+      "T2": 4,
+      "L": 19
+     },
+     "best_avg_mv": 2.52
+    },
+    {
+     "gen": 1,
+     "best_score": 0.5631,
+     "top10_lands": 17.3,
+     "best": {
+      "C2": 2,
+      "C3": 2,
+      "R2": 4,
+      "D3": 1,
+      "K1": 3,
+      "K2": 5,
+      "T2": 4,
+      "L": 19
+     },
+     "best_avg_mv": 2.52
+    },
+    {
+     "gen": 2,
+     "best_score": 0.5676,
+     "top10_lands": 17.5,
+     "best": {
+      "L": 17,
+      "C2": 5,
+      "C3": 2,
+      "R2": 4,
       "R4": 3,
       "D3": 1,
-      "M2": 2,
       "K1": 3,
       "K2": 4,
-      "T2": 2,
-      "L": 17
+      "T2": 1
      },
      "best_avg_mv": 2.7
     },
     {
-     "gen": 1,
-     "best_score": 0.55,
-     "top10_lands": 14.9,
+     "gen": 3,
+     "best_score": 0.604,
+     "top10_lands": 16.6,
      "best": {
-      "L": 12,
-      "C2": 4,
-      "C3": 3,
-      "R2": 5,
-      "R4": 5,
-      "D3": 5,
-      "M2": 1,
-      "K1": 2,
-      "K2": 2,
+      "L": 17,
+      "C2": 6,
+      "C3": 1,
+      "R2": 4,
+      "R4": 2,
+      "K1": 4,
+      "K2": 5,
       "T2": 1
      },
-     "best_avg_mv": 2.79
+     "best_avg_mv": 2.61
     },
     {
-     "gen": 2,
-     "best_score": 0.6339,
-     "top10_lands": 14.2,
+     "gen": 4,
+     "best_score": 0.6142,
+     "top10_lands": 16.4,
      "best": {
-      "L": 11,
-      "C2": 4,
-      "C3": 3,
+      "L": 16,
+      "C2": 6,
+      "C3": 1,
       "R2": 5,
-      "R4": 5,
-      "D3": 4,
-      "M2": 1,
+      "R4": 2,
       "K1": 4,
-      "K2": 3
+      "K2": 5,
+      "T2": 1
+     },
+     "best_avg_mv": 2.58
+    },
+    {
+     "gen": 5,
+     "best_score": 0.5967,
+     "top10_lands": 16.1,
+     "best": {
+      "L": 16,
+      "C2": 6,
+      "C3": 1,
+      "R2": 5,
+      "R4": 2,
+      "K1": 4,
+      "K2": 5,
+      "T2": 1
+     },
+     "best_avg_mv": 2.58
+    },
+    {
+     "gen": 6,
+     "best_score": 0.6046,
+     "top10_lands": 15.9,
+     "best": {
+      "L": 15,
+      "C2": 6,
+      "C3": 1,
+      "R2": 4,
+      "R4": 2,
+      "K1": 5,
+      "K2": 6,
+      "T2": 1
+     },
+     "best_avg_mv": 2.64
+    },
+    {
+     "gen": 7,
+     "best_score": 0.6192,
+     "top10_lands": 15.6,
+     "best": {
+      "L": 15,
+      "C2": 7,
+      "C3": 1,
+      "R2": 5,
+      "R4": 2,
+      "K1": 5,
+      "K2": 5
+     },
+     "best_avg_mv": 2.6
+    },
+    {
+     "gen": 8,
+     "best_score": 0.6233,
+     "top10_lands": 15.7,
+     "best": {
+      "L": 15,
+      "C2": 6,
+      "R2": 4,
+      "R4": 2,
+      "K1": 6,
+      "K2": 7
+     },
+     "best_avg_mv": 2.68
+    },
+    {
+     "gen": 9,
+     "best_score": 0.635,
+     "top10_lands": 15.5,
+     "best": {
+      "L": 15,
+      "C2": 6,
+      "R2": 4,
+      "R4": 2,
+      "K1": 6,
+      "K2": 7
+     },
+     "best_avg_mv": 2.68
+    },
+    {
+     "gen": 10,
+     "best_score": 0.6396,
+     "top10_lands": 15.6,
+     "best": {
+      "L": 15,
+      "C2": 6,
+      "R2": 4,
+      "R4": 2,
+      "K1": 6,
+      "K2": 7
+     },
+     "best_avg_mv": 2.68
+    },
+    {
+     "gen": 11,
+     "best_score": 0.64,
+     "top10_lands": 16.2,
+     "best": {
+      "L": 17,
+      "C2": 6,
+      "R2": 3,
+      "K1": 7,
+      "K2": 7
+     },
+     "best_avg_mv": 2.61
+    },
+    {
+     "gen": 12,
+     "best_score": 0.6408,
+     "top10_lands": 16.9,
+     "best": {
+      "L": 18,
+      "C2": 4,
+      "R2": 3,
+      "K1": 8,
+      "K2": 7
+     },
+     "best_avg_mv": 2.68
+    },
+    {
+     "gen": 13,
+     "best_score": 0.6533,
+     "top10_lands": 17.1,
+     "best": {
+      "L": 18,
+      "C2": 4,
+      "R2": 2,
+      "K1": 8,
+      "K2": 8
+     },
+     "best_avg_mv": 2.73
+    },
+    {
+     "gen": 14,
+     "best_score": 0.6546,
+     "top10_lands": 17.3,
+     "best": {
+      "L": 18,
+      "C2": 4,
+      "R2": 2,
+      "K1": 8,
+      "K2": 8
+     },
+     "best_avg_mv": 2.73
+    },
+    {
+     "gen": 15,
+     "best_score": 0.6458,
+     "top10_lands": 17.9,
+     "best": {
+      "L": 18,
+      "C2": 3,
+      "R2": 2,
+      "K1": 8,
+      "K2": 9
+     },
+     "best_avg_mv": 2.77
+    },
+    {
+     "gen": 16,
+     "best_score": 0.6529,
+     "top10_lands": 17.7,
+     "best": {
+      "L": 18,
+      "C2": 3,
+      "R2": 2,
+      "K1": 8,
+      "K2": 9
+     },
+     "best_avg_mv": 2.77
+    },
+    {
+     "gen": 17,
+     "best_score": 0.6488,
+     "top10_lands": 17.6,
+     "best": {
+      "L": 17,
+      "C2": 3,
+      "R2": 1,
+      "K1": 10,
+      "K2": 9
      },
      "best_avg_mv": 2.83
     },
     {
-     "gen": 3,
-     "best_score": 0.5683,
-     "top10_lands": 12.1,
+     "gen": 18,
+     "best_score": 0.6512,
+     "top10_lands": 17.2,
      "best": {
-      "L": 11,
-      "C2": 4,
-      "C3": 3,
-      "R2": 5,
-      "R4": 5,
-      "D3": 4,
-      "M2": 1,
-      "K1": 4,
-      "K2": 3
+      "L": 17,
+      "C2": 3,
+      "K1": 10,
+      "K2": 10
      },
-     "best_avg_mv": 2.83
+     "best_avg_mv": 2.87
+    },
+    {
+     "gen": 19,
+     "best_score": 0.6479,
+     "top10_lands": 17.1,
+     "best": {
+      "L": 17,
+      "C2": 3,
+      "K1": 10,
+      "K2": 10
+     },
+     "best_avg_mv": 2.87
+    },
+    {
+     "gen": 20,
+     "best_score": 0.6462,
+     "top10_lands": 17.3,
+     "best": {
+      "L": 18,
+      "C2": 3,
+      "R2": 1,
+      "K1": 9,
+      "K2": 9
+     },
+     "best_avg_mv": 2.82
+    },
+    {
+     "gen": 21,
+     "best_score": 0.6571,
+     "top10_lands": 17.6,
+     "best": {
+      "L": 18,
+      "C2": 2,
+      "K1": 10,
+      "K2": 10
+     },
+     "best_avg_mv": 2.91
+    },
+    {
+     "gen": 22,
+     "best_score": 0.6421,
+     "top10_lands": 17.4,
+     "best": {
+      "L": 17,
+      "C2": 1,
+      "K1": 11,
+      "K2": 10,
+      "R2": 1
+     },
+     "best_avg_mv": 2.91
+    },
+    {
+     "gen": 23,
+     "best_score": 0.6375,
+     "top10_lands": 17.6,
+     "best": {
+      "L": 18,
+      "C2": 2,
+      "K1": 10,
+      "K2": 10
+     },
+     "best_avg_mv": 2.91
+    },
+    {
+     "gen": 24,
+     "best_score": 0.6525,
+     "top10_lands": 17.7,
+     "best": {
+      "L": 19,
+      "C2": 1,
+      "K1": 11,
+      "K2": 9
+     },
+     "best_avg_mv": 2.95
+    },
+    {
+     "gen": 25,
+     "best_score": 0.6529,
+     "top10_lands": 18.2,
+     "best": {
+      "L": 18,
+      "C2": 1,
+      "K1": 11,
+      "K2": 10
+     },
+     "best_avg_mv": 2.95
+    },
+    {
+     "gen": 26,
+     "best_score": 0.6533,
+     "top10_lands": 18.0,
+     "best": {
+      "L": 18,
+      "C2": 1,
+      "K1": 11,
+      "K2": 10
+     },
+     "best_avg_mv": 2.95
+    },
+    {
+     "gen": 27,
+     "best_score": 0.6433,
+     "top10_lands": 18.4,
+     "best": {
+      "L": 17,
+      "C2": 1,
+      "K1": 11,
+      "K2": 10,
+      "R2": 1
+     },
+     "best_avg_mv": 2.91
+    },
+    {
+     "gen": 28,
+     "best_score": 0.6417,
+     "top10_lands": 18.6,
+     "best": {
+      "L": 18,
+      "C2": 2,
+      "K1": 10,
+      "K2": 10
+     },
+     "best_avg_mv": 2.91
+    },
+    {
+     "gen": 29,
+     "best_score": 0.6362,
+     "top10_lands": 18.4,
+     "best": {
+      "L": 19,
+      "K1": 10,
+      "K2": 10,
+      "R2": 1
+     },
+     "best_avg_mv": 2.95
     }
    ],
    "champion": {
-    "L": 11,
-    "C2": 4,
-    "C3": 3,
-    "R2": 5,
-    "R4": 5,
-    "D3": 4,
-    "M2": 1,
-    "K1": 4,
-    "K2": 3
+    "L": 18,
+    "C2": 2,
+    "K1": 10,
+    "K2": 10
    },
    "champion_vs_field": {
-    "win": 0.5416,
-    "turns": 11.0956,
-    "screw": 0.1625,
-    "flood": 0.0056,
-    "color_stuck": 0.4181,
+    "win": 0.7475,
+    "turns": 6.4391,
+    "screw": 0.0203,
+    "flood": 0.0842,
+    "color_stuck": 0.1614,
     "won_by": {
-     "ground": 0.0669,
-     "combo": 0.4747
+     "combo": 0.7468,
+     "ground": 0.0007
     },
     "lost_to": {
-     "combo": 0.0566,
-     "flyers": 0.0247,
-     "ground": 0.3725,
-     "decking": 0.0047
+     "flyers": 0.0101,
+     "combo": 0.0187,
+     "ground": 0.2238
     }
    }
   }
  },
- "seconds": 141
+ "seconds": 4188
 }
