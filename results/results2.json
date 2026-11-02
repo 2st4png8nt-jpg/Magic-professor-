@@ -1,0 +1,6496 @@
+{
+ "cores": 2,
+ "games_draft_con": 2500,
+ "games_brawl": 1200,
+ "real_advice": {
+  "draft40": "17 lands default; 16 if few cards above 3 mana; 18 for high curve / mana sinks (Draftsim, Karsten)",
+  "con60": "about 24 lands (40%); aggro 20-22, control 26-28; Karsten: 19.59 + 1.90 x avg MV - 0.28 per cheap draw/ramp",
+  "brawl": "Commander-style template: 36-38 lands, 8-12 ramp, 10-12 draw, 8-10 removal, 2-3 wipes",
+  "sbrawl": "sample Standard Brawl lists run 24-26 lands",
+  "cmdr1v1": "36-38 lands; Karsten 99-card: 31.42 + 3.13 x avg MV - 0.28 per cheap draw/ramp"
+ },
+ "experiments": [
+  {
+   "format": "draft40",
+   "name": "lands",
+   "label": "Lands in a typical draft deck (with sinks + a bomb)",
+   "rows": [
+    {
+     "x": 14,
+     "avg_mv": 3.15,
+     "win": 0.5031,
+     "turns": 10.5922,
+     "screw": 0.0828,
+     "flood": 0.0206,
+     "color_stuck": 0.4744,
+     "won_by": {
+      "flyers": 0.1391,
+      "ground": 0.364
+     },
+     "lost_to": {
+      "drain": 0.014,
+      "ground": 0.3003,
+      "combo": 0.0756,
+      "flyers": 0.107,
+      "timeout": 0.0001
+     }
+    },
+    {
+     "x": 15,
+     "avg_mv": 3.12,
+     "win": 0.5225,
+     "turns": 10.6294,
+     "screw": 0.0629,
+     "flood": 0.0317,
+     "color_stuck": 0.4704,
+     "won_by": {
+      "flyers": 0.1537,
+      "ground": 0.3688
+     },
+     "lost_to": {
+      "drain": 0.0124,
+      "ground": 0.2898,
+      "combo": 0.0727,
+      "flyers": 0.1026
+     }
+    },
+    {
+     "x": 16,
+     "avg_mv": 3.12,
+     "win": 0.5312,
+     "turns": 10.6452,
+     "screw": 0.0456,
+     "flood": 0.0542,
+     "color_stuck": 0.4669,
+     "won_by": {
+      "flyers": 0.1638,
+      "ground": 0.3675
+     },
+     "lost_to": {
+      "drain": 0.0112,
+      "ground": 0.2844,
+      "combo": 0.0742,
+      "flyers": 0.0988
+     }
+    },
+    {
+     "x": 17,
+     "avg_mv": 3.17,
+     "win": 0.5313,
+     "turns": 10.6512,
+     "screw": 0.0331,
+     "flood": 0.0754,
+     "color_stuck": 0.4595,
+     "won_by": {
+      "flyers": 0.1731,
+      "ground": 0.3583
+     },
+     "lost_to": {
+      "drain": 0.0115,
+      "ground": 0.2872,
+      "combo": 0.0727,
+      "flyers": 0.0973
+     }
+    },
+    {
+     "x": 18,
+     "avg_mv": 3.23,
+     "win": 0.5063,
+     "turns": 10.6287,
+     "screw": 0.0223,
+     "flood": 0.1086,
+     "color_stuck": 0.4344,
+     "won_by": {
+      "ground": 0.3353,
+      "decking": 0.0001,
+      "flyers": 0.1709
+     },
+     "lost_to": {
+      "drain": 0.0121,
+      "ground": 0.3052,
+      "combo": 0.0784,
+      "flyers": 0.0979
+     }
+    },
+    {
+     "x": 19,
+     "avg_mv": 3.29,
+     "win": 0.4964,
+     "turns": 10.6129,
+     "screw": 0.0165,
+     "flood": 0.1407,
+     "color_stuck": 0.4301,
+     "won_by": {
+      "flyers": 0.1789,
+      "ground": 0.3175
+     },
+     "lost_to": {
+      "drain": 0.0118,
+      "ground": 0.315,
+      "combo": 0.0777,
+      "flyers": 0.0992
+     }
+    },
+    {
+     "x": 20,
+     "avg_mv": 3.35,
+     "win": 0.4776,
+     "turns": 10.5276,
+     "screw": 0.012,
+     "flood": 0.1868,
+     "color_stuck": 0.4138,
+     "won_by": {
+      "flyers": 0.183,
+      "ground": 0.2946
+     },
+     "lost_to": {
+      "drain": 0.01,
+      "ground": 0.3362,
+      "combo": 0.079,
+      "flyers": 0.0972
+     }
+    }
+   ],
+   "best": 17
+  },
+  {
+   "format": "draft40",
+   "name": "lands_nosinks",
+   "label": "Same deck with mana sinks and bomb replaced by vanilla creatures",
+   "rows": [
+    {
+     "x": 14,
+     "avg_mv": 3.15,
+     "win": 0.4552,
+     "turns": 10.6236,
+     "screw": 0.0847,
+     "flood": 0.0211,
+     "color_stuck": 0.4808,
+     "won_by": {
+      "flyers": 0.0247,
+      "ground": 0.4305
+     },
+     "lost_to": {
+      "drain": 0.0161,
+      "ground": 0.3135,
+      "combo": 0.0802,
+      "flyers": 0.1349,
+      "timeout": 0.0001
+     }
+    },
+    {
+     "x": 15,
+     "avg_mv": 3.12,
+     "win": 0.4742,
+     "turns": 10.6518,
+     "screw": 0.0625,
+     "flood": 0.0323,
+     "color_stuck": 0.4697,
+     "won_by": {
+      "flyers": 0.0261,
+      "ground": 0.4481
+     },
+     "lost_to": {
+      "drain": 0.0135,
+      "ground": 0.3008,
+      "combo": 0.0779,
+      "flyers": 0.1337
+     }
+    },
+    {
+     "x": 16,
+     "avg_mv": 3.12,
+     "win": 0.4796,
+     "turns": 10.6893,
+     "screw": 0.0459,
+     "flood": 0.0534,
+     "color_stuck": 0.4576,
+     "won_by": {
+      "flyers": 0.0305,
+      "ground": 0.4492
+     },
+     "lost_to": {
+      "drain": 0.0143,
+      "ground": 0.2989,
+      "combo": 0.077,
+      "flyers": 0.1303
+     }
+    },
+    {
+     "x": 17,
+     "avg_mv": 3.17,
+     "win": 0.4701,
+     "turns": 10.7171,
+     "screw": 0.0336,
+     "flood": 0.0774,
+     "color_stuck": 0.4428,
+     "won_by": {
+      "flyers": 0.0244,
+      "ground": 0.4456
+     },
+     "lost_to": {
+      "drain": 0.0141,
+      "ground": 0.3032,
+      "combo": 0.0805,
+      "flyers": 0.1321
+     }
+    },
+    {
+     "x": 18,
+     "avg_mv": 3.23,
+     "win": 0.445,
+     "turns": 10.6733,
+     "screw": 0.0221,
+     "flood": 0.1094,
+     "color_stuck": 0.4205,
+     "won_by": {
+      "flyers": 0.0277,
+      "ground": 0.4173
+     },
+     "lost_to": {
+      "drain": 0.0151,
+      "ground": 0.3284,
+      "combo": 0.0808,
+      "flyers": 0.1308
+     }
+    },
+    {
+     "x": 19,
+     "avg_mv": 3.29,
+     "win": 0.4199,
+     "turns": 10.6514,
+     "screw": 0.0157,
+     "flood": 0.1414,
+     "color_stuck": 0.4127,
+     "won_by": {
+      "ground": 0.3957,
+      "flyers": 0.0241,
+      "timeout": 0.0001
+     },
+     "lost_to": {
+      "drain": 0.0143,
+      "ground": 0.3504,
+      "combo": 0.0866,
+      "flyers": 0.1288
+     }
+    },
+    {
+     "x": 20,
+     "avg_mv": 3.3,
+     "win": 0.4124,
+     "turns": 10.6169,
+     "screw": 0.0109,
+     "flood": 0.1935,
+     "color_stuck": 0.4099,
+     "won_by": {
+      "flyers": 0.0248,
+      "ground": 0.3876
+     },
+     "lost_to": {
+      "drain": 0.012,
+      "ground": 0.3606,
+      "combo": 0.0866,
+      "flyers": 0.1285
+     }
+    }
+   ],
+   "best": 16
+  },
+  {
+   "format": "draft40",
+   "name": "curve_low (aggro)",
+   "label": "Lands for a low (aggro) curve",
+   "rows": [
+    {
+     "x": 14,
+     "avg_mv": 2.38,
+     "win": 0.4908,
+     "turns": 10.4596,
+     "screw": 0.0852,
+     "flood": 0.0215,
+     "color_stuck": 0.472,
+     "won_by": {
+      "ground": 0.4552,
+      "flyers": 0.0355,
+      "timeout": 0.0001
+     },
+     "lost_to": {
+      "drain": 0.0185,
+      "ground": 0.2551,
+      "combo": 0.0631,
+      "flyers": 0.1723,
+      "timeout": 0.0002
+     }
+    },
+    {
+     "x": 15,
+     "avg_mv": 2.4,
+     "win": 0.4627,
+     "turns": 10.5076,
+     "screw": 0.0623,
+     "flood": 0.0369,
+     "color_stuck": 0.463,
+     "won_by": {
+      "ground": 0.4272,
+      "flyers": 0.0348,
+      "timeout": 0.0006
+     },
+     "lost_to": {
+      "drain": 0.02,
+      "ground": 0.2728,
+      "combo": 0.0654,
+      "flyers": 0.1789,
+      "timeout": 0.0003
+     }
+    },
+    {
+     "x": 16,
+     "avg_mv": 2.42,
+     "win": 0.4408,
+     "turns": 10.5237,
+     "screw": 0.0459,
+     "flood": 0.0513,
+     "color_stuck": 0.452,
+     "won_by": {
+      "ground": 0.3997,
+      "flyers": 0.041,
+      "timeout": 0.0001
+     },
+     "lost_to": {
+      "drain": 0.0206,
+      "ground": 0.2934,
+      "combo": 0.0669,
+      "flyers": 0.1779,
+      "timeout": 0.0003
+     }
+    },
+    {
+     "x": 17,
+     "avg_mv": 2.39,
+     "win": 0.4192,
+     "turns": 10.5473,
+     "screw": 0.0313,
+     "flood": 0.0786,
+     "color_stuck": 0.4508,
+     "won_by": {
+      "ground": 0.3771,
+      "flyers": 0.0416,
+      "timeout": 0.0004
+     },
+     "lost_to": {
+      "drain": 0.0215,
+      "ground": 0.3156,
+      "combo": 0.0662,
+      "flyers": 0.1772,
+      "timeout": 0.0004
+     }
+    },
+    {
+     "x": 18,
+     "avg_mv": 2.41,
+     "win": 0.3833,
+     "turns": 10.343,
+     "screw": 0.0233,
+     "flood": 0.1096,
+     "color_stuck": 0.4419,
+     "won_by": {
+      "ground": 0.3447,
+      "flyers": 0.0385,
+      "timeout": 0.0002
+     },
+     "lost_to": {
+      "drain": 0.0242,
+      "ground": 0.3384,
+      "combo": 0.0722,
+      "flyers": 0.1817,
+      "timeout": 0.0001
+     }
+    },
+    {
+     "x": 19,
+     "avg_mv": 2.48,
+     "win": 0.3345,
+     "turns": 10.3916,
+     "screw": 0.0166,
+     "flood": 0.1439,
+     "color_stuck": 0.4118,
+     "won_by": {
+      "ground": 0.3,
+      "flyers": 0.0345,
+      "timeout": 0.0001
+     },
+     "lost_to": {
+      "drain": 0.0257,
+      "ground": 0.3734,
+      "combo": 0.0767,
+      "flyers": 0.1895,
+      "timeout": 0.0001
+     }
+    },
+    {
+     "x": 20,
+     "avg_mv": 2.5,
+     "win": 0.2949,
+     "turns": 10.3278,
+     "screw": 0.0103,
+     "flood": 0.1905,
+     "color_stuck": 0.3873,
+     "won_by": {
+      "ground": 0.2607,
+      "flyers": 0.034,
+      "timeout": 0.0001
+     },
+     "lost_to": {
+      "drain": 0.0259,
+      "ground": 0.4088,
+      "combo": 0.0798,
+      "flyers": 0.1907
+     }
+    }
+   ],
+   "best": 14
+  },
+  {
+   "format": "draft40",
+   "name": "curve_medium",
+   "label": "Lands for a medium curve",
+   "rows": [
+    {
+     "x": 14,
+     "avg_mv": 3.15,
+     "win": 0.4969,
+     "turns": 10.6228,
+     "screw": 0.0842,
+     "flood": 0.0209,
+     "color_stuck": 0.4792,
+     "won_by": {
+      "flyers": 0.1366,
+      "ground": 0.3603
+     },
+     "lost_to": {
+      "drain": 0.0127,
+      "ground": 0.305,
+      "combo": 0.0764,
+      "flyers": 0.109
+     }
+    },
+    {
+     "x": 15,
+     "avg_mv": 3.12,
+     "win": 0.5244,
+     "turns": 10.6298,
+     "screw": 0.0621,
+     "flood": 0.0338,
+     "color_stuck": 0.4676,
+     "won_by": {
+      "flyers": 0.1537,
+      "ground": 0.3707
+     },
+     "lost_to": {
+      "drain": 0.0118,
+      "ground": 0.2838,
+      "combo": 0.0739,
+      "flyers": 0.1061
+     }
+    },
+    {
+     "x": 16,
+     "avg_mv": 3.12,
+     "win": 0.5316,
+     "turns": 10.6621,
+     "screw": 0.0452,
+     "flood": 0.0532,
+     "color_stuck": 0.466,
+     "won_by": {
+      "flyers": 0.1646,
+      "ground": 0.367
+     },
+     "lost_to": {
+      "drain": 0.0108,
+      "ground": 0.2838,
+      "combo": 0.0737,
+      "flyers": 0.1001
+     }
+    },
+    {
+     "x": 17,
+     "avg_mv": 3.17,
+     "win": 0.5342,
+     "turns": 10.6504,
+     "screw": 0.0317,
+     "flood": 0.0791,
+     "color_stuck": 0.4596,
+     "won_by": {
+      "flyers": 0.1694,
+      "ground": 0.3648
+     },
+     "lost_to": {
+      "drain": 0.012,
+      "ground": 0.2856,
+      "combo": 0.0725,
+      "flyers": 0.0958
+     }
+    },
+    {
+     "x": 18,
+     "avg_mv": 3.23,
+     "win": 0.5091,
+     "turns": 10.6429,
+     "screw": 0.0227,
+     "flood": 0.1071,
+     "color_stuck": 0.4467,
+     "won_by": {
+      "flyers": 0.1687,
+      "ground": 0.3404
+     },
+     "lost_to": {
+      "drain": 0.0115,
+      "ground": 0.3051,
+      "combo": 0.0783,
+      "flyers": 0.0959
+     }
+    },
+    {
+     "x": 19,
+     "avg_mv": 3.19,
+     "win": 0.5143,
+     "turns": 10.6459,
+     "screw": 0.017,
+     "flood": 0.1434,
+     "color_stuck": 0.418,
+     "won_by": {
+      "flyers": 0.1834,
+      "ground": 0.331
+     },
+     "lost_to": {
+      "drain": 0.0117,
+      "ground": 0.3057,
+      "combo": 0.0756,
+      "flyers": 0.0926,
+      "timeout": 0.0001
+     }
+    },
+    {
+     "x": 20,
+     "avg_mv": 3.2,
+     "win": 0.5028,
+     "turns": 10.5999,
+     "screw": 0.0109,
+     "flood": 0.1928,
+     "color_stuck": 0.3878,
+     "won_by": {
+      "flyers": 0.187,
+      "ground": 0.3158
+     },
+     "lost_to": {
+      "drain": 0.0112,
+      "ground": 0.313,
+      "combo": 0.079,
+      "flyers": 0.0941
+     }
+    }
+   ],
+   "best": 17
+  },
+  {
+   "format": "draft40",
+   "name": "curve_high (big)",
+   "label": "Lands for a high (big) curve",
+   "rows": [
+    {
+     "x": 14,
+     "avg_mv": 3.88,
+     "win": 0.5339,
+     "turns": 10.1704,
+     "screw": 0.0854,
+     "flood": 0.029,
+     "color_stuck": 0.468,
+     "won_by": {
+      "ground": 0.3532,
+      "decking": 0.0001,
+      "flyers": 0.1806
+     },
+     "lost_to": {
+      "drain": 0.0106,
+      "ground": 0.3064,
+      "combo": 0.0781,
+      "flyers": 0.0711,
+      "timeout": 0.0001
+     }
+    },
+    {
+     "x": 15,
+     "avg_mv": 3.84,
+     "win": 0.5776,
+     "turns": 10.2953,
+     "screw": 0.0646,
+     "flood": 0.0452,
+     "color_stuck": 0.4809,
+     "won_by": {
+      "flyers": 0.2101,
+      "ground": 0.3674
+     },
+     "lost_to": {
+      "drain": 0.0095,
+      "ground": 0.2685,
+      "decking": 0.0001,
+      "combo": 0.0762,
+      "flyers": 0.0682
+     }
+    },
+    {
+     "x": 16,
+     "avg_mv": 3.83,
+     "win": 0.6041,
+     "turns": 10.3628,
+     "screw": 0.0459,
+     "flood": 0.0662,
+     "color_stuck": 0.4634,
+     "won_by": {
+      "ground": 0.3825,
+      "flyers": 0.2217,
+      "timeout": 0.0001
+     },
+     "lost_to": {
+      "drain": 0.0094,
+      "ground": 0.2472,
+      "combo": 0.0742,
+      "flyers": 0.0651
+     }
+    },
+    {
+     "x": 17,
+     "avg_mv": 3.91,
+     "win": 0.6221,
+     "turns": 10.3428,
+     "screw": 0.0321,
+     "flood": 0.097,
+     "color_stuck": 0.4511,
+     "won_by": {
+      "ground": 0.382,
+      "decking": 0.0001,
+      "flyers": 0.2401
+     },
+     "lost_to": {
+      "drain": 0.0073,
+      "ground": 0.2398,
+      "combo": 0.0742,
+      "flyers": 0.0564,
+      "timeout": 0.0001
+     }
+    },
+    {
+     "x": 18,
+     "avg_mv": 3.91,
+     "win": 0.6235,
+     "turns": 10.1595,
+     "screw": 0.0243,
+     "flood": 0.131,
+     "color_stuck": 0.4279,
+     "won_by": {
+      "ground": 0.3811,
+      "decking": 0.0001,
+      "flyers": 0.2423
+     },
+     "lost_to": {
+      "drain": 0.008,
+      "ground": 0.2264,
+      "combo": 0.0758,
+      "flyers": 0.0662
+     }
+    },
+    {
+     "x": 19,
+     "avg_mv": 3.81,
+     "win": 0.6208,
+     "turns": 10.2185,
+     "screw": 0.0166,
+     "flood": 0.1734,
+     "color_stuck": 0.4183,
+     "won_by": {
+      "flyers": 0.2535,
+      "ground": 0.3672
+     },
+     "lost_to": {
+      "drain": 0.0086,
+      "ground": 0.2307,
+      "combo": 0.0741,
+      "flyers": 0.0659
+     }
+    },
+    {
+     "x": 20,
+     "avg_mv": 3.75,
+     "win": 0.6149,
+     "turns": 10.2508,
+     "screw": 0.0103,
+     "flood": 0.2233,
+     "color_stuck": 0.3883,
+     "won_by": {
+      "ground": 0.3412,
+      "flyers": 0.2737,
+      "timeout": 0.0001
+     },
+     "lost_to": {
+      "drain": 0.0101,
+      "ground": 0.2333,
+      "combo": 0.0736,
+      "flyers": 0.0681
+     }
+    }
+   ],
+   "best": 18
+  },
+  {
+   "format": "draft40",
+   "name": "creatures",
+   "label": "Creature count (of 23 spells, rest = removal/draw/interaction)",
+   "rows": [
+    {
+     "x": 9,
+     "avg_mv": 3.09,
+     "win": 0.5652,
+     "turns": 13.5107,
+     "screw": 0.0318,
+     "flood": 0.0898,
+     "color_stuck": 0.5313,
+     "won_by": {
+      "ground": 0.3236,
+      "decking": 0.0014,
+      "flyers": 0.2386,
+      "timeout": 0.0016
+     },
+     "lost_to": {
+      "drain": 0.0036,
+      "ground": 0.3306,
+      "decking": 0.0084,
+      "combo": 0.0467,
+      "flyers": 0.0435,
+      "timeout": 0.0019
+     }
+    },
+    {
+     "x": 10,
+     "avg_mv": 2.96,
+     "win": 0.4197,
+     "turns": 13.7881,
+     "screw": 0.0331,
+     "flood": 0.0834,
+     "color_stuck": 0.511,
+     "won_by": {
+      "ground": 0.3966,
+      "decking": 0.0011,
+      "flyers": 0.0206,
+      "timeout": 0.0014
+     },
+     "lost_to": {
+      "drain": 0.007,
+      "decking": 0.0076,
+      "timeout": 0.0014,
+      "ground": 0.4192,
+      "combo": 0.0616,
+      "flyers": 0.0835
+     }
+    },
+    {
+     "x": 11,
+     "avg_mv": 3.09,
+     "win": 0.5212,
+     "turns": 12.6759,
+     "screw": 0.0338,
+     "flood": 0.0887,
+     "color_stuck": 0.5083,
+     "won_by": {
+      "ground": 0.301,
+      "decking": 0.0006,
+      "flyers": 0.2193,
+      "timeout": 0.0001
+     },
+     "lost_to": {
+      "drain": 0.0072,
+      "ground": 0.3577,
+      "decking": 0.0034,
+      "combo": 0.0532,
+      "flyers": 0.057,
+      "timeout": 0.0003
+     }
+    },
+    {
+     "x": 12,
+     "avg_mv": 3.04,
+     "win": 0.5376,
+     "turns": 12.3084,
+     "screw": 0.0326,
+     "flood": 0.0839,
+     "color_stuck": 0.4969,
+     "won_by": {
+      "ground": 0.3328,
+      "decking": 0.0001,
+      "flyers": 0.2046,
+      "timeout": 0.0002
+     },
+     "lost_to": {
+      "drain": 0.0072,
+      "ground": 0.3281,
+      "decking": 0.0011,
+      "combo": 0.0581,
+      "flyers": 0.0677,
+      "timeout": 0.0002
+     }
+    },
+    {
+     "x": 13,
+     "avg_mv": 3.0,
+     "win": 0.5313,
+     "turns": 11.9905,
+     "screw": 0.034,
+     "flood": 0.0887,
+     "color_stuck": 0.4957,
+     "won_by": {
+      "ground": 0.3386,
+      "decking": 0.0001,
+      "flyers": 0.1926
+     },
+     "lost_to": {
+      "drain": 0.0106,
+      "ground": 0.3264,
+      "decking": 0.0011,
+      "combo": 0.0628,
+      "flyers": 0.0676,
+      "timeout": 0.0002
+     }
+    },
+    {
+     "x": 14,
+     "avg_mv": 3.0,
+     "win": 0.5476,
+     "turns": 11.8392,
+     "screw": 0.0312,
+     "flood": 0.0877,
+     "color_stuck": 0.4984,
+     "won_by": {
+      "ground": 0.3536,
+      "decking": 0.0002,
+      "flyers": 0.1938,
+      "timeout": 0.0001
+     },
+     "lost_to": {
+      "drain": 0.0097,
+      "ground": 0.3032,
+      "decking": 0.0005,
+      "combo": 0.065,
+      "flyers": 0.0739
+     }
+    },
+    {
+     "x": 15,
+     "avg_mv": 3.0,
+     "win": 0.5574,
+     "turns": 11.7542,
+     "screw": 0.0304,
+     "flood": 0.0872,
+     "color_stuck": 0.4983,
+     "won_by": {
+      "ground": 0.3731,
+      "decking": 0.0001,
+      "flyers": 0.1842
+     },
+     "lost_to": {
+      "drain": 0.0118,
+      "ground": 0.2922,
+      "decking": 0.0002,
+      "combo": 0.064,
+      "flyers": 0.0743,
+      "timeout": 0.0003
+     }
+    },
+    {
+     "x": 16,
+     "avg_mv": 3.09,
+     "win": 0.601,
+     "turns": 11.5693,
+     "screw": 0.032,
+     "flood": 0.0872,
+     "color_stuck": 0.4844,
+     "won_by": {
+      "ground": 0.4286,
+      "decking": 0.0001,
+      "flyers": 0.1722
+     },
+     "lost_to": {
+      "drain": 0.0086,
+      "ground": 0.2604,
+      "decking": 0.0002,
+      "combo": 0.0589,
+      "flyers": 0.0708,
+      "timeout": 0.0001
+     }
+    },
+    {
+     "x": 17,
+     "avg_mv": 3.04,
+     "win": 0.5476,
+     "turns": 10.7578,
+     "screw": 0.0294,
+     "flood": 0.0887,
+     "color_stuck": 0.4632,
+     "won_by": {
+      "flyers": 0.1855,
+      "ground": 0.3622
+     },
+     "lost_to": {
+      "drain": 0.009,
+      "ground": 0.291,
+      "combo": 0.0695,
+      "flyers": 0.0828
+     }
+    },
+    {
+     "x": 18,
+     "avg_mv": 3.09,
+     "win": 0.5826,
+     "turns": 10.959,
+     "screw": 0.0333,
+     "flood": 0.0881,
+     "color_stuck": 0.4408,
+     "won_by": {
+      "flyers": 0.1879,
+      "ground": 0.3947
+     },
+     "lost_to": {
+      "drain": 0.0124,
+      "ground": 0.261,
+      "decking": 0.0001,
+      "combo": 0.0662,
+      "flyers": 0.0778,
+      "timeout": 0.0001
+     }
+    },
+    {
+     "x": 19,
+     "avg_mv": 3.09,
+     "win": 0.5236,
+     "turns": 10.3097,
+     "screw": 0.0333,
+     "flood": 0.0799,
+     "color_stuck": 0.4424,
+     "won_by": {
+      "flyers": 0.1648,
+      "ground": 0.3588
+     },
+     "lost_to": {
+      "drain": 0.016,
+      "ground": 0.2848,
+      "combo": 0.0747,
+      "flyers": 0.1008
+     }
+    },
+    {
+     "x": 20,
+     "avg_mv": 3.09,
+     "win": 0.5299,
+     "turns": 10.2008,
+     "screw": 0.0328,
+     "flood": 0.0834,
+     "color_stuck": 0.441,
+     "won_by": {
+      "flyers": 0.1626,
+      "ground": 0.3672
+     },
+     "lost_to": {
+      "drain": 0.0168,
+      "ground": 0.2654,
+      "combo": 0.0766,
+      "flyers": 0.1114
+     }
+    }
+   ],
+   "best": 16
+  },
+  {
+   "format": "draft40",
+   "name": "twodrops",
+   "label": "Two-drops in a 17-land draft deck",
+   "rows": [
+    {
+     "x": 0,
+     "avg_mv": 3.57,
+     "win": 0.442,
+     "turns": 10.3372,
+     "screw": 0.0328,
+     "flood": 0.0745,
+     "color_stuck": 0.4595,
+     "won_by": {
+      "ground": 0.3009,
+      "decking": 0.0001,
+      "flyers": 0.1409,
+      "timeout": 0.0001
+     },
+     "lost_to": {
+      "drain": 0.0117,
+      "ground": 0.3612,
+      "combo": 0.0873,
+      "flyers": 0.0978
+     }
+    },
+    {
+     "x": 1,
+     "avg_mv": 3.52,
+     "win": 0.4653,
+     "turns": 10.3841,
+     "screw": 0.0328,
+     "flood": 0.0732,
+     "color_stuck": 0.4674,
+     "won_by": {
+      "flyers": 0.1471,
+      "ground": 0.3182
+     },
+     "lost_to": {
+      "drain": 0.0107,
+      "ground": 0.3387,
+      "combo": 0.0847,
+      "flyers": 0.1006
+     }
+    },
+    {
+     "x": 2,
+     "avg_mv": 3.43,
+     "win": 0.4936,
+     "turns": 10.4553,
+     "screw": 0.0331,
+     "flood": 0.078,
+     "color_stuck": 0.456,
+     "won_by": {
+      "flyers": 0.1534,
+      "ground": 0.3403
+     },
+     "lost_to": {
+      "drain": 0.0104,
+      "ground": 0.3155,
+      "combo": 0.0816,
+      "flyers": 0.0988
+     }
+    },
+    {
+     "x": 3,
+     "avg_mv": 3.3,
+     "win": 0.4911,
+     "turns": 10.5859,
+     "screw": 0.0326,
+     "flood": 0.0753,
+     "color_stuck": 0.4517,
+     "won_by": {
+      "flyers": 0.1653,
+      "ground": 0.3258
+     },
+     "lost_to": {
+      "drain": 0.0112,
+      "ground": 0.3185,
+      "combo": 0.0799,
+      "flyers": 0.0994
+     }
+    },
+    {
+     "x": 4,
+     "avg_mv": 3.26,
+     "win": 0.505,
+     "turns": 10.6134,
+     "screw": 0.0331,
+     "flood": 0.0765,
+     "color_stuck": 0.4618,
+     "won_by": {
+      "ground": 0.3377,
+      "flyers": 0.1671,
+      "timeout": 0.0001
+     },
+     "lost_to": {
+      "drain": 0.0108,
+      "ground": 0.3065,
+      "combo": 0.0776,
+      "flyers": 0.1002
+     }
+    },
+    {
+     "x": 5,
+     "avg_mv": 3.17,
+     "win": 0.5321,
+     "turns": 10.6595,
+     "screw": 0.0328,
+     "flood": 0.0744,
+     "color_stuck": 0.4589,
+     "won_by": {
+      "flyers": 0.1727,
+      "ground": 0.3593
+     },
+     "lost_to": {
+      "drain": 0.0119,
+      "ground": 0.2838,
+      "combo": 0.0751,
+      "flyers": 0.0972
+     }
+    },
+    {
+     "x": 6,
+     "avg_mv": 3.09,
+     "win": 0.5453,
+     "turns": 10.6641,
+     "screw": 0.0297,
+     "flood": 0.0791,
+     "color_stuck": 0.4417,
+     "won_by": {
+      "flyers": 0.172,
+      "ground": 0.3733
+     },
+     "lost_to": {
+      "drain": 0.0111,
+      "ground": 0.2697,
+      "combo": 0.0712,
+      "flyers": 0.1027
+     }
+    },
+    {
+     "x": 7,
+     "avg_mv": 3.04,
+     "win": 0.5563,
+     "turns": 10.664,
+     "screw": 0.0318,
+     "flood": 0.0813,
+     "color_stuck": 0.4446,
+     "won_by": {
+      "ground": 0.3821,
+      "flyers": 0.1741,
+      "timeout": 0.0001
+     },
+     "lost_to": {
+      "drain": 0.0107,
+      "ground": 0.2658,
+      "combo": 0.0706,
+      "flyers": 0.0966
+     }
+    },
+    {
+     "x": 8,
+     "avg_mv": 2.96,
+     "win": 0.5698,
+     "turns": 10.6736,
+     "screw": 0.03,
+     "flood": 0.0834,
+     "color_stuck": 0.4279,
+     "won_by": {
+      "flyers": 0.1734,
+      "ground": 0.3964
+     },
+     "lost_to": {
+      "drain": 0.0111,
+      "ground": 0.2549,
+      "combo": 0.0692,
+      "flyers": 0.095
+     }
+    },
+    {
+     "x": 9,
+     "avg_mv": 2.91,
+     "win": 0.5801,
+     "turns": 10.6111,
+     "screw": 0.0319,
+     "flood": 0.0843,
+     "color_stuck": 0.4431,
+     "won_by": {
+      "flyers": 0.1739,
+      "ground": 0.4062
+     },
+     "lost_to": {
+      "drain": 0.01,
+      "ground": 0.2501,
+      "combo": 0.0657,
+      "flyers": 0.0941
+     }
+    },
+    {
+     "x": 10,
+     "avg_mv": 2.78,
+     "win": 0.5585,
+     "turns": 10.676,
+     "screw": 0.033,
+     "flood": 0.078,
+     "color_stuck": 0.455,
+     "won_by": {
+      "ground": 0.3792,
+      "flyers": 0.1793,
+      "timeout": 0.0001
+     },
+     "lost_to": {
+      "drain": 0.0111,
+      "ground": 0.2696,
+      "combo": 0.0641,
+      "flyers": 0.0966
+     }
+    }
+   ],
+   "best": 9
+  },
+  {
+   "format": "draft40",
+   "name": "bombs",
+   "label": "Bombs (B5) in a draft deck",
+   "rows": [
+    {
+     "x": 0,
+     "avg_mv": 3.09,
+     "win": 0.4586,
+     "turns": 10.8232,
+     "screw": 0.0316,
+     "flood": 0.0794,
+     "color_stuck": 0.4384,
+     "won_by": {
+      "flyers": 0.0312,
+      "ground": 0.4273
+     },
+     "lost_to": {
+      "drain": 0.0144,
+      "ground": 0.3091,
+      "combo": 0.0825,
+      "flyers": 0.1353
+     }
+    },
+    {
+     "x": 1,
+     "avg_mv": 3.17,
+     "win": 0.528,
+     "turns": 10.6522,
+     "screw": 0.0321,
+     "flood": 0.0741,
+     "color_stuck": 0.4683,
+     "won_by": {
+      "flyers": 0.1731,
+      "ground": 0.3549
+     },
+     "lost_to": {
+      "drain": 0.0107,
+      "ground": 0.2873,
+      "combo": 0.0733,
+      "flyers": 0.1007
+     }
+    },
+    {
+     "x": 2,
+     "avg_mv": 3.3,
+     "win": 0.5723,
+     "turns": 10.4526,
+     "screw": 0.0325,
+     "flood": 0.0766,
+     "color_stuck": 0.4496,
+     "won_by": {
+      "flyers": 0.2835,
+      "ground": 0.2888
+     },
+     "lost_to": {
+      "drain": 0.0092,
+      "ground": 0.2751,
+      "combo": 0.071,
+      "flyers": 0.0725
+     }
+    },
+    {
+     "x": 3,
+     "avg_mv": 3.43,
+     "win": 0.6216,
+     "turns": 10.2122,
+     "screw": 0.033,
+     "flood": 0.0767,
+     "color_stuck": 0.4454,
+     "won_by": {
+      "flyers": 0.3963,
+      "ground": 0.2253
+     },
+     "lost_to": {
+      "drain": 0.0066,
+      "ground": 0.2582,
+      "combo": 0.0627,
+      "flyers": 0.051
+     }
+    },
+    {
+     "x": 4,
+     "avg_mv": 3.52,
+     "win": 0.6546,
+     "turns": 10.0599,
+     "screw": 0.0339,
+     "flood": 0.0807,
+     "color_stuck": 0.435,
+     "won_by": {
+      "flyers": 0.4784,
+      "ground": 0.1763
+     },
+     "lost_to": {
+      "drain": 0.005,
+      "ground": 0.2482,
+      "combo": 0.0554,
+      "flyers": 0.0369
+     }
+    }
+   ],
+   "best": 4
+  },
+  {
+   "format": "draft40",
+   "name": "aristo_no_enablers",
+   "label": "Aristocrat payoffs, no tokens or sac outlet",
+   "rows": [
+    {
+     "x": 0,
+     "avg_mv": 2.42,
+     "win": 0.4353,
+     "turns": 10.8093,
+     "screw": 0.0452,
+     "flood": 0.0559,
+     "color_stuck": 0.4383,
+     "won_by": {
+      "ground": 0.3943,
+      "flyers": 0.0404,
+      "timeout": 0.0006
+     },
+     "lost_to": {
+      "drain": 0.0166,
+      "ground": 0.3009,
+      "combo": 0.0656,
+      "flyers": 0.1815,
+      "timeout": 0.0002
+     }
+    },
+    {
+     "x": 1,
+     "avg_mv": 2.42,
+     "win": 0.4351,
+     "turns": 10.7328,
+     "screw": 0.0433,
+     "flood": 0.0505,
+     "color_stuck": 0.4482,
+     "won_by": {
+      "drain": 0.0128,
+      "ground": 0.3743,
+      "flyers": 0.0475,
+      "timeout": 0.0006
+     },
+     "lost_to": {
+      "drain": 0.0139,
+      "ground": 0.3063,
+      "combo": 0.0673,
+      "flyers": 0.1772,
+      "timeout": 0.0003
+     }
+    },
+    {
+     "x": 2,
+     "avg_mv": 2.42,
+     "win": 0.457,
+     "turns": 10.6548,
+     "screw": 0.044,
+     "flood": 0.0525,
+     "color_stuck": 0.4295,
+     "won_by": {
+      "drain": 0.0427,
+      "ground": 0.3596,
+      "flyers": 0.0543,
+      "timeout": 0.0003
+     },
+     "lost_to": {
+      "drain": 0.0121,
+      "ground": 0.3019,
+      "combo": 0.0657,
+      "flyers": 0.1633,
+      "timeout": 0.0001
+     }
+    },
+    {
+     "x": 3,
+     "avg_mv": 2.42,
+     "win": 0.4616,
+     "turns": 10.5056,
+     "screw": 0.0445,
+     "flood": 0.0527,
+     "color_stuck": 0.4454,
+     "won_by": {
+      "drain": 0.0793,
+      "ground": 0.3304,
+      "flyers": 0.0517,
+      "timeout": 0.0002
+     },
+     "lost_to": {
+      "drain": 0.0104,
+      "ground": 0.2982,
+      "combo": 0.0705,
+      "flyers": 0.1592,
+      "timeout": 0.0001
+     }
+    },
+    {
+     "x": 4,
+     "avg_mv": 2.42,
+     "win": 0.4657,
+     "turns": 10.4075,
+     "screw": 0.0459,
+     "flood": 0.0537,
+     "color_stuck": 0.4324,
+     "won_by": {
+      "drain": 0.1116,
+      "ground": 0.3014,
+      "flyers": 0.0526,
+      "timeout": 0.0001
+     },
+     "lost_to": {
+      "drain": 0.0097,
+      "ground": 0.3029,
+      "combo": 0.0691,
+      "flyers": 0.1526
+     }
+    },
+    {
+     "x": 5,
+     "avg_mv": 2.38,
+     "win": 0.4864,
+     "turns": 10.3052,
+     "screw": 0.0464,
+     "flood": 0.0532,
+     "color_stuck": 0.4528,
+     "won_by": {
+      "drain": 0.1641,
+      "ground": 0.2683,
+      "flyers": 0.0539,
+      "timeout": 0.0001
+     },
+     "lost_to": {
+      "drain": 0.0087,
+      "ground": 0.2928,
+      "combo": 0.0704,
+      "flyers": 0.1417
+     }
+    },
+    {
+     "x": 6,
+     "avg_mv": 2.38,
+     "win": 0.4976,
+     "turns": 10.1454,
+     "screw": 0.0455,
+     "flood": 0.0515,
+     "color_stuck": 0.4539,
+     "won_by": {
+      "drain": 0.2054,
+      "ground": 0.2397,
+      "flyers": 0.0524,
+      "timeout": 0.0001
+     },
+     "lost_to": {
+      "drain": 0.0065,
+      "ground": 0.2942,
+      "combo": 0.0699,
+      "flyers": 0.1318
+     }
+    }
+   ],
+   "best": 6
+  },
+  {
+   "format": "draft40",
+   "name": "aristo_enablers",
+   "label": "Aristocrat payoffs with 4 token makers + 2 sac outlets",
+   "rows": [
+    {
+     "x": 0,
+     "avg_mv": 2.5,
+     "win": 0.2587,
+     "turns": 10.854,
+     "screw": 0.045,
+     "flood": 0.0551,
+     "color_stuck": 0.4247,
+     "won_by": {
+      "ground": 0.2221,
+      "flyers": 0.0366,
+      "timeout": 0.0001
+     },
+     "lost_to": {
+      "drain": 0.0379,
+      "ground": 0.4139,
+      "combo": 0.0885,
+      "flyers": 0.2007,
+      "timeout": 0.0003
+     }
+    },
+    {
+     "x": 1,
+     "avg_mv": 2.5,
+     "win": 0.257,
+     "turns": 10.754,
+     "screw": 0.044,
+     "flood": 0.0518,
+     "color_stuck": 0.4429,
+     "won_by": {
+      "drain": 0.0201,
+      "ground": 0.1986,
+      "flyers": 0.0382,
+      "timeout": 0.0001
+     },
+     "lost_to": {
+      "drain": 0.034,
+      "ground": 0.4306,
+      "combo": 0.0881,
+      "flyers": 0.1903,
+      "timeout": 0.0001
+     }
+    },
+    {
+     "x": 2,
+     "avg_mv": 2.5,
+     "win": 0.2708,
+     "turns": 10.6407,
+     "screw": 0.0459,
+     "flood": 0.0566,
+     "color_stuck": 0.4264,
+     "won_by": {
+      "drain": 0.0464,
+      "ground": 0.1802,
+      "flyers": 0.0442
+     },
+     "lost_to": {
+      "drain": 0.0314,
+      "ground": 0.4345,
+      "combo": 0.0884,
+      "flyers": 0.1749
+     }
+    },
+    {
+     "x": 3,
+     "avg_mv": 2.46,
+     "win": 0.2937,
+     "turns": 10.4822,
+     "screw": 0.0452,
+     "flood": 0.0539,
+     "color_stuck": 0.4391,
+     "won_by": {
+      "drain": 0.0858,
+      "ground": 0.1633,
+      "flyers": 0.0445,
+      "timeout": 0.0001
+     },
+     "lost_to": {
+      "drain": 0.0289,
+      "ground": 0.4235,
+      "combo": 0.0855,
+      "flyers": 0.1684
+     }
+    },
+    {
+     "x": 4,
+     "avg_mv": 2.46,
+     "win": 0.3004,
+     "turns": 10.3271,
+     "screw": 0.0462,
+     "flood": 0.0551,
+     "color_stuck": 0.4426,
+     "won_by": {
+      "drain": 0.1197,
+      "ground": 0.1393,
+      "flyers": 0.0414
+     },
+     "lost_to": {
+      "drain": 0.0271,
+      "ground": 0.4279,
+      "combo": 0.0864,
+      "flyers": 0.1582,
+      "timeout": 0.0001
+     }
+    },
+    {
+     "x": 5,
+     "avg_mv": 2.5,
+     "win": 0.3083,
+     "turns": 10.3037,
+     "screw": 0.0445,
+     "flood": 0.0544,
+     "color_stuck": 0.3941,
+     "won_by": {
+      "drain": 0.1568,
+      "ground": 0.1104,
+      "flyers": 0.041,
+      "timeout": 0.0001
+     },
+     "lost_to": {
+      "drain": 0.0234,
+      "ground": 0.4315,
+      "combo": 0.0878,
+      "flyers": 0.1489
+     }
+    },
+    {
+     "x": 6,
+     "avg_mv": 2.46,
+     "win": 0.3354,
+     "turns": 10.1341,
+     "screw": 0.0445,
+     "flood": 0.0537,
+     "color_stuck": 0.4022,
+     "won_by": {
+      "drain": 0.1944,
+      "ground": 0.1016,
+      "flyers": 0.0394
+     },
+     "lost_to": {
+      "drain": 0.0194,
+      "ground": 0.4253,
+      "combo": 0.0849,
+      "flyers": 0.1348,
+      "timeout": 0.0001
+     }
+    }
+   ],
+   "best": 6
+  },
+  {
+   "format": "draft40",
+   "name": "lords_tokens",
+   "label": "Lords in a go-wide token deck",
+   "rows": [
+    {
+     "x": 0,
+     "avg_mv": 2.5,
+     "win": 0.3194,
+     "turns": 10.9503,
+     "screw": 0.0454,
+     "flood": 0.0556,
+     "color_stuck": 0.4236,
+     "won_by": {
+      "ground": 0.2807,
+      "flyers": 0.0387,
+      "timeout": 0.0001
+     },
+     "lost_to": {
+      "drain": 0.0341,
+      "ground": 0.3669,
+      "combo": 0.0807,
+      "flyers": 0.1985,
+      "timeout": 0.0003
+     }
+    },
+    {
+     "x": 1,
+     "avg_mv": 2.54,
+     "win": 0.3139,
+     "turns": 10.9127,
+     "screw": 0.0449,
+     "flood": 0.0509,
+     "color_stuck": 0.4294,
+     "won_by": {
+      "ground": 0.2741,
+      "flyers": 0.0397,
+      "timeout": 0.0001
+     },
+     "lost_to": {
+      "drain": 0.0311,
+      "ground": 0.3724,
+      "combo": 0.0837,
+      "flyers": 0.1985,
+      "timeout": 0.0004
+     }
+    },
+    {
+     "x": 2,
+     "avg_mv": 2.58,
+     "win": 0.3121,
+     "turns": 10.8683,
+     "screw": 0.0454,
+     "flood": 0.0517,
+     "color_stuck": 0.4164,
+     "won_by": {
+      "ground": 0.2692,
+      "flyers": 0.0428,
+      "timeout": 0.0001
+     },
+     "lost_to": {
+      "drain": 0.029,
+      "ground": 0.378,
+      "combo": 0.0843,
+      "flyers": 0.1962,
+      "timeout": 0.0004
+     }
+    },
+    {
+     "x": 3,
+     "avg_mv": 2.62,
+     "win": 0.3024,
+     "turns": 10.8024,
+     "screw": 0.0452,
+     "flood": 0.0501,
+     "color_stuck": 0.4139,
+     "won_by": {
+      "ground": 0.2626,
+      "flyers": 0.0398,
+      "timeout": 0.0001
+     },
+     "lost_to": {
+      "drain": 0.0276,
+      "ground": 0.3902,
+      "combo": 0.0864,
+      "flyers": 0.1929,
+      "timeout": 0.0003
+     }
+    },
+    {
+     "x": 4,
+     "avg_mv": 2.67,
+     "win": 0.2892,
+     "turns": 10.7112,
+     "screw": 0.0443,
+     "flood": 0.0498,
+     "color_stuck": 0.3944,
+     "won_by": {
+      "flyers": 0.0365,
+      "ground": 0.2527
+     },
+     "lost_to": {
+      "drain": 0.025,
+      "ground": 0.4052,
+      "combo": 0.0901,
+      "flyers": 0.1902,
+      "timeout": 0.0003
+     }
+    },
+    {
+     "x": 5,
+     "avg_mv": 2.67,
+     "win": 0.2832,
+     "turns": 10.6908,
+     "screw": 0.0457,
+     "flood": 0.0496,
+     "color_stuck": 0.4132,
+     "won_by": {
+      "ground": 0.2443,
+      "flyers": 0.0387,
+      "timeout": 0.0001
+     },
+     "lost_to": {
+      "drain": 0.0239,
+      "ground": 0.4182,
+      "combo": 0.0898,
+      "flyers": 0.1847,
+      "timeout": 0.0002
+     }
+    },
+    {
+     "x": 6,
+     "avg_mv": 2.71,
+     "win": 0.2663,
+     "turns": 10.5764,
+     "screw": 0.0454,
+     "flood": 0.0459,
+     "color_stuck": 0.3979,
+     "won_by": {
+      "ground": 0.2323,
+      "flyers": 0.034,
+      "timeout": 0.0001
+     },
+     "lost_to": {
+      "drain": 0.0198,
+      "ground": 0.4385,
+      "combo": 0.0949,
+      "flyers": 0.1802,
+      "timeout": 0.0002
+     }
+    }
+   ],
+   "best": 0
+  },
+  {
+   "format": "con60",
+   "name": "lands_aggro",
+   "label": "Lands for a 60-card aggro (MV ~2) deck",
+   "rows": [
+    {
+     "x": 18,
+     "avg_mv": 2.05,
+     "win": 0.5205,
+     "turns": 10.1422,
+     "screw": 0.1555,
+     "flood": 0.0083,
+     "color_stuck": 0.5534,
+     "won_by": {
+      "ground": 0.4625,
+      "flyers": 0.0578,
+      "timeout": 0.0002
+     },
+     "lost_to": {
+      "drain": 0.0205,
+      "ground": 0.2489,
+      "combo": 0.0506,
+      "flyers": 0.1593,
+      "timeout": 0.0001
+     }
+    },
+    {
+     "x": 19,
+     "avg_mv": 2.05,
+     "win": 0.5129,
+     "turns": 10.2042,
+     "screw": 0.1263,
+     "flood": 0.0113,
+     "color_stuck": 0.5494,
+     "won_by": {
+      "ground": 0.4539,
+      "flyers": 0.0586,
+      "timeout": 0.0003
+     },
+     "lost_to": {
+      "drain": 0.0199,
+      "ground": 0.2581,
+      "combo": 0.0486,
+      "flyers": 0.1603,
+      "timeout": 0.0003
+     }
+    },
+    {
+     "x": 20,
+     "avg_mv": 2.08,
+     "win": 0.494,
+     "turns": 10.2634,
+     "screw": 0.1081,
+     "flood": 0.0158,
+     "color_stuck": 0.513,
+     "won_by": {
+      "ground": 0.4334,
+      "flyers": 0.0602,
+      "timeout": 0.0003
+     },
+     "lost_to": {
+      "drain": 0.0213,
+      "ground": 0.2667,
+      "combo": 0.0485,
+      "flyers": 0.1691,
+      "timeout": 0.0005
+     }
+    },
+    {
+     "x": 21,
+     "avg_mv": 2.08,
+     "win": 0.4896,
+     "turns": 10.1277,
+     "screw": 0.0876,
+     "flood": 0.0215,
+     "color_stuck": 0.5132,
+     "won_by": {
+      "ground": 0.4273,
+      "flyers": 0.0619,
+      "timeout": 0.0004
+     },
+     "lost_to": {
+      "drain": 0.0238,
+      "ground": 0.2674,
+      "combo": 0.0503,
+      "flyers": 0.1688,
+      "timeout": 0.0002
+     }
+    },
+    {
+     "x": 22,
+     "avg_mv": 2.05,
+     "win": 0.4794,
+     "turns": 10.1324,
+     "screw": 0.0723,
+     "flood": 0.0307,
+     "color_stuck": 0.5146,
+     "won_by": {
+      "ground": 0.419,
+      "flyers": 0.0602,
+      "timeout": 0.0002
+     },
+     "lost_to": {
+      "drain": 0.0246,
+      "ground": 0.2797,
+      "combo": 0.0492,
+      "flyers": 0.1666,
+      "timeout": 0.0005
+     }
+    },
+    {
+     "x": 23,
+     "avg_mv": 2.05,
+     "win": 0.4572,
+     "turns": 10.1547,
+     "screw": 0.0602,
+     "flood": 0.0393,
+     "color_stuck": 0.5133,
+     "won_by": {
+      "ground": 0.3952,
+      "flyers": 0.0618,
+      "timeout": 0.0002
+     },
+     "lost_to": {
+      "drain": 0.0244,
+      "ground": 0.2969,
+      "combo": 0.0527,
+      "flyers": 0.1684,
+      "timeout": 0.0003
+     }
+    },
+    {
+     "x": 24,
+     "avg_mv": 2.03,
+     "win": 0.4382,
+     "turns": 10.2245,
+     "screw": 0.0446,
+     "flood": 0.0499,
+     "color_stuck": 0.5104,
+     "won_by": {
+      "ground": 0.3958,
+      "flyers": 0.0416,
+      "timeout": 0.0008
+     },
+     "lost_to": {
+      "drain": 0.0248,
+      "ground": 0.315,
+      "combo": 0.0539,
+      "flyers": 0.1676,
+      "timeout": 0.0006
+     }
+    },
+    {
+     "x": 25,
+     "avg_mv": 2.06,
+     "win": 0.4157,
+     "turns": 10.2424,
+     "screw": 0.0396,
+     "flood": 0.0644,
+     "color_stuck": 0.4914,
+     "won_by": {
+      "ground": 0.3752,
+      "flyers": 0.0399,
+      "timeout": 0.0005
+     },
+     "lost_to": {
+      "drain": 0.0255,
+      "ground": 0.3231,
+      "combo": 0.0554,
+      "flyers": 0.1798,
+      "timeout": 0.0005
+     }
+    },
+    {
+     "x": 26,
+     "avg_mv": 2.06,
+     "win": 0.3873,
+     "turns": 10.3388,
+     "screw": 0.0324,
+     "flood": 0.0801,
+     "color_stuck": 0.4919,
+     "won_by": {
+      "ground": 0.3468,
+      "flyers": 0.0401,
+      "timeout": 0.0004
+     },
+     "lost_to": {
+      "drain": 0.0271,
+      "ground": 0.3486,
+      "combo": 0.0593,
+      "flyers": 0.1772,
+      "timeout": 0.0004
+     }
+    },
+    {
+     "x": 27,
+     "avg_mv": 2.03,
+     "win": 0.3832,
+     "turns": 10.2354,
+     "screw": 0.025,
+     "flood": 0.0944,
+     "color_stuck": 0.5049,
+     "won_by": {
+      "ground": 0.3438,
+      "flyers": 0.0389,
+      "timeout": 0.0005
+     },
+     "lost_to": {
+      "drain": 0.0236,
+      "ground": 0.3594,
+      "combo": 0.057,
+      "flyers": 0.1764,
+      "timeout": 0.0004
+     }
+    },
+    {
+     "x": 28,
+     "avg_mv": 2.03,
+     "win": 0.3609,
+     "turns": 10.1326,
+     "screw": 0.0187,
+     "flood": 0.1125,
+     "color_stuck": 0.4889,
+     "won_by": {
+      "ground": 0.3225,
+      "flyers": 0.0381,
+      "timeout": 0.0003
+     },
+     "lost_to": {
+      "drain": 0.0253,
+      "ground": 0.3794,
+      "combo": 0.0595,
+      "flyers": 0.1746,
+      "timeout": 0.0004
+     }
+    },
+    {
+     "x": 29,
+     "avg_mv": 2.1,
+     "win": 0.3188,
+     "turns": 10.156,
+     "screw": 0.0173,
+     "flood": 0.1325,
+     "color_stuck": 0.4405,
+     "won_by": {
+      "ground": 0.2775,
+      "flyers": 0.041,
+      "timeout": 0.0003
+     },
+     "lost_to": {
+      "drain": 0.0291,
+      "ground": 0.4024,
+      "combo": 0.0648,
+      "flyers": 0.1847,
+      "timeout": 0.0002
+     }
+    },
+    {
+     "x": 30,
+     "avg_mv": 2.07,
+     "win": 0.3018,
+     "turns": 10.1328,
+     "screw": 0.0121,
+     "flood": 0.1569,
+     "color_stuck": 0.4297,
+     "won_by": {
+      "ground": 0.265,
+      "flyers": 0.0365,
+      "timeout": 0.0003
+     },
+     "lost_to": {
+      "drain": 0.0274,
+      "ground": 0.4265,
+      "combo": 0.0644,
+      "flyers": 0.1799,
+      "timeout": 0.0001
+     }
+    }
+   ],
+   "best": 18
+  },
+  {
+   "format": "con60",
+   "name": "lands_midrange",
+   "label": "Lands for a 60-card midrange (MV ~3) deck",
+   "rows": [
+    {
+     "x": 18,
+     "avg_mv": 3.21,
+     "win": 0.4989,
+     "turns": 10.5502,
+     "screw": 0.1565,
+     "flood": 0.0123,
+     "color_stuck": 0.5107,
+     "won_by": {
+      "flyers": 0.1515,
+      "ground": 0.3474
+     },
+     "lost_to": {
+      "drain": 0.0103,
+      "ground": 0.3101,
+      "combo": 0.0583,
+      "flyers": 0.1222
+     }
+    },
+    {
+     "x": 19,
+     "avg_mv": 3.2,
+     "win": 0.533,
+     "turns": 10.6442,
+     "screw": 0.1269,
+     "flood": 0.0194,
+     "color_stuck": 0.5078,
+     "won_by": {
+      "flyers": 0.1723,
+      "ground": 0.3607
+     },
+     "lost_to": {
+      "drain": 0.01,
+      "ground": 0.2871,
+      "combo": 0.0566,
+      "flyers": 0.1132,
+      "timeout": 0.0001
+     }
+    },
+    {
+     "x": 20,
+     "avg_mv": 3.2,
+     "win": 0.5456,
+     "turns": 10.635,
+     "screw": 0.1081,
+     "flood": 0.0239,
+     "color_stuck": 0.5016,
+     "won_by": {
+      "ground": 0.3606,
+      "flyers": 0.1849,
+      "timeout": 0.0001
+     },
+     "lost_to": {
+      "drain": 0.0111,
+      "ground": 0.2753,
+      "combo": 0.0561,
+      "flyers": 0.1118,
+      "timeout": 0.0001
+     }
+    },
+    {
+     "x": 21,
+     "avg_mv": 3.23,
+     "win": 0.5584,
+     "turns": 10.653,
+     "screw": 0.0876,
+     "flood": 0.0342,
+     "color_stuck": 0.4931,
+     "won_by": {
+      "ground": 0.3628,
+      "flyers": 0.1956,
+      "timeout": 0.0001
+     },
+     "lost_to": {
+      "drain": 0.0097,
+      "ground": 0.2707,
+      "combo": 0.0546,
+      "flyers": 0.1066,
+      "timeout": 0.0001
+     }
+    },
+    {
+     "x": 22,
+     "avg_mv": 3.26,
+     "win": 0.5682,
+     "turns": 10.6463,
+     "screw": 0.0727,
+     "flood": 0.0457,
+     "color_stuck": 0.4898,
+     "won_by": {
+      "flyers": 0.2035,
+      "ground": 0.3647
+     },
+     "lost_to": {
+      "drain": 0.0084,
+      "ground": 0.2656,
+      "combo": 0.0539,
+      "flyers": 0.1037,
+      "timeout": 0.0001
+     }
+    },
+    {
+     "x": 23,
+     "avg_mv": 3.24,
+     "win": 0.5838,
+     "turns": 10.6545,
+     "screw": 0.0607,
+     "flood": 0.0558,
+     "color_stuck": 0.4769,
+     "won_by": {
+      "ground": 0.3613,
+      "flyers": 0.2225,
+      "timeout": 0.0001
+     },
+     "lost_to": {
+      "drain": 0.0103,
+      "ground": 0.2537,
+      "combo": 0.0536,
+      "flyers": 0.0984,
+      "timeout": 0.0001
+     }
+    },
+    {
+     "x": 24,
+     "avg_mv": 3.25,
+     "win": 0.5902,
+     "turns": 10.6952,
+     "screw": 0.0457,
+     "flood": 0.0692,
+     "color_stuck": 0.479,
+     "won_by": {
+      "ground": 0.3549,
+      "flyers": 0.2351,
+      "timeout": 0.0001
+     },
+     "lost_to": {
+      "drain": 0.0091,
+      "ground": 0.2519,
+      "combo": 0.0531,
+      "flyers": 0.0958,
+      "timeout": 0.0001
+     }
+    },
+    {
+     "x": 25,
+     "avg_mv": 3.29,
+     "win": 0.5861,
+     "turns": 10.5895,
+     "screw": 0.0391,
+     "flood": 0.0915,
+     "color_stuck": 0.465,
+     "won_by": {
+      "flyers": 0.2336,
+      "ground": 0.3525
+     },
+     "lost_to": {
+      "drain": 0.0102,
+      "ground": 0.2517,
+      "combo": 0.0544,
+      "flyers": 0.0975,
+      "timeout": 0.0001
+     }
+    },
+    {
+     "x": 26,
+     "avg_mv": 3.29,
+     "win": 0.5951,
+     "turns": 10.6037,
+     "screw": 0.0318,
+     "flood": 0.1099,
+     "color_stuck": 0.4712,
+     "won_by": {
+      "ground": 0.3503,
+      "flyers": 0.2448,
+      "timeout": 0.0001
+     },
+     "lost_to": {
+      "drain": 0.0095,
+      "ground": 0.246,
+      "combo": 0.0537,
+      "flyers": 0.0957,
+      "timeout": 0.0001
+     }
+    },
+    {
+     "x": 27,
+     "avg_mv": 3.27,
+     "win": 0.5928,
+     "turns": 10.392,
+     "screw": 0.0262,
+     "flood": 0.1299,
+     "color_stuck": 0.4512,
+     "won_by": {
+      "flyers": 0.2462,
+      "ground": 0.3466
+     },
+     "lost_to": {
+      "drain": 0.01,
+      "ground": 0.2424,
+      "combo": 0.0533,
+      "flyers": 0.1015
+     }
+    },
+    {
+     "x": 28,
+     "avg_mv": 3.22,
+     "win": 0.5507,
+     "turns": 10.506,
+     "screw": 0.0186,
+     "flood": 0.16,
+     "color_stuck": 0.4409,
+     "won_by": {
+      "ground": 0.3778,
+      "flyers": 0.1729,
+      "timeout": 0.0001
+     },
+     "lost_to": {
+      "drain": 0.0106,
+      "ground": 0.2552,
+      "combo": 0.0624,
+      "flyers": 0.121
+     }
+    },
+    {
+     "x": 29,
+     "avg_mv": 3.26,
+     "win": 0.537,
+     "turns": 10.495,
+     "screw": 0.017,
+     "flood": 0.1842,
+     "color_stuck": 0.4366,
+     "won_by": {
+      "flyers": 0.1765,
+      "ground": 0.3605
+     },
+     "lost_to": {
+      "drain": 0.0114,
+      "ground": 0.2621,
+      "combo": 0.0644,
+      "flyers": 0.1251
+     }
+    },
+    {
+     "x": 30,
+     "avg_mv": 3.2,
+     "win": 0.5168,
+     "turns": 10.554,
+     "screw": 0.0121,
+     "flood": 0.2155,
+     "color_stuck": 0.4191,
+     "won_by": {
+      "flyers": 0.1891,
+      "ground": 0.3276
+     },
+     "lost_to": {
+      "drain": 0.0114,
+      "ground": 0.2766,
+      "combo": 0.0637,
+      "flyers": 0.1314,
+      "timeout": 0.0002
+     }
+    }
+   ],
+   "best": 26
+  },
+  {
+   "format": "con60",
+   "name": "lands_control",
+   "label": "Lands for a 60-card control (MV ~3.5) deck",
+   "rows": [
+    {
+     "x": 18,
+     "avg_mv": 3.33,
+     "win": 0.6184,
+     "turns": 12.4798,
+     "screw": 0.1567,
+     "flood": 0.0159,
+     "color_stuck": 0.4975,
+     "won_by": {
+      "ground": 0.2892,
+      "flyers": 0.325,
+      "timeout": 0.0043
+     },
+     "lost_to": {
+      "drain": 0.0046,
+      "ground": 0.3136,
+      "combo": 0.0239,
+      "flyers": 0.0367,
+      "timeout": 0.0027
+     }
+    },
+    {
+     "x": 19,
+     "avg_mv": 3.37,
+     "win": 0.6457,
+     "turns": 12.369,
+     "screw": 0.1263,
+     "flood": 0.0236,
+     "color_stuck": 0.4988,
+     "won_by": {
+      "ground": 0.3037,
+      "flyers": 0.3382,
+      "timeout": 0.0037
+     },
+     "lost_to": {
+      "drain": 0.0043,
+      "ground": 0.2908,
+      "combo": 0.021,
+      "flyers": 0.0355,
+      "timeout": 0.0027
+     }
+    },
+    {
+     "x": 20,
+     "avg_mv": 3.4,
+     "win": 0.6839,
+     "turns": 12.4322,
+     "screw": 0.11,
+     "flood": 0.0321,
+     "color_stuck": 0.4907,
+     "won_by": {
+      "ground": 0.32,
+      "flyers": 0.3607,
+      "timeout": 0.0033
+     },
+     "lost_to": {
+      "drain": 0.0029,
+      "ground": 0.2612,
+      "combo": 0.0205,
+      "flyers": 0.0274,
+      "timeout": 0.0039
+     }
+    },
+    {
+     "x": 21,
+     "avg_mv": 3.44,
+     "win": 0.7003,
+     "turns": 12.2628,
+     "screw": 0.0859,
+     "flood": 0.0445,
+     "color_stuck": 0.4816,
+     "won_by": {
+      "ground": 0.3207,
+      "flyers": 0.3766,
+      "timeout": 0.0029
+     },
+     "lost_to": {
+      "drain": 0.0039,
+      "ground": 0.2438,
+      "combo": 0.0203,
+      "flyers": 0.0288,
+      "timeout": 0.003
+     }
+    },
+    {
+     "x": 22,
+     "avg_mv": 3.42,
+     "win": 0.7132,
+     "turns": 12.2475,
+     "screw": 0.0728,
+     "flood": 0.0582,
+     "color_stuck": 0.4768,
+     "won_by": {
+      "ground": 0.3288,
+      "flyers": 0.381,
+      "timeout": 0.0034
+     },
+     "lost_to": {
+      "drain": 0.004,
+      "ground": 0.2295,
+      "combo": 0.0226,
+      "flyers": 0.0277,
+      "timeout": 0.003
+     }
+    },
+    {
+     "x": 23,
+     "avg_mv": 3.43,
+     "win": 0.7188,
+     "turns": 12.2047,
+     "screw": 0.0618,
+     "flood": 0.0687,
+     "color_stuck": 0.4786,
+     "won_by": {
+      "ground": 0.3393,
+      "flyers": 0.3766,
+      "timeout": 0.0027
+     },
+     "lost_to": {
+      "drain": 0.0036,
+      "ground": 0.2291,
+      "combo": 0.0192,
+      "flyers": 0.0266,
+      "timeout": 0.0028
+     }
+    },
+    {
+     "x": 24,
+     "avg_mv": 3.39,
+     "win": 0.7296,
+     "turns": 12.5442,
+     "screw": 0.0455,
+     "flood": 0.0862,
+     "color_stuck": 0.477,
+     "won_by": {
+      "ground": 0.3957,
+      "flyers": 0.3297,
+      "timeout": 0.0042
+     },
+     "lost_to": {
+      "drain": 0.0034,
+      "ground": 0.2109,
+      "combo": 0.021,
+      "flyers": 0.0301,
+      "timeout": 0.005
+     }
+    },
+    {
+     "x": 25,
+     "avg_mv": 3.4,
+     "win": 0.7094,
+     "turns": 12.5037,
+     "screw": 0.0397,
+     "flood": 0.1095,
+     "color_stuck": 0.4763,
+     "won_by": {
+      "ground": 0.3823,
+      "flyers": 0.3224,
+      "timeout": 0.0047
+     },
+     "lost_to": {
+      "drain": 0.0029,
+      "ground": 0.2282,
+      "combo": 0.0226,
+      "flyers": 0.0326,
+      "timeout": 0.0043
+     }
+    },
+    {
+     "x": 26,
+     "avg_mv": 3.38,
+     "win": 0.6979,
+     "turns": 12.2336,
+     "screw": 0.0312,
+     "flood": 0.1274,
+     "color_stuck": 0.4693,
+     "won_by": {
+      "ground": 0.3777,
+      "flyers": 0.3166,
+      "timeout": 0.0037
+     },
+     "lost_to": {
+      "drain": 0.0032,
+      "ground": 0.2394,
+      "combo": 0.0227,
+      "flyers": 0.0331,
+      "timeout": 0.0037
+     }
+    },
+    {
+     "x": 27,
+     "avg_mv": 3.3,
+     "win": 0.6912,
+     "turns": 12.3357,
+     "screw": 0.0247,
+     "flood": 0.148,
+     "color_stuck": 0.4674,
+     "won_by": {
+      "ground": 0.3431,
+      "flyers": 0.3438,
+      "timeout": 0.0043
+     },
+     "lost_to": {
+      "drain": 0.0034,
+      "ground": 0.246,
+      "combo": 0.0221,
+      "flyers": 0.0332,
+      "timeout": 0.004
+     }
+    },
+    {
+     "x": 28,
+     "avg_mv": 3.31,
+     "win": 0.6612,
+     "turns": 12.3647,
+     "screw": 0.0183,
+     "flood": 0.1785,
+     "color_stuck": 0.4649,
+     "won_by": {
+      "ground": 0.317,
+      "flyers": 0.3402,
+      "timeout": 0.004
+     },
+     "lost_to": {
+      "drain": 0.0033,
+      "ground": 0.2708,
+      "combo": 0.0246,
+      "flyers": 0.035,
+      "timeout": 0.0051
+     }
+    },
+    {
+     "x": 29,
+     "avg_mv": 3.26,
+     "win": 0.6469,
+     "turns": 12.5698,
+     "screw": 0.0174,
+     "flood": 0.2083,
+     "color_stuck": 0.4631,
+     "won_by": {
+      "ground": 0.2746,
+      "flyers": 0.3675,
+      "timeout": 0.0049
+     },
+     "lost_to": {
+      "drain": 0.0026,
+      "ground": 0.2884,
+      "combo": 0.0214,
+      "flyers": 0.0342,
+      "timeout": 0.0065
+     }
+    },
+    {
+     "x": 30,
+     "avg_mv": 3.4,
+     "win": 0.649,
+     "turns": 12.0621,
+     "screw": 0.013,
+     "flood": 0.2512,
+     "color_stuck": 0.4376,
+     "won_by": {
+      "ground": 0.2995,
+      "flyers": 0.3473,
+      "timeout": 0.0022
+     },
+     "lost_to": {
+      "drain": 0.0036,
+      "ground": 0.2793,
+      "combo": 0.0283,
+      "flyers": 0.0362,
+      "timeout": 0.0036
+     }
+    }
+   ],
+   "best": 24
+  },
+  {
+   "format": "con60",
+   "name": "karsten_check",
+   "label": "Best land count vs Karsten's formula",
+   "rows": [
+    {
+     "deck": "aggro (MV ~2)",
+     "best": 18,
+     "avg_mv": 2.05,
+     "karsten": 23.5
+    },
+    {
+     "deck": "midrange (MV ~3)",
+     "best": 26,
+     "avg_mv": 3.21,
+     "karsten": 25.7
+    },
+    {
+     "deck": "control (MV ~3.5)",
+     "best": 24,
+     "avg_mv": 3.33,
+     "karsten": 25.9
+    }
+   ],
+   "best": null
+  },
+  {
+   "format": "con60",
+   "name": "combo",
+   "label": "60-card combo (4-copy limit): pieces x tutors",
+   "rows": [
+    {
+     "x": "2 of each piece, 0 tutors",
+     "pieces": 2,
+     "tutors": 0,
+     "win": 0.4497,
+     "turns": 11.2779,
+     "screw": 0.0602,
+     "flood": 0.0591,
+     "color_stuck": 0.2972,
+     "won_by": {
+      "ground": 0.3132,
+      "combo": 0.1353,
+      "timeout": 0.0012
+     },
+     "lost_to": {
+      "drain": 0.0137,
+      "ground": 0.3071,
+      "combo": 0.0542,
+      "flyers": 0.1748,
+      "timeout": 0.0005
+     }
+    },
+    {
+     "x": "2 of each piece, 2 tutors",
+     "pieces": 2,
+     "tutors": 2,
+     "win": 0.4608,
+     "turns": 10.7957,
+     "screw": 0.0597,
+     "flood": 0.0528,
+     "color_stuck": 0.3057,
+     "won_by": {
+      "ground": 0.2142,
+      "combo": 0.246,
+      "timeout": 0.0006
+     },
+     "lost_to": {
+      "drain": 0.0123,
+      "ground": 0.3136,
+      "combo": 0.0517,
+      "flyers": 0.1613,
+      "timeout": 0.0003
+     }
+    },
+    {
+     "x": "2 of each piece, 4 tutors",
+     "pieces": 2,
+     "tutors": 4,
+     "win": 0.4638,
+     "turns": 10.3247,
+     "screw": 0.0613,
+     "flood": 0.0576,
+     "color_stuck": 0.3139,
+     "won_by": {
+      "ground": 0.1341,
+      "combo": 0.3295,
+      "timeout": 0.0003
+     },
+     "lost_to": {
+      "drain": 0.0129,
+      "ground": 0.3348,
+      "combo": 0.0479,
+      "flyers": 0.1404,
+      "timeout": 0.0003
+     }
+    },
+    {
+     "x": "3 of each piece, 0 tutors",
+     "pieces": 3,
+     "tutors": 0,
+     "win": 0.4617,
+     "turns": 10.9463,
+     "screw": 0.0603,
+     "flood": 0.0595,
+     "color_stuck": 0.303,
+     "won_by": {
+      "ground": 0.2288,
+      "combo": 0.2325,
+      "timeout": 0.0006
+     },
+     "lost_to": {
+      "drain": 0.0129,
+      "ground": 0.3083,
+      "combo": 0.0529,
+      "flyers": 0.1634,
+      "timeout": 0.0008
+     }
+    },
+    {
+     "x": "3 of each piece, 2 tutors",
+     "pieces": 3,
+     "tutors": 2,
+     "win": 0.4788,
+     "turns": 10.4307,
+     "screw": 0.0589,
+     "flood": 0.0576,
+     "color_stuck": 0.31,
+     "won_by": {
+      "ground": 0.1451,
+      "combo": 0.3335,
+      "timeout": 0.0003
+     },
+     "lost_to": {
+      "drain": 0.0117,
+      "ground": 0.3122,
+      "combo": 0.0508,
+      "flyers": 0.1462,
+      "timeout": 0.0003
+     }
+    },
+    {
+     "x": "3 of each piece, 4 tutors",
+     "pieces": 3,
+     "tutors": 4,
+     "win": 0.4861,
+     "turns": 9.992,
+     "screw": 0.0607,
+     "flood": 0.0582,
+     "color_stuck": 0.3112,
+     "won_by": {
+      "ground": 0.0909,
+      "combo": 0.3951,
+      "timeout": 0.0002
+     },
+     "lost_to": {
+      "drain": 0.0104,
+      "ground": 0.3233,
+      "combo": 0.0472,
+      "flyers": 0.1326,
+      "timeout": 0.0003
+     }
+    },
+    {
+     "x": "4 of each piece, 0 tutors",
+     "pieces": 4,
+     "tutors": 0,
+     "win": 0.4884,
+     "turns": 10.5903,
+     "screw": 0.0598,
+     "flood": 0.0593,
+     "color_stuck": 0.2931,
+     "won_by": {
+      "ground": 0.1535,
+      "combo": 0.3343,
+      "timeout": 0.0006
+     },
+     "lost_to": {
+      "drain": 0.0132,
+      "ground": 0.2947,
+      "combo": 0.0527,
+      "flyers": 0.1507,
+      "timeout": 0.0006
+     }
+    },
+    {
+     "x": "4 of each piece, 2 tutors",
+     "pieces": 4,
+     "tutors": 2,
+     "win": 0.5021,
+     "turns": 10.0536,
+     "screw": 0.0589,
+     "flood": 0.0583,
+     "color_stuck": 0.2979,
+     "won_by": {
+      "ground": 0.0975,
+      "combo": 0.4043,
+      "timeout": 0.0002
+     },
+     "lost_to": {
+      "drain": 0.0118,
+      "ground": 0.3014,
+      "combo": 0.0478,
+      "flyers": 0.1365,
+      "timeout": 0.0003
+     }
+    },
+    {
+     "x": "4 of each piece, 4 tutors",
+     "pieces": 4,
+     "tutors": 4,
+     "win": 0.5002,
+     "turns": 9.6508,
+     "screw": 0.06,
+     "flood": 0.0578,
+     "color_stuck": 0.3024,
+     "won_by": {
+      "ground": 0.053,
+      "combo": 0.4472,
+      "timeout": 0.0001
+     },
+     "lost_to": {
+      "drain": 0.0111,
+      "ground": 0.3243,
+      "combo": 0.0447,
+      "flyers": 0.1196,
+      "timeout": 0.0001
+     }
+    }
+   ],
+   "best": "4 of each piece, 2 tutors"
+  },
+  {
+   "format": "con60",
+   "name": "counters_vs_combo",
+   "label": "Counterspells in midrange vs a combo deck",
+   "rows": [
+    {
+     "x": 0,
+     "avg_mv": 3.25,
+     "win": 0.526,
+     "turns": 9.5652,
+     "screw": 0.0518,
+     "flood": 0.0688,
+     "color_stuck": 0.4694,
+     "won_by": {
+      "flyers": 0.214,
+      "ground": 0.312
+     },
+     "lost_to": {
+      "combo": 0.434,
+      "ground": 0.04
+     }
+    },
+    {
+     "x": 2,
+     "avg_mv": 3.25,
+     "win": 0.5426,
+     "turns": 9.9328,
+     "screw": 0.054,
+     "flood": 0.068,
+     "color_stuck": 0.4754,
+     "won_by": {
+      "flyers": 0.2438,
+      "ground": 0.2988
+     },
+     "lost_to": {
+      "combo": 0.3862,
+      "ground": 0.0712
+     }
+    },
+    {
+     "x": 4,
+     "avg_mv": 3.19,
+     "win": 0.5578,
+     "turns": 10.3114,
+     "screw": 0.0488,
+     "flood": 0.0696,
+     "color_stuck": 0.46,
+     "won_by": {
+      "flyers": 0.2458,
+      "ground": 0.312
+     },
+     "lost_to": {
+      "combo": 0.3406,
+      "ground": 0.1016
+     }
+    },
+    {
+     "x": 6,
+     "avg_mv": 3.17,
+     "win": 0.5704,
+     "turns": 10.6264,
+     "screw": 0.05,
+     "flood": 0.0672,
+     "color_stuck": 0.4752,
+     "won_by": {
+      "flyers": 0.2542,
+      "ground": 0.3162
+     },
+     "lost_to": {
+      "combo": 0.2868,
+      "ground": 0.1426,
+      "timeout": 0.0002
+     }
+    },
+    {
+     "x": 8,
+     "avg_mv": 3.11,
+     "win": 0.5616,
+     "turns": 10.8502,
+     "screw": 0.0456,
+     "flood": 0.0732,
+     "color_stuck": 0.4784,
+     "won_by": {
+      "flyers": 0.2666,
+      "ground": 0.2948,
+      "timeout": 0.0002
+     },
+     "lost_to": {
+      "combo": 0.2544,
+      "ground": 0.184
+     }
+    }
+   ],
+   "best": 6
+  },
+  {
+   "format": "con60",
+   "name": "removal_vs_combo",
+   "label": "Removal in midrange vs a combo deck",
+   "rows": [
+    {
+     "x": 0,
+     "avg_mv": 3.33,
+     "win": 0.398,
+     "turns": 8.555,
+     "screw": 0.0446,
+     "flood": 0.065,
+     "color_stuck": 0.4648,
+     "won_by": {
+      "flyers": 0.1554,
+      "ground": 0.2426
+     },
+     "lost_to": {
+      "combo": 0.5592,
+      "ground": 0.0428
+     }
+    },
+    {
+     "x": 2,
+     "avg_mv": 3.28,
+     "win": 0.4464,
+     "turns": 8.7882,
+     "screw": 0.0512,
+     "flood": 0.066,
+     "color_stuck": 0.4746,
+     "won_by": {
+      "flyers": 0.1738,
+      "ground": 0.2726
+     },
+     "lost_to": {
+      "combo": 0.519,
+      "ground": 0.0346
+     }
+    },
+    {
+     "x": 4,
+     "avg_mv": 3.25,
+     "win": 0.4812,
+     "turns": 9.0752,
+     "screw": 0.0488,
+     "flood": 0.0674,
+     "color_stuck": 0.47,
+     "won_by": {
+      "flyers": 0.1936,
+      "ground": 0.2876
+     },
+     "lost_to": {
+      "combo": 0.4818,
+      "ground": 0.037
+     }
+    },
+    {
+     "x": 6,
+     "avg_mv": 3.19,
+     "win": 0.5086,
+     "turns": 9.41,
+     "screw": 0.0482,
+     "flood": 0.0704,
+     "color_stuck": 0.4644,
+     "won_by": {
+      "flyers": 0.2062,
+      "ground": 0.3024
+     },
+     "lost_to": {
+      "combo": 0.4502,
+      "ground": 0.0412
+     }
+    },
+    {
+     "x": 8,
+     "avg_mv": 3.14,
+     "win": 0.548,
+     "turns": 9.7556,
+     "screw": 0.0468,
+     "flood": 0.0682,
+     "color_stuck": 0.4588,
+     "won_by": {
+      "flyers": 0.2308,
+      "ground": 0.3172
+     },
+     "lost_to": {
+      "combo": 0.418,
+      "ground": 0.034
+     }
+    },
+    {
+     "x": 10,
+     "avg_mv": 3.08,
+     "win": 0.5788,
+     "turns": 10.2064,
+     "screw": 0.0584,
+     "flood": 0.0632,
+     "color_stuck": 0.4514,
+     "won_by": {
+      "flyers": 0.2452,
+      "ground": 0.3336
+     },
+     "lost_to": {
+      "combo": 0.3866,
+      "ground": 0.0344,
+      "timeout": 0.0002
+     }
+    },
+    {
+     "x": 12,
+     "avg_mv": 3.03,
+     "win": 0.6302,
+     "turns": 10.6056,
+     "screw": 0.0482,
+     "flood": 0.0644,
+     "color_stuck": 0.4538,
+     "won_by": {
+      "flyers": 0.2784,
+      "ground": 0.3518
+     },
+     "lost_to": {
+      "combo": 0.3366,
+      "ground": 0.033,
+      "timeout": 0.0002
+     }
+    }
+   ],
+   "best": 12
+  },
+  {
+   "format": "con60",
+   "name": "counters_vs_field",
+   "label": "Counterspells in midrange vs the whole field",
+   "rows": [
+    {
+     "x": 0,
+     "avg_mv": 3.25,
+     "win": 0.5907,
+     "turns": 10.6825,
+     "screw": 0.0485,
+     "flood": 0.0691,
+     "color_stuck": 0.4819,
+     "won_by": {
+      "flyers": 0.2311,
+      "ground": 0.3595
+     },
+     "lost_to": {
+      "drain": 0.0087,
+      "ground": 0.2535,
+      "combo": 0.0526,
+      "flyers": 0.0945,
+      "timeout": 0.0001
+     }
+    },
+    {
+     "x": 2,
+     "avg_mv": 3.25,
+     "win": 0.5737,
+     "turns": 10.8158,
+     "screw": 0.0471,
+     "flood": 0.0688,
+     "color_stuck": 0.4798,
+     "won_by": {
+      "ground": 0.3404,
+      "flyers": 0.2333,
+      "timeout": 0.0001
+     },
+     "lost_to": {
+      "drain": 0.0096,
+      "ground": 0.2801,
+      "combo": 0.0476,
+      "flyers": 0.089
+     }
+    },
+    {
+     "x": 4,
+     "avg_mv": 3.19,
+     "win": 0.5614,
+     "turns": 10.9579,
+     "screw": 0.0516,
+     "flood": 0.0685,
+     "color_stuck": 0.4736,
+     "won_by": {
+      "ground": 0.3319,
+      "flyers": 0.2293,
+      "timeout": 0.0001
+     },
+     "lost_to": {
+      "drain": 0.0088,
+      "ground": 0.3094,
+      "combo": 0.043,
+      "flyers": 0.0771,
+      "timeout": 0.0003
+     }
+    },
+    {
+     "x": 6,
+     "avg_mv": 3.17,
+     "win": 0.5537,
+     "turns": 11.0712,
+     "screw": 0.0513,
+     "flood": 0.0706,
+     "color_stuck": 0.4778,
+     "won_by": {
+      "ground": 0.3233,
+      "flyers": 0.23,
+      "timeout": 0.0005
+     },
+     "lost_to": {
+      "drain": 0.0083,
+      "ground": 0.3303,
+      "combo": 0.0379,
+      "flyers": 0.0692,
+      "timeout": 0.0005
+     }
+    },
+    {
+     "x": 8,
+     "avg_mv": 3.11,
+     "win": 0.543,
+     "turns": 11.1489,
+     "screw": 0.0482,
+     "flood": 0.0673,
+     "color_stuck": 0.4769,
+     "won_by": {
+      "ground": 0.3081,
+      "flyers": 0.2344,
+      "timeout": 0.0005
+     },
+     "lost_to": {
+      "drain": 0.0078,
+      "ground": 0.3589,
+      "combo": 0.0289,
+      "flyers": 0.0609,
+      "timeout": 0.0005
+     }
+    }
+   ],
+   "best": 0
+  },
+  {
+   "format": "brawl",
+   "name": "lands",
+   "label": "Lands (template deck, 10 ramp)",
+   "rows": [
+    {
+     "x": 30,
+     "avg_mv": 3.22,
+     "win": 0.4737,
+     "turns": 12.9765,
+     "screw": 0.0678,
+     "flood": 0.0174,
+     "color_stuck": 0.4061,
+     "won_by": {
+      "flyers": 0.1014,
+      "ground": 0.3724
+     },
+     "lost_to": {
+      "drain": 0.0286,
+      "ground": 0.3571,
+      "combo": 0.0376,
+      "flyers": 0.1029
+     }
+    },
+    {
+     "x": 32,
+     "avg_mv": 3.21,
+     "win": 0.5044,
+     "turns": 13.2192,
+     "screw": 0.0521,
+     "flood": 0.0301,
+     "color_stuck": 0.409,
+     "won_by": {
+      "flyers": 0.1078,
+      "ground": 0.3967
+     },
+     "lost_to": {
+      "drain": 0.0287,
+      "ground": 0.3342,
+      "combo": 0.0365,
+      "flyers": 0.0961
+     }
+    },
+    {
+     "x": 34,
+     "avg_mv": 3.2,
+     "win": 0.5064,
+     "turns": 13.239,
+     "screw": 0.0446,
+     "flood": 0.0403,
+     "color_stuck": 0.401,
+     "won_by": {
+      "flyers": 0.1163,
+      "ground": 0.3901
+     },
+     "lost_to": {
+      "drain": 0.0262,
+      "ground": 0.3307,
+      "combo": 0.0339,
+      "flyers": 0.1028
+     }
+    },
+    {
+     "x": 36,
+     "avg_mv": 3.19,
+     "win": 0.5368,
+     "turns": 13.4604,
+     "screw": 0.0297,
+     "flood": 0.0526,
+     "color_stuck": 0.3719,
+     "won_by": {
+      "flyers": 0.1232,
+      "ground": 0.4136
+     },
+     "lost_to": {
+      "drain": 0.0235,
+      "ground": 0.3132,
+      "combo": 0.0314,
+      "flyers": 0.0951
+     }
+    },
+    {
+     "x": 38,
+     "avg_mv": 3.23,
+     "win": 0.5376,
+     "turns": 13.4578,
+     "screw": 0.0228,
+     "flood": 0.0712,
+     "color_stuck": 0.3706,
+     "won_by": {
+      "flyers": 0.1278,
+      "ground": 0.4099
+     },
+     "lost_to": {
+      "drain": 0.0221,
+      "ground": 0.3124,
+      "combo": 0.0353,
+      "flyers": 0.0926
+     }
+    },
+    {
+     "x": 40,
+     "avg_mv": 3.25,
+     "win": 0.5324,
+     "turns": 13.5214,
+     "screw": 0.0174,
+     "flood": 0.0897,
+     "color_stuck": 0.3664,
+     "won_by": {
+      "flyers": 0.1324,
+      "ground": 0.4
+     },
+     "lost_to": {
+      "drain": 0.0261,
+      "ground": 0.3096,
+      "combo": 0.0365,
+      "flyers": 0.0954
+     }
+    },
+    {
+     "x": 42,
+     "avg_mv": 3.25,
+     "win": 0.5493,
+     "turns": 13.6718,
+     "screw": 0.0108,
+     "flood": 0.1201,
+     "color_stuck": 0.3436,
+     "won_by": {
+      "flyers": 0.1375,
+      "ground": 0.4118
+     },
+     "lost_to": {
+      "drain": 0.024,
+      "ground": 0.3008,
+      "combo": 0.0328,
+      "flyers": 0.0931
+     }
+    },
+    {
+     "x": 44,
+     "avg_mv": 3.27,
+     "win": 0.5404,
+     "turns": 13.7413,
+     "screw": 0.0097,
+     "flood": 0.1553,
+     "color_stuck": 0.3443,
+     "won_by": {
+      "flyers": 0.1418,
+      "ground": 0.3986
+     },
+     "lost_to": {
+      "drain": 0.0257,
+      "ground": 0.3033,
+      "combo": 0.0343,
+      "flyers": 0.0963
+     }
+    }
+   ],
+   "best": 42
+  },
+  {
+   "format": "brawl",
+   "name": "lands_noramp",
+   "label": "Lands with ramp replaced by creatures",
+   "rows": [
+    {
+     "x": 30,
+     "avg_mv": 3.41,
+     "win": 0.4225,
+     "turns": 12.6525,
+     "screw": 0.1556,
+     "flood": 0.0201,
+     "color_stuck": 0.5149,
+     "won_by": {
+      "flyers": 0.0772,
+      "ground": 0.3453
+     },
+     "lost_to": {
+      "drain": 0.0304,
+      "ground": 0.399,
+      "combo": 0.0387,
+      "flyers": 0.1093
+     }
+    },
+    {
+     "x": 32,
+     "avg_mv": 3.4,
+     "win": 0.4715,
+     "turns": 12.7403,
+     "screw": 0.1244,
+     "flood": 0.0292,
+     "color_stuck": 0.4964,
+     "won_by": {
+      "flyers": 0.0847,
+      "ground": 0.3868
+     },
+     "lost_to": {
+      "drain": 0.0274,
+      "ground": 0.3613,
+      "combo": 0.0349,
+      "flyers": 0.105
+     }
+    },
+    {
+     "x": 34,
+     "avg_mv": 3.4,
+     "win": 0.5046,
+     "turns": 12.9343,
+     "screw": 0.0976,
+     "flood": 0.0404,
+     "color_stuck": 0.5004,
+     "won_by": {
+      "flyers": 0.0869,
+      "ground": 0.4176
+     },
+     "lost_to": {
+      "drain": 0.0285,
+      "ground": 0.3324,
+      "combo": 0.0344,
+      "flyers": 0.1001
+     }
+    },
+    {
+     "x": 36,
+     "avg_mv": 3.4,
+     "win": 0.5357,
+     "turns": 13.0332,
+     "screw": 0.0792,
+     "flood": 0.055,
+     "color_stuck": 0.4883,
+     "won_by": {
+      "flyers": 0.1014,
+      "ground": 0.4343
+     },
+     "lost_to": {
+      "drain": 0.0253,
+      "ground": 0.3081,
+      "combo": 0.0343,
+      "flyers": 0.0967
+     }
+    },
+    {
+     "x": 38,
+     "avg_mv": 3.44,
+     "win": 0.5422,
+     "turns": 13.0993,
+     "screw": 0.0669,
+     "flood": 0.0675,
+     "color_stuck": 0.4763,
+     "won_by": {
+      "flyers": 0.1031,
+      "ground": 0.4392
+     },
+     "lost_to": {
+      "drain": 0.0271,
+      "ground": 0.299,
+      "combo": 0.0335,
+      "flyers": 0.0982
+     }
+    },
+    {
+     "x": 40,
+     "avg_mv": 3.47,
+     "win": 0.5551,
+     "turns": 13.2514,
+     "screw": 0.0492,
+     "flood": 0.0857,
+     "color_stuck": 0.4726,
+     "won_by": {
+      "flyers": 0.1156,
+      "ground": 0.4396
+     },
+     "lost_to": {
+      "drain": 0.0235,
+      "ground": 0.2906,
+      "combo": 0.0322,
+      "flyers": 0.0986
+     }
+    },
+    {
+     "x": 42,
+     "avg_mv": 3.51,
+     "win": 0.5587,
+     "turns": 13.2996,
+     "screw": 0.0404,
+     "flood": 0.116,
+     "color_stuck": 0.4633,
+     "won_by": {
+      "flyers": 0.1144,
+      "ground": 0.4443
+     },
+     "lost_to": {
+      "drain": 0.0261,
+      "ground": 0.2906,
+      "combo": 0.0314,
+      "flyers": 0.0932
+     }
+    },
+    {
+     "x": 44,
+     "avg_mv": 3.51,
+     "win": 0.574,
+     "turns": 13.4087,
+     "screw": 0.031,
+     "flood": 0.1318,
+     "color_stuck": 0.4531,
+     "won_by": {
+      "flyers": 0.1256,
+      "ground": 0.4485
+     },
+     "lost_to": {
+      "drain": 0.0228,
+      "ground": 0.2756,
+      "combo": 0.0318,
+      "flyers": 0.0958
+     }
+    }
+   ],
+   "best": 44
+  },
+  {
+   "format": "brawl",
+   "name": "ramp",
+   "label": "Ramp spells (37 lands)",
+   "rows": [
+    {
+     "x": 0,
+     "avg_mv": 3.42,
+     "win": 0.5386,
+     "turns": 13.0737,
+     "screw": 0.0717,
+     "flood": 0.0596,
+     "color_stuck": 0.4811,
+     "won_by": {
+      "flyers": 0.099,
+      "ground": 0.4396
+     },
+     "lost_to": {
+      "drain": 0.0229,
+      "ground": 0.3129,
+      "combo": 0.0315,
+      "flyers": 0.094
+     }
+    },
+    {
+     "x": 2,
+     "avg_mv": 3.4,
+     "win": 0.5435,
+     "turns": 13.1018,
+     "screw": 0.0571,
+     "flood": 0.0597,
+     "color_stuck": 0.4676,
+     "won_by": {
+      "flyers": 0.1151,
+      "ground": 0.4283
+     },
+     "lost_to": {
+      "drain": 0.024,
+      "ground": 0.306,
+      "combo": 0.0349,
+      "flyers": 0.0917
+     }
+    },
+    {
+     "x": 4,
+     "avg_mv": 3.32,
+     "win": 0.5354,
+     "turns": 13.2263,
+     "screw": 0.0532,
+     "flood": 0.0539,
+     "color_stuck": 0.4397,
+     "won_by": {
+      "ground": 0.4221,
+      "flyers": 0.1132,
+      "timeout": 0.0001
+     },
+     "lost_to": {
+      "drain": 0.025,
+      "ground": 0.3072,
+      "combo": 0.0354,
+      "flyers": 0.0968,
+      "timeout": 0.0001
+     }
+    },
+    {
+     "x": 6,
+     "avg_mv": 3.31,
+     "win": 0.5396,
+     "turns": 13.2294,
+     "screw": 0.0396,
+     "flood": 0.0617,
+     "color_stuck": 0.4217,
+     "won_by": {
+      "flyers": 0.1094,
+      "ground": 0.4301
+     },
+     "lost_to": {
+      "drain": 0.0254,
+      "ground": 0.3007,
+      "combo": 0.0378,
+      "flyers": 0.0965
+     }
+    },
+    {
+     "x": 8,
+     "avg_mv": 3.23,
+     "win": 0.5514,
+     "turns": 13.3565,
+     "screw": 0.0312,
+     "flood": 0.0621,
+     "color_stuck": 0.3965,
+     "won_by": {
+      "ground": 0.4239,
+      "flyers": 0.1274,
+      "timeout": 0.0001
+     },
+     "lost_to": {
+      "drain": 0.0236,
+      "ground": 0.3,
+      "combo": 0.0306,
+      "flyers": 0.0944
+     }
+    },
+    {
+     "x": 10,
+     "avg_mv": 3.21,
+     "win": 0.5292,
+     "turns": 13.4468,
+     "screw": 0.0244,
+     "flood": 0.0604,
+     "color_stuck": 0.3769,
+     "won_by": {
+      "flyers": 0.1261,
+      "ground": 0.4031
+     },
+     "lost_to": {
+      "drain": 0.0264,
+      "ground": 0.3078,
+      "combo": 0.0336,
+      "flyers": 0.1031
+     }
+    },
+    {
+     "x": 12,
+     "avg_mv": 3.19,
+     "win": 0.5135,
+     "turns": 13.5221,
+     "screw": 0.0231,
+     "flood": 0.064,
+     "color_stuck": 0.3608,
+     "won_by": {
+      "flyers": 0.1258,
+      "ground": 0.3876
+     },
+     "lost_to": {
+      "drain": 0.0275,
+      "ground": 0.3268,
+      "combo": 0.0347,
+      "flyers": 0.0975
+     }
+    },
+    {
+     "x": 14,
+     "avg_mv": 3.18,
+     "win": 0.5096,
+     "turns": 13.6583,
+     "screw": 0.0179,
+     "flood": 0.0669,
+     "color_stuck": 0.3426,
+     "won_by": {
+      "flyers": 0.1267,
+      "ground": 0.3829
+     },
+     "lost_to": {
+      "drain": 0.0226,
+      "ground": 0.3324,
+      "combo": 0.0357,
+      "flyers": 0.0997
+     }
+    },
+    {
+     "x": 16,
+     "avg_mv": 3.15,
+     "win": 0.4965,
+     "turns": 13.6707,
+     "screw": 0.0142,
+     "flood": 0.0675,
+     "color_stuck": 0.3354,
+     "won_by": {
+      "flyers": 0.1306,
+      "ground": 0.366
+     },
+     "lost_to": {
+      "drain": 0.0265,
+      "ground": 0.334,
+      "combo": 0.0375,
+      "flyers": 0.1054
+     }
+    }
+   ],
+   "best": 8
+  },
+  {
+   "format": "brawl",
+   "name": "draw",
+   "label": "Card draw: draw spells + value creatures (37 lands)",
+   "rows": [
+    {
+     "x": 0,
+     "avg_mv": 3.24,
+     "win": 0.5381,
+     "turns": 12.9092,
+     "screw": 0.0247,
+     "flood": 0.0518,
+     "color_stuck": 0.4061,
+     "won_by": {
+      "flyers": 0.1082,
+      "ground": 0.4299
+     },
+     "lost_to": {
+      "drain": 0.0256,
+      "ground": 0.3024,
+      "combo": 0.0328,
+      "flyers": 0.1013
+     }
+    },
+    {
+     "x": 2,
+     "avg_mv": 3.26,
+     "win": 0.5349,
+     "turns": 13.0165,
+     "screw": 0.024,
+     "flood": 0.0518,
+     "color_stuck": 0.4039,
+     "won_by": {
+      "flyers": 0.1118,
+      "ground": 0.4231
+     },
+     "lost_to": {
+      "drain": 0.0228,
+      "ground": 0.3104,
+      "combo": 0.0351,
+      "flyers": 0.0968
+     }
+    },
+    {
+     "x": 4,
+     "avg_mv": 3.24,
+     "win": 0.5306,
+     "turns": 13.1467,
+     "screw": 0.0271,
+     "flood": 0.0554,
+     "color_stuck": 0.395,
+     "won_by": {
+      "flyers": 0.1147,
+      "ground": 0.4158
+     },
+     "lost_to": {
+      "drain": 0.0264,
+      "ground": 0.3104,
+      "combo": 0.0342,
+      "flyers": 0.0985
+     }
+    },
+    {
+     "x": 6,
+     "avg_mv": 3.19,
+     "win": 0.5231,
+     "turns": 13.2532,
+     "screw": 0.0258,
+     "flood": 0.0537,
+     "color_stuck": 0.39,
+     "won_by": {
+      "flyers": 0.1171,
+      "ground": 0.406
+     },
+     "lost_to": {
+      "drain": 0.0265,
+      "ground": 0.3147,
+      "combo": 0.034,
+      "flyers": 0.1017
+     }
+    },
+    {
+     "x": 8,
+     "avg_mv": 3.18,
+     "win": 0.5297,
+     "turns": 13.2897,
+     "screw": 0.0283,
+     "flood": 0.0596,
+     "color_stuck": 0.3922,
+     "won_by": {
+      "ground": 0.4079,
+      "flyers": 0.1217,
+      "timeout": 0.0001
+     },
+     "lost_to": {
+      "drain": 0.0239,
+      "ground": 0.3185,
+      "combo": 0.0321,
+      "flyers": 0.0958
+     }
+    },
+    {
+     "x": 10,
+     "avg_mv": 3.19,
+     "win": 0.5447,
+     "turns": 13.3832,
+     "screw": 0.026,
+     "flood": 0.0615,
+     "color_stuck": 0.3818,
+     "won_by": {
+      "flyers": 0.1263,
+      "ground": 0.4185
+     },
+     "lost_to": {
+      "drain": 0.024,
+      "ground": 0.3032,
+      "combo": 0.0343,
+      "flyers": 0.0936,
+      "timeout": 0.0001
+     }
+    },
+    {
+     "x": 12,
+     "avg_mv": 3.23,
+     "win": 0.5267,
+     "turns": 13.4789,
+     "screw": 0.0254,
+     "flood": 0.066,
+     "color_stuck": 0.3785,
+     "won_by": {
+      "flyers": 0.1288,
+      "ground": 0.3979
+     },
+     "lost_to": {
+      "drain": 0.0274,
+      "ground": 0.3157,
+      "combo": 0.0353,
+      "flyers": 0.095
+     }
+    },
+    {
+     "x": 14,
+     "avg_mv": 3.24,
+     "win": 0.5337,
+     "turns": 13.566,
+     "screw": 0.0276,
+     "flood": 0.07,
+     "color_stuck": 0.3776,
+     "won_by": {
+      "flyers": 0.1294,
+      "ground": 0.4043
+     },
+     "lost_to": {
+      "drain": 0.0242,
+      "ground": 0.3132,
+      "combo": 0.0374,
+      "flyers": 0.0914,
+      "timeout": 0.0001
+     }
+    },
+    {
+     "x": 16,
+     "avg_mv": 3.23,
+     "win": 0.5246,
+     "turns": 13.6226,
+     "screw": 0.0282,
+     "flood": 0.0663,
+     "color_stuck": 0.3667,
+     "won_by": {
+      "flyers": 0.1286,
+      "ground": 0.396
+     },
+     "lost_to": {
+      "drain": 0.026,
+      "ground": 0.3238,
+      "combo": 0.034,
+      "flyers": 0.0917
+     }
+    }
+   ],
+   "best": 10
+  },
+  {
+   "format": "brawl",
+   "name": "removal",
+   "label": "Targeted removal (37 lands)",
+   "rows": [
+    {
+     "x": 0,
+     "avg_mv": 3.27,
+     "win": 0.4808,
+     "turns": 12.5251,
+     "screw": 0.0258,
+     "flood": 0.066,
+     "color_stuck": 0.3535,
+     "won_by": {
+      "flyers": 0.1118,
+      "ground": 0.369
+     },
+     "lost_to": {
+      "drain": 0.0432,
+      "ground": 0.3001,
+      "combo": 0.0485,
+      "flyers": 0.1274
+     }
+    },
+    {
+     "x": 2,
+     "avg_mv": 3.26,
+     "win": 0.4889,
+     "turns": 12.7837,
+     "screw": 0.0231,
+     "flood": 0.0631,
+     "color_stuck": 0.3646,
+     "won_by": {
+      "flyers": 0.1135,
+      "ground": 0.3754
+     },
+     "lost_to": {
+      "drain": 0.0361,
+      "ground": 0.3119,
+      "combo": 0.0453,
+      "flyers": 0.1178
+     }
+    },
+    {
+     "x": 4,
+     "avg_mv": 3.21,
+     "win": 0.504,
+     "turns": 12.9753,
+     "screw": 0.0271,
+     "flood": 0.0617,
+     "color_stuck": 0.3613,
+     "won_by": {
+      "flyers": 0.1179,
+      "ground": 0.3861
+     },
+     "lost_to": {
+      "drain": 0.0324,
+      "ground": 0.3131,
+      "combo": 0.041,
+      "flyers": 0.1096
+     }
+    },
+    {
+     "x": 6,
+     "avg_mv": 3.19,
+     "win": 0.5358,
+     "turns": 13.205,
+     "screw": 0.0251,
+     "flood": 0.0614,
+     "color_stuck": 0.3697,
+     "won_by": {
+      "flyers": 0.1236,
+      "ground": 0.4122
+     },
+     "lost_to": {
+      "drain": 0.0256,
+      "ground": 0.3007,
+      "combo": 0.0365,
+      "flyers": 0.1014
+     }
+    },
+    {
+     "x": 8,
+     "avg_mv": 3.21,
+     "win": 0.5171,
+     "turns": 13.2794,
+     "screw": 0.0274,
+     "flood": 0.0601,
+     "color_stuck": 0.3647,
+     "won_by": {
+      "flyers": 0.1089,
+      "ground": 0.4082
+     },
+     "lost_to": {
+      "drain": 0.0294,
+      "ground": 0.3174,
+      "combo": 0.0364,
+      "flyers": 0.0997
+     }
+    },
+    {
+     "x": 10,
+     "avg_mv": 3.24,
+     "win": 0.5244,
+     "turns": 13.5818,
+     "screw": 0.026,
+     "flood": 0.0663,
+     "color_stuck": 0.385,
+     "won_by": {
+      "flyers": 0.1268,
+      "ground": 0.3976
+     },
+     "lost_to": {
+      "drain": 0.0235,
+      "ground": 0.3236,
+      "combo": 0.0351,
+      "flyers": 0.0933
+     }
+    },
+    {
+     "x": 12,
+     "avg_mv": 3.26,
+     "win": 0.5492,
+     "turns": 13.7958,
+     "screw": 0.0242,
+     "flood": 0.0629,
+     "color_stuck": 0.3926,
+     "won_by": {
+      "flyers": 0.1393,
+      "ground": 0.4099
+     },
+     "lost_to": {
+      "drain": 0.0214,
+      "ground": 0.319,
+      "combo": 0.0296,
+      "flyers": 0.0808
+     }
+    },
+    {
+     "x": 14,
+     "avg_mv": 3.24,
+     "win": 0.5636,
+     "turns": 14.0825,
+     "screw": 0.0254,
+     "flood": 0.0628,
+     "color_stuck": 0.3876,
+     "won_by": {
+      "ground": 0.4264,
+      "flyers": 0.1371,
+      "timeout": 0.0001
+     },
+     "lost_to": {
+      "drain": 0.0214,
+      "ground": 0.3082,
+      "combo": 0.0244,
+      "flyers": 0.0824
+     }
+    },
+    {
+     "x": 16,
+     "avg_mv": 3.26,
+     "win": 0.5761,
+     "turns": 14.3104,
+     "screw": 0.0244,
+     "flood": 0.064,
+     "color_stuck": 0.4053,
+     "won_by": {
+      "flyers": 0.1456,
+      "ground": 0.4306
+     },
+     "lost_to": {
+      "drain": 0.0172,
+      "ground": 0.3096,
+      "combo": 0.024,
+      "flyers": 0.0729,
+      "timeout": 0.0001
+     }
+    }
+   ],
+   "best": 16
+  },
+  {
+   "format": "brawl",
+   "name": "wipes",
+   "label": "Board wipes (37 lands)",
+   "rows": [
+    {
+     "x": 0,
+     "avg_mv": 3.16,
+     "win": 0.4857,
+     "turns": 12.7021,
+     "screw": 0.0272,
+     "flood": 0.0601,
+     "color_stuck": 0.3533,
+     "won_by": {
+      "flyers": 0.1132,
+      "ground": 0.3725
+     },
+     "lost_to": {
+      "drain": 0.0325,
+      "ground": 0.3133,
+      "combo": 0.0417,
+      "flyers": 0.1268
+     }
+    },
+    {
+     "x": 1,
+     "avg_mv": 3.18,
+     "win": 0.5196,
+     "turns": 13.0469,
+     "screw": 0.0254,
+     "flood": 0.0576,
+     "color_stuck": 0.3674,
+     "won_by": {
+      "flyers": 0.1267,
+      "ground": 0.3929
+     },
+     "lost_to": {
+      "drain": 0.0264,
+      "ground": 0.3136,
+      "combo": 0.0357,
+      "flyers": 0.1047
+     }
+    },
+    {
+     "x": 2,
+     "avg_mv": 3.21,
+     "win": 0.524,
+     "turns": 13.425,
+     "screw": 0.0275,
+     "flood": 0.0667,
+     "color_stuck": 0.3697,
+     "won_by": {
+      "flyers": 0.1292,
+      "ground": 0.3949
+     },
+     "lost_to": {
+      "drain": 0.0285,
+      "ground": 0.3161,
+      "combo": 0.034,
+      "flyers": 0.0974
+     }
+    },
+    {
+     "x": 3,
+     "avg_mv": 3.24,
+     "win": 0.5585,
+     "turns": 13.8217,
+     "screw": 0.0268,
+     "flood": 0.0675,
+     "color_stuck": 0.3833,
+     "won_by": {
+      "flyers": 0.1407,
+      "ground": 0.4178
+     },
+     "lost_to": {
+      "drain": 0.0258,
+      "ground": 0.3047,
+      "combo": 0.0285,
+      "flyers": 0.0825
+     }
+    },
+    {
+     "x": 4,
+     "avg_mv": 3.26,
+     "win": 0.5829,
+     "turns": 14.1993,
+     "screw": 0.0244,
+     "flood": 0.0676,
+     "color_stuck": 0.3878,
+     "won_by": {
+      "ground": 0.4483,
+      "flyers": 0.1343,
+      "timeout": 0.0003
+     },
+     "lost_to": {
+      "drain": 0.0239,
+      "ground": 0.2947,
+      "combo": 0.0269,
+      "flyers": 0.0714,
+      "timeout": 0.0001
+     }
+    },
+    {
+     "x": 5,
+     "avg_mv": 3.29,
+     "win": 0.6024,
+     "turns": 14.7196,
+     "screw": 0.0279,
+     "flood": 0.0618,
+     "color_stuck": 0.4053,
+     "won_by": {
+      "ground": 0.4626,
+      "flyers": 0.1394,
+      "timeout": 0.0003
+     },
+     "lost_to": {
+      "drain": 0.0183,
+      "ground": 0.2826,
+      "combo": 0.0283,
+      "flyers": 0.0679,
+      "timeout": 0.0004
+     }
+    },
+    {
+     "x": 6,
+     "avg_mv": 3.31,
+     "win": 0.6222,
+     "turns": 15.085,
+     "screw": 0.0262,
+     "flood": 0.065,
+     "color_stuck": 0.416,
+     "won_by": {
+      "ground": 0.4765,
+      "flyers": 0.1456,
+      "timeout": 0.0001
+     },
+     "lost_to": {
+      "drain": 0.0171,
+      "ground": 0.2715,
+      "combo": 0.0247,
+      "flyers": 0.064,
+      "timeout": 0.0004
+     }
+    }
+   ],
+   "best": 6
+  },
+  {
+   "format": "sbrawl",
+   "name": "lands",
+   "label": "Lands in Standard Brawl (59 + commander)",
+   "rows": [
+    {
+     "x": 18,
+     "avg_mv": 3.17,
+     "win": 0.4651,
+     "turns": 12.996,
+     "screw": 0.064,
+     "flood": 0.0163,
+     "color_stuck": 0.3872,
+     "won_by": {
+      "ground": 0.3492,
+      "decking": 0.0007,
+      "flyers": 0.1153
+     },
+     "lost_to": {
+      "drain": 0.03,
+      "ground": 0.3579,
+      "decking": 0.0003,
+      "combo": 0.0457,
+      "flyers": 0.101
+     }
+    },
+    {
+     "x": 19,
+     "avg_mv": 3.15,
+     "win": 0.4928,
+     "turns": 13.1531,
+     "screw": 0.0438,
+     "flood": 0.0204,
+     "color_stuck": 0.3761,
+     "won_by": {
+      "ground": 0.3662,
+      "decking": 0.0007,
+      "flyers": 0.1258
+     },
+     "lost_to": {
+      "drain": 0.0301,
+      "ground": 0.3439,
+      "decking": 0.0003,
+      "combo": 0.0414,
+      "flyers": 0.0915
+     }
+    },
+    {
+     "x": 20,
+     "avg_mv": 3.15,
+     "win": 0.5124,
+     "turns": 13.1186,
+     "screw": 0.0422,
+     "flood": 0.0311,
+     "color_stuck": 0.3669,
+     "won_by": {
+      "ground": 0.3807,
+      "decking": 0.0004,
+      "flyers": 0.1313
+     },
+     "lost_to": {
+      "drain": 0.0294,
+      "ground": 0.3222,
+      "decking": 0.0004,
+      "combo": 0.0417,
+      "flyers": 0.0939
+     }
+    },
+    {
+     "x": 21,
+     "avg_mv": 3.18,
+     "win": 0.5233,
+     "turns": 13.2417,
+     "screw": 0.0294,
+     "flood": 0.0415,
+     "color_stuck": 0.3593,
+     "won_by": {
+      "ground": 0.3886,
+      "decking": 0.0011,
+      "flyers": 0.1336
+     },
+     "lost_to": {
+      "drain": 0.0317,
+      "ground": 0.3089,
+      "decking": 0.0004,
+      "combo": 0.0411,
+      "flyers": 0.0946
+     }
+    },
+    {
+     "x": 22,
+     "avg_mv": 3.22,
+     "win": 0.5215,
+     "turns": 13.3136,
+     "screw": 0.0261,
+     "flood": 0.0529,
+     "color_stuck": 0.3497,
+     "won_by": {
+      "ground": 0.3785,
+      "decking": 0.001,
+      "flyers": 0.1421
+     },
+     "lost_to": {
+      "drain": 0.0271,
+      "ground": 0.3119,
+      "decking": 0.0001,
+      "combo": 0.0425,
+      "flyers": 0.0968
+     }
+    },
+    {
+     "x": 23,
+     "avg_mv": 3.22,
+     "win": 0.531,
+     "turns": 13.3879,
+     "screw": 0.0169,
+     "flood": 0.0686,
+     "color_stuck": 0.3594,
+     "won_by": {
+      "ground": 0.3897,
+      "decking": 0.0004,
+      "flyers": 0.1408
+     },
+     "lost_to": {
+      "drain": 0.0308,
+      "ground": 0.3032,
+      "decking": 0.001,
+      "combo": 0.0417,
+      "flyers": 0.0924
+     }
+    },
+    {
+     "x": 24,
+     "avg_mv": 3.26,
+     "win": 0.5151,
+     "turns": 13.4296,
+     "screw": 0.015,
+     "flood": 0.0861,
+     "color_stuck": 0.3515,
+     "won_by": {
+      "ground": 0.3692,
+      "decking": 0.0004,
+      "flyers": 0.1456
+     },
+     "lost_to": {
+      "drain": 0.0286,
+      "ground": 0.3181,
+      "decking": 0.0004,
+      "combo": 0.0446,
+      "flyers": 0.0932
+     }
+    },
+    {
+     "x": 25,
+     "avg_mv": 3.26,
+     "win": 0.5376,
+     "turns": 13.4426,
+     "screw": 0.011,
+     "flood": 0.1003,
+     "color_stuck": 0.3314,
+     "won_by": {
+      "ground": 0.3822,
+      "decking": 0.001,
+      "flyers": 0.1544
+     },
+     "lost_to": {
+      "drain": 0.0264,
+      "ground": 0.3051,
+      "decking": 0.0008,
+      "combo": 0.0419,
+      "flyers": 0.0881
+     }
+    },
+    {
+     "x": 26,
+     "avg_mv": 3.24,
+     "win": 0.5368,
+     "turns": 13.5492,
+     "screw": 0.0075,
+     "flood": 0.131,
+     "color_stuck": 0.3122,
+     "won_by": {
+      "ground": 0.3803,
+      "decking": 0.0004,
+      "flyers": 0.1561
+     },
+     "lost_to": {
+      "drain": 0.0292,
+      "ground": 0.2965,
+      "decking": 0.0014,
+      "combo": 0.0436,
+      "flyers": 0.0925
+     }
+    },
+    {
+     "x": 27,
+     "avg_mv": 3.28,
+     "win": 0.5212,
+     "turns": 13.5615,
+     "screw": 0.0071,
+     "flood": 0.1561,
+     "color_stuck": 0.3047,
+     "won_by": {
+      "ground": 0.3654,
+      "decking": 0.0006,
+      "flyers": 0.1553
+     },
+     "lost_to": {
+      "drain": 0.0283,
+      "ground": 0.3126,
+      "decking": 0.0013,
+      "combo": 0.0449,
+      "flyers": 0.0917
+     }
+    },
+    {
+     "x": 28,
+     "avg_mv": 3.29,
+     "win": 0.5207,
+     "turns": 13.5997,
+     "screw": 0.0056,
+     "flood": 0.1911,
+     "color_stuck": 0.3119,
+     "won_by": {
+      "ground": 0.3517,
+      "decking": 0.0007,
+      "flyers": 0.1683
+     },
+     "lost_to": {
+      "drain": 0.0271,
+      "ground": 0.32,
+      "decking": 0.0019,
+      "combo": 0.0396,
+      "flyers": 0.0907
+     }
+    }
+   ],
+   "best": 25
+  },
+  {
+   "format": "cmdr1v1",
+   "name": "lands",
+   "label": "Lands in Commander rules, 1v1 at 40 life",
+   "rows": [
+    {
+     "x": 30,
+     "avg_mv": 3.22,
+     "win": 0.5015,
+     "turns": 15.6843,
+     "screw": 0.0681,
+     "flood": 0.016,
+     "color_stuck": 0.4093,
+     "won_by": {
+      "flyers": 0.0776,
+      "ground": 0.4239
+     },
+     "lost_to": {
+      "drain": 0.0172,
+      "ground": 0.3529,
+      "combo": 0.0415,
+      "flyers": 0.0868
+     }
+    },
+    {
+     "x": 32,
+     "avg_mv": 3.21,
+     "win": 0.5274,
+     "turns": 15.7811,
+     "screw": 0.0501,
+     "flood": 0.0253,
+     "color_stuck": 0.3899,
+     "won_by": {
+      "flyers": 0.0875,
+      "ground": 0.4399
+     },
+     "lost_to": {
+      "drain": 0.0153,
+      "ground": 0.3328,
+      "combo": 0.0419,
+      "flyers": 0.0826
+     }
+    },
+    {
+     "x": 34,
+     "avg_mv": 3.2,
+     "win": 0.5503,
+     "turns": 15.9574,
+     "screw": 0.0335,
+     "flood": 0.0367,
+     "color_stuck": 0.3885,
+     "won_by": {
+      "ground": 0.4544,
+      "decking": 0.0001,
+      "flyers": 0.0956,
+      "timeout": 0.0001
+     },
+     "lost_to": {
+      "drain": 0.0161,
+      "ground": 0.3086,
+      "combo": 0.0433,
+      "flyers": 0.0817
+     }
+    },
+    {
+     "x": 36,
+     "avg_mv": 3.19,
+     "win": 0.5675,
+     "turns": 16.0856,
+     "screw": 0.0256,
+     "flood": 0.0476,
+     "color_stuck": 0.3778,
+     "won_by": {
+      "flyers": 0.0965,
+      "ground": 0.471
+     },
+     "lost_to": {
+      "drain": 0.0144,
+      "ground": 0.299,
+      "combo": 0.0401,
+      "flyers": 0.0789
+     }
+    },
+    {
+     "x": 38,
+     "avg_mv": 3.23,
+     "win": 0.5593,
+     "turns": 16.0835,
+     "screw": 0.0246,
+     "flood": 0.0564,
+     "color_stuck": 0.3715,
+     "won_by": {
+      "flyers": 0.0999,
+      "ground": 0.4594
+     },
+     "lost_to": {
+      "drain": 0.0151,
+      "ground": 0.3075,
+      "combo": 0.0428,
+      "flyers": 0.0753
+     }
+    },
+    {
+     "x": 40,
+     "avg_mv": 3.25,
+     "win": 0.5626,
+     "turns": 16.2686,
+     "screw": 0.0176,
+     "flood": 0.0824,
+     "color_stuck": 0.3572,
+     "won_by": {
+      "flyers": 0.1011,
+      "ground": 0.4615
+     },
+     "lost_to": {
+      "drain": 0.0157,
+      "ground": 0.3008,
+      "combo": 0.0458,
+      "flyers": 0.075
+     }
+    },
+    {
+     "x": 42,
+     "avg_mv": 3.25,
+     "win": 0.581,
+     "turns": 16.2424,
+     "screw": 0.0129,
+     "flood": 0.1118,
+     "color_stuck": 0.3457,
+     "won_by": {
+      "ground": 0.4703,
+      "decking": 0.0001,
+      "flyers": 0.1106
+     },
+     "lost_to": {
+      "drain": 0.014,
+      "ground": 0.2883,
+      "combo": 0.0444,
+      "flyers": 0.0722
+     }
+    },
+    {
+     "x": 44,
+     "avg_mv": 3.27,
+     "win": 0.579,
+     "turns": 16.3296,
+     "screw": 0.0072,
+     "flood": 0.1386,
+     "color_stuck": 0.3444,
+     "won_by": {
+      "flyers": 0.1294,
+      "ground": 0.4496
+     },
+     "lost_to": {
+      "drain": 0.0163,
+      "ground": 0.2838,
+      "combo": 0.0438,
+      "flyers": 0.0772
+     }
+    }
+   ],
+   "best": 42
+  },
+  {
+   "format": "draft40",
+   "name": "meta",
+   "label": "draft40: archetypes vs each other",
+   "rows": [
+    {
+     "x": "aggro",
+     "win": 0.3995,
+     "turns": 10.6144,
+     "screw": 0.0458,
+     "flood": 0.0491,
+     "color_stuck": 0.4678,
+     "won_by": {
+      "ground": 0.3641,
+      "flyers": 0.0352,
+      "timeout": 0.0002
+     },
+     "lost_to": {
+      "drain": 0.027,
+      "ground": 0.3151,
+      "combo": 0.0703,
+      "flyers": 0.1878,
+      "timeout": 0.0003
+     }
+    },
+    {
+     "x": "midrange",
+     "win": 0.53,
+     "turns": 10.6643,
+     "screw": 0.0305,
+     "flood": 0.0781,
+     "color_stuck": 0.4499,
+     "won_by": {
+      "flyers": 0.1678,
+      "ground": 0.3622
+     },
+     "lost_to": {
+      "drain": 0.0108,
+      "ground": 0.2849,
+      "combo": 0.0769,
+      "flyers": 0.0974
+     }
+    },
+    {
+     "x": "control",
+     "win": 0.6509,
+     "turns": 12.012,
+     "screw": 0.034,
+     "flood": 0.093,
+     "color_stuck": 0.4793,
+     "won_by": {
+      "ground": 0.4923,
+      "decking": 0.0014,
+      "flyers": 0.1566,
+      "timeout": 0.0007
+     },
+     "lost_to": {
+      "drain": 0.0056,
+      "ground": 0.2374,
+      "decking": 0.0008,
+      "combo": 0.0536,
+      "flyers": 0.0507,
+      "timeout": 0.0008
+     }
+    },
+    {
+     "x": "flyers",
+     "win": 0.4968,
+     "turns": 10.3534,
+     "screw": 0.0443,
+     "flood": 0.0503,
+     "color_stuck": 0.3568,
+     "won_by": {
+      "ground": 0.1418,
+      "flyers": 0.3547,
+      "timeout": 0.0003
+     },
+     "lost_to": {
+      "drain": 0.0088,
+      "ground": 0.3371,
+      "combo": 0.0638,
+      "flyers": 0.0936
+     }
+    },
+    {
+     "x": "ramp",
+     "win": 0.649,
+     "turns": 9.8865,
+     "screw": 0.008,
+     "flood": 0.0785,
+     "color_stuck": 0.314,
+     "won_by": {
+      "flyers": 0.2509,
+      "ground": 0.398
+     },
+     "lost_to": {
+      "drain": 0.0072,
+      "ground": 0.2226,
+      "combo": 0.0712,
+      "flyers": 0.05
+     }
+    },
+    {
+     "x": "aristocrats",
+     "win": 0.3384,
+     "turns": 10.5664,
+     "screw": 0.0465,
+     "flood": 0.0558,
+     "color_stuck": 0.3746,
+     "won_by": {
+      "drain": 0.1259,
+      "ground": 0.2121,
+      "timeout": 0.0004
+     },
+     "lost_to": {
+      "drain": 0.0296,
+      "ground": 0.3771,
+      "combo": 0.0788,
+      "flyers": 0.1759,
+      "timeout": 0.0002
+     }
+    },
+    {
+     "x": "tribal",
+     "win": 0.3841,
+     "turns": 10.6852,
+     "screw": 0.0448,
+     "flood": 0.05,
+     "color_stuck": 0.3796,
+     "won_by": {
+      "ground": 0.3833,
+      "timeout": 0.0007
+     },
+     "lost_to": {
+      "drain": 0.0234,
+      "ground": 0.3199,
+      "combo": 0.0692,
+      "flyers": 0.203,
+      "timeout": 0.0004
+     }
+    },
+    {
+     "x": "combo",
+     "win": 0.5686,
+     "turns": 8.7864,
+     "screw": 0.0413,
+     "flood": 0.0597,
+     "color_stuck": 0.2899,
+     "won_by": {
+      "combo": 0.549,
+      "ground": 0.0197
+     },
+     "lost_to": {
+      "drain": 0.0082,
+      "ground": 0.2734,
+      "combo": 0.0568,
+      "flyers": 0.0929
+     }
+    }
+   ],
+   "best": "control"
+  },
+  {
+   "format": "con60",
+   "name": "meta",
+   "label": "con60: archetypes vs each other",
+   "rows": [
+    {
+     "x": "aggro",
+     "win": 0.3961,
+     "turns": 10.5311,
+     "screw": 0.0474,
+     "flood": 0.0572,
+     "color_stuck": 0.4522,
+     "won_by": {
+      "ground": 0.3542,
+      "flyers": 0.0418,
+      "timeout": 0.0002
+     },
+     "lost_to": {
+      "drain": 0.0254,
+      "ground": 0.3114,
+      "combo": 0.0699,
+      "flyers": 0.197,
+      "timeout": 0.0002
+     }
+    },
+    {
+     "x": "midrange",
+     "win": 0.5484,
+     "turns": 10.5715,
+     "screw": 0.0301,
+     "flood": 0.0929,
+     "color_stuck": 0.4485,
+     "won_by": {
+      "flyers": 0.2051,
+      "ground": 0.3433
+     },
+     "lost_to": {
+      "drain": 0.0117,
+      "ground": 0.2745,
+      "combo": 0.0585,
+      "flyers": 0.1069
+     }
+    },
+    {
+     "x": "control",
+     "win": 0.6574,
+     "turns": 11.8597,
+     "screw": 0.0404,
+     "flood": 0.0953,
+     "color_stuck": 0.4942,
+     "won_by": {
+      "ground": 0.474,
+      "flyers": 0.1819,
+      "timeout": 0.0016
+     },
+     "lost_to": {
+      "drain": 0.0044,
+      "ground": 0.2471,
+      "combo": 0.0369,
+      "flyers": 0.0531,
+      "timeout": 0.0011
+     }
+    },
+    {
+     "x": "flyers",
+     "win": 0.5057,
+     "turns": 10.3987,
+     "screw": 0.0587,
+     "flood": 0.0454,
+     "color_stuck": 0.3812,
+     "won_by": {
+      "ground": 0.1492,
+      "flyers": 0.3565,
+      "timeout": 0.0001
+     },
+     "lost_to": {
+      "drain": 0.0104,
+      "ground": 0.3268,
+      "combo": 0.0514,
+      "flyers": 0.1056,
+      "timeout": 0.0001
+     }
+    },
+    {
+     "x": "ramp",
+     "win": 0.6277,
+     "turns": 9.8212,
+     "screw": 0.0096,
+     "flood": 0.1117,
+     "color_stuck": 0.2932,
+     "won_by": {
+      "ground": 0.3791,
+      "flyers": 0.2485,
+      "timeout": 0.0001
+     },
+     "lost_to": {
+      "drain": 0.0097,
+      "ground": 0.2375,
+      "combo": 0.0585,
+      "flyers": 0.0666
+     }
+    },
+    {
+     "x": "aristocrats",
+     "win": 0.3504,
+     "turns": 10.4139,
+     "screw": 0.0486,
+     "flood": 0.0639,
+     "color_stuck": 0.3882,
+     "won_by": {
+      "drain": 0.1311,
+      "ground": 0.2191,
+      "timeout": 0.0002
+     },
+     "lost_to": {
+      "drain": 0.0286,
+      "ground": 0.367,
+      "combo": 0.0743,
+      "flyers": 0.1797
+     }
+    },
+    {
+     "x": "tribal",
+     "win": 0.3743,
+     "turns": 10.4779,
+     "screw": 0.0429,
+     "flood": 0.0703,
+     "color_stuck": 0.3748,
+     "won_by": {
+      "ground": 0.3735,
+      "timeout": 0.0007
+     },
+     "lost_to": {
+      "drain": 0.0252,
+      "ground": 0.3253,
+      "combo": 0.0682,
+      "flyers": 0.2066,
+      "timeout": 0.0004
+     }
+    },
+    {
+     "x": "combo",
+     "win": 0.5353,
+     "turns": 9.332,
+     "screw": 0.0398,
+     "flood": 0.0824,
+     "color_stuck": 0.3118,
+     "won_by": {
+      "ground": 0.0724,
+      "combo": 0.4628,
+      "timeout": 0.0001
+     },
+     "lost_to": {
+      "drain": 0.012,
+      "ground": 0.2733,
+      "combo": 0.0497,
+      "flyers": 0.1294,
+      "timeout": 0.0003
+     }
+    }
+   ],
+   "best": "control"
+  },
+  {
+   "format": "brawl",
+   "name": "meta",
+   "label": "brawl: archetypes vs each other",
+   "rows": [
+    {
+     "x": "template",
+     "win": 0.5335,
+     "turns": 13.5432,
+     "screw": 0.0256,
+     "flood": 0.0599,
+     "color_stuck": 0.3833,
+     "won_by": {
+      "flyers": 0.1253,
+      "ground": 0.4082
+     },
+     "lost_to": {
+      "drain": 0.0271,
+      "ground": 0.3125,
+      "combo": 0.0322,
+      "flyers": 0.0947
+     }
+    },
+    {
+     "x": "aggro",
+     "win": 0.4493,
+     "turns": 11.521,
+     "screw": 0.076,
+     "flood": 0.0299,
+     "color_stuck": 0.4794,
+     "won_by": {
+      "flyers": 0.1067,
+      "ground": 0.3426
+     },
+     "lost_to": {
+      "drain": 0.0415,
+      "ground": 0.3157,
+      "combo": 0.0393,
+      "flyers": 0.1542
+     }
+    },
+    {
+     "x": "control",
+     "win": 0.6418,
+     "turns": 14.671,
+     "screw": 0.0299,
+     "flood": 0.074,
+     "color_stuck": 0.4069,
+     "won_by": {
+      "ground": 0.4206,
+      "flyers": 0.2211,
+      "timeout": 0.0001
+     },
+     "lost_to": {
+      "drain": 0.0126,
+      "ground": 0.285,
+      "combo": 0.0176,
+      "flyers": 0.0426,
+      "timeout": 0.0003
+     }
+    },
+    {
+     "x": "ramp",
+     "win": 0.5574,
+     "turns": 12.1146,
+     "screw": 0.0157,
+     "flood": 0.0747,
+     "color_stuck": 0.2832,
+     "won_by": {
+      "flyers": 0.1961,
+      "ground": 0.3613
+     },
+     "lost_to": {
+      "drain": 0.0293,
+      "ground": 0.2947,
+      "combo": 0.0397,
+      "flyers": 0.0789
+     }
+    },
+    {
+     "x": "aristocrats",
+     "win": 0.3819,
+     "turns": 12.0586,
+     "screw": 0.0519,
+     "flood": 0.0471,
+     "color_stuck": 0.3699,
+     "won_by": {
+      "drain": 0.1761,
+      "ground": 0.2058
+     },
+     "lost_to": {
+      "drain": 0.0521,
+      "ground": 0.3799,
+      "combo": 0.0446,
+      "flyers": 0.1415
+     }
+    },
+    {
+     "x": "combo",
+     "win": 0.4103,
+     "turns": 12.2072,
+     "screw": 0.0404,
+     "flood": 0.0507,
+     "color_stuck": 0.3803,
+     "won_by": {
+      "combo": 0.2036,
+      "ground": 0.2067
+     },
+     "lost_to": {
+      "drain": 0.0214,
+      "ground": 0.3974,
+      "combo": 0.0335,
+      "flyers": 0.1375
+     }
+    }
+   ],
+   "best": "control"
+  }
+ ],
+ "evolution": {
+  "draft40": {
+   "format": "draft40",
+   "history": [
+    {
+     "gen": 0,
+     "best_score": 0.6758,
+     "best": {
+      "C1": 1,
+      "C2": 1,
+      "C3": 1,
+      "C4": 1,
+      "C5": 1,
+      "C6": 1,
+      "F3": 1,
+      "R4": 1,
+      "D3": 2,
+      "M2": 1,
+      "AR": 1,
+      "T2": 1,
+      "S3": 2,
+      "B5": 2,
+      "V3": 1,
+      "W4": 2,
+      "SO": 1,
+      "L": 19
+     },
+     "top10_lands": 17.0
+    },
+    {
+     "gen": 1,
+     "best_score": 0.7028,
+     "best": {
+      "L": 17,
+      "C1": 2,
+      "C3": 2,
+      "C4": 2,
+      "C5": 2,
+      "C6": 2,
+      "F3": 1,
+      "R2": 1,
+      "R4": 1,
+      "D3": 1,
+      "M2": 1,
+      "K2": 1,
+      "T2": 1,
+      "B5": 3,
+      "X2": 1,
+      "W4": 2
+     },
+     "top10_lands": 18.6
+    },
+    {
+     "gen": 2,
+     "best_score": 0.6635,
+     "best": {
+      "L": 20,
+      "C1": 1,
+      "C2": 2,
+      "C3": 2,
+      "C4": 1,
+      "C5": 1,
+      "C6": 2,
+      "F3": 1,
+      "T2": 1,
+      "S3": 2,
+      "B5": 2,
+      "V3": 2,
+      "W4": 2,
+      "R4": 1
+     },
+     "top10_lands": 17.4
+    },
+    {
+     "gen": 3,
+     "best_score": 0.7048,
+     "best": {
+      "L": 19,
+      "C1": 2,
+      "C4": 2,
+      "C5": 1,
+      "C6": 3,
+      "F3": 1,
+      "R4": 2,
+      "D3": 1,
+      "M2": 1,
+      "T2": 1,
+      "S3": 2,
+      "B5": 3,
+      "W4": 2
+     },
+     "top10_lands": 16.2
+    },
+    {
+     "gen": 4,
+     "best_score": 0.6548,
+     "best": {
+      "L": 17,
+      "C1": 1,
+      "C3": 2,
+      "C5": 3,
+      "C6": 1,
+      "R4": 1,
+      "D3": 2,
+      "M2": 1,
+      "P3": 2,
+      "S3": 2,
+      "B5": 2,
+      "V3": 1,
+      "W4": 4,
+      "F3": 1
+     },
+     "top10_lands": 17.7
+    },
+    {
+     "gen": 5,
+     "best_score": 0.7077,
+     "best": {
+      "L": 20,
+      "C1": 1,
+      "C4": 1,
+      "C5": 1,
+      "C6": 4,
+      "R4": 3,
+      "M2": 1,
+      "T2": 1,
+      "S3": 1,
+      "B5": 3,
+      "V3": 1,
+      "W4": 3
+     },
+     "top10_lands": 17.8
+    },
+    {
+     "gen": 6,
+     "best_score": 0.7173,
+     "best": {
+      "L": 19,
+      "C1": 1,
+      "C4": 1,
+      "C5": 1,
+      "C6": 4,
+      "R4": 3,
+      "M2": 1,
+      "T2": 1,
+      "S3": 1,
+      "B5": 3,
+      "V3": 1,
+      "W4": 3,
+      "D3": 1
+     },
+     "top10_lands": 17.9
+    },
+    {
+     "gen": 7,
+     "best_score": 0.7333,
+     "best": {
+      "L": 17,
+      "C1": 1,
+      "C3": 2,
+      "C5": 1,
+      "C6": 3,
+      "R4": 3,
+      "D3": 2,
+      "M2": 1,
+      "AR": 1,
+      "S3": 2,
+      "B5": 3,
+      "W4": 4
+     },
+     "top10_lands": 17.7
+    },
+    {
+     "gen": 8,
+     "best_score": 0.7107,
+     "best": {
+      "L": 18,
+      "C1": 1,
+      "C5": 2,
+      "C6": 4,
+      "R4": 3,
+      "T2": 1,
+      "S3": 1,
+      "B5": 3,
+      "V3": 1,
+      "W4": 4,
+      "D3": 1,
+      "R2": 1
+     },
+     "top10_lands": 17.3
+    },
+    {
+     "gen": 9,
+     "best_score": 0.7244,
+     "best": {
+      "L": 16,
+      "C1": 1,
+      "C2": 1,
+      "C6": 5,
+      "R4": 3,
+      "D3": 1,
+      "M2": 1,
+      "AR": 1,
+      "S3": 2,
+      "B5": 3,
+      "V3": 3,
+      "W4": 3
+     },
+     "top10_lands": 17.1
+    },
+    {
+     "gen": 10,
+     "best_score": 0.7137,
+     "best": {
+      "L": 16,
+      "C1": 1,
+      "C2": 1,
+      "C6": 5,
+      "R4": 3,
+      "D3": 1,
+      "M2": 1,
+      "AR": 1,
+      "S3": 2,
+      "B5": 3,
+      "V3": 3,
+      "W4": 3
+     },
+     "top10_lands": 16.4
+    },
+    {
+     "gen": 11,
+     "best_score": 0.7411,
+     "best": {
+      "L": 16,
+      "C1": 1,
+      "C2": 1,
+      "C6": 2,
+      "R2": 1,
+      "R4": 3,
+      "AR": 1,
+      "S3": 3,
+      "B5": 4,
+      "V3": 3,
+      "W4": 5
+     },
+     "top10_lands": 16.1
+    },
+    {
+     "gen": 12,
+     "best_score": 0.7244,
+     "best": {
+      "L": 16,
+      "C3": 2,
+      "C5": 1,
+      "C6": 3,
+      "R4": 3,
+      "D3": 2,
+      "S3": 3,
+      "B5": 5,
+      "W4": 4,
+      "V3": 1
+     },
+     "top10_lands": 15.9
+    },
+    {
+     "gen": 13,
+     "best_score": 0.7327,
+     "best": {
+      "L": 15,
+      "C2": 1,
+      "C5": 1,
+      "C6": 4,
+      "R4": 3,
+      "D3": 2,
+      "M2": 1,
+      "P3": 1,
+      "S3": 1,
+      "B5": 5,
+      "V3": 3,
+      "W4": 3
+     },
+     "top10_lands": 15.7
+    },
+    {
+     "gen": 14,
+     "best_score": 0.7333,
+     "best": {
+      "L": 16,
+      "C5": 1,
+      "C6": 3,
+      "R4": 3,
+      "D3": 1,
+      "AR": 1,
+      "S3": 3,
+      "B5": 5,
+      "V3": 3,
+      "W4": 4
+     },
+     "top10_lands": 15.9
+    },
+    {
+     "gen": 15,
+     "best_score": 0.7131,
+     "best": {
+      "L": 16,
+      "C5": 1,
+      "C6": 5,
+      "R4": 2,
+      "AR": 1,
+      "S3": 2,
+      "B5": 6,
+      "V3": 3,
+      "W4": 4
+     },
+     "top10_lands": 15.7
+    },
+    {
+     "gen": 16,
+     "best_score": 0.7179,
+     "best": {
+      "L": 16,
+      "C5": 1,
+      "C6": 5,
+      "R4": 2,
+      "S3": 2,
+      "B5": 6,
+      "V3": 3,
+      "W4": 4,
+      "C1": 1
+     },
+     "top10_lands": 15.9
+    },
+    {
+     "gen": 17,
+     "best_score": 0.7,
+     "best": {
+      "L": 16,
+      "C6": 4,
+      "R4": 2,
+      "AR": 1,
+      "S3": 2,
+      "B5": 7,
+      "V3": 3,
+      "W4": 4,
+      "SO": 1
+     },
+     "top10_lands": 15.6
+    },
+    {
+     "gen": 18,
+     "best_score": 0.7089,
+     "best": {
+      "L": 15,
+      "C6": 3,
+      "R4": 2,
+      "D3": 1,
+      "AR": 1,
+      "T2": 1,
+      "S3": 3,
+      "B5": 7,
+      "V3": 3,
+      "W4": 4
+     },
+     "top10_lands": 15.7
+    },
+    {
+     "gen": 19,
+     "best_score": 0.7202,
+     "best": {
+      "L": 16,
+      "C5": 1,
+      "C6": 3,
+      "R4": 3,
+      "S3": 2,
+      "B5": 6,
+      "V3": 3,
+      "W4": 4,
+      "C1": 1,
+      "D3": 1
+     },
+     "top10_lands": 16.0
+    }
+   ],
+   "champion": {
+    "L": 16,
+    "C5": 1,
+    "C6": 3,
+    "R4": 3,
+    "S3": 2,
+    "B5": 6,
+    "V3": 3,
+    "W4": 4,
+    "C1": 1,
+    "D3": 1
+   },
+   "champion_vs_field": {
+    "win": 0.85,
+    "turns": 10.8368,
+    "screw": 0.0419,
+    "flood": 0.0773,
+    "color_stuck": 0.4427,
+    "won_by": {
+     "flyers": 0.6935,
+     "ground": 0.1565
+    },
+    "lost_to": {
+     "drain": 0.0029,
+     "ground": 0.115,
+     "decking": 0.0003,
+     "combo": 0.0246,
+     "flyers": 0.0073
+    }
+   },
+   "champion_avg_mv": 4.17
+  },
+  "con60": {
+   "format": "con60",
+   "history": [
+    {
+     "gen": 0,
+     "best_score": 0.622,
+     "best": {
+      "C2": 2,
+      "C3": 3,
+      "C5": 1,
+      "C6": 2,
+      "R2": 1,
+      "R4": 2,
+      "D3": 3,
+      "M2": 1,
+      "P3": 2,
+      "AR": 2,
+      "K1": 2,
+      "K2": 1,
+      "S3": 1,
+      "B5": 3,
+      "V3": 1,
+      "X2": 3,
+      "W4": 3,
+      "TK": 1,
+      "SO": 1,
+      "L": 25
+     },
+     "top10_lands": 25.5
+    },
+    {
+     "gen": 1,
+     "best_score": 0.5861,
+     "best": {
+      "C1": 1,
+      "C2": 3,
+      "C3": 1,
+      "C5": 3,
+      "C6": 2,
+      "F3": 2,
+      "R4": 1,
+      "D3": 2,
+      "M2": 2,
+      "P3": 1,
+      "AR": 1,
+      "K2": 1,
+      "T2": 1,
+      "S3": 1,
+      "B5": 2,
+      "V3": 3,
+      "W4": 3,
+      "TK": 1,
+      "L": 29
+     },
+     "top10_lands": 24.5
+    },
+    {
+     "gen": 2,
+     "best_score": 0.5974,
+     "best": {
+      "L": 25,
+      "C2": 2,
+      "C3": 3,
+      "C5": 1,
+      "C6": 3,
+      "R2": 1,
+      "R4": 2,
+      "D3": 3,
+      "M2": 1,
+      "P3": 1,
+      "AR": 1,
+      "K1": 2,
+      "K2": 1,
+      "T2": 1,
+      "S3": 1,
+      "B5": 4,
+      "X2": 3,
+      "W4": 3,
+      "TK": 1,
+      "SO": 1
+     },
+     "top10_lands": 25.4
+    },
+    {
+     "gen": 3,
+     "best_score": 0.6613,
+     "best": {
+      "L": 24,
+      "C2": 3,
+      "C3": 1,
+      "C5": 4,
+      "C6": 3,
+      "R2": 1,
+      "R4": 2,
+      "D3": 2,
+      "M2": 1,
+      "P3": 2,
+      "AR": 1,
+      "K1": 2,
+      "K2": 1,
+      "S3": 1,
+      "B5": 3,
+      "V3": 5,
+      "X2": 1,
+      "W4": 3
+     },
+     "top10_lands": 25.5
+    },
+    {
+     "gen": 4,
+     "best_score": 0.6393,
+     "best": {
+      "L": 29,
+      "C1": 1,
+      "C2": 1,
+      "C3": 3,
+      "C5": 3,
+      "C6": 2,
+      "R2": 1,
+      "R4": 1,
+      "D3": 3,
+      "M2": 1,
+      "AR": 1,
+      "T2": 2,
+      "S3": 2,
+      "B5": 3,
+      "V3": 2,
+      "W4": 4,
+      "TK": 1
+     },
+     "top10_lands": 25.8
+    },
+    {
+     "gen": 5,
+     "best_score": 0.6905,
+     "best": {
+      "L": 23,
+      "C2": 3,
+      "C3": 1,
+      "C5": 4,
+      "C6": 3,
+      "R2": 1,
+      "R4": 2,
+      "D3": 2,
+      "P3": 1,
+      "AR": 1,
+      "K1": 2,
+      "K2": 1,
+      "S3": 2,
+      "B5": 4,
+      "V3": 6,
+      "W4": 4
+     },
+     "top10_lands": 26.2
+    },
+    {
+     "gen": 6,
+     "best_score": 0.6917,
+     "best": {
+      "L": 23,
+      "C2": 3,
+      "C5": 4,
+      "C6": 4,
+      "R2": 1,
+      "R4": 2,
+      "D3": 3,
+      "P3": 1,
+      "AR": 1,
+      "K1": 1,
+      "K2": 1,
+      "S3": 1,
+      "B5": 4,
+      "V3": 6,
+      "W4": 4,
+      "SO": 1
+     },
+     "top10_lands": 26.7
+    },
+    {
+     "gen": 7,
+     "best_score": 0.6929,
+     "best": {
+      "L": 23,
+      "C2": 3,
+      "C5": 4,
+      "C6": 4,
+      "R2": 1,
+      "R4": 2,
+      "D3": 3,
+      "P3": 1,
+      "AR": 1,
+      "K1": 1,
+      "K2": 1,
+      "S3": 1,
+      "B5": 4,
+      "V3": 6,
+      "W4": 4,
+      "SO": 1
+     },
+     "top10_lands": 25.1
+    },
+    {
+     "gen": 8,
+     "best_score": 0.7089,
+     "best": {
+      "L": 23,
+      "C2": 4,
+      "C5": 4,
+      "C6": 4,
+      "R2": 1,
+      "R4": 3,
+      "D3": 4,
+      "P3": 1,
+      "AR": 1,
+      "K2": 1,
+      "S3": 1,
+      "B5": 4,
+      "V3": 5,
+      "W4": 4
+     },
+     "top10_lands": 23.7
+    },
+    {
+     "gen": 9,
+     "best_score": 0.7083,
+     "best": {
+      "L": 22,
+      "C1": 1,
+      "C2": 2,
+      "C5": 4,
+      "C6": 4,
+      "R4": 1,
+      "D3": 4,
+      "M2": 1,
+      "AR": 1,
+      "K1": 1,
+      "K2": 1,
+      "S3": 2,
+      "B5": 4,
+      "V3": 6,
+      "X2": 1,
+      "W4": 5
+     },
+     "top10_lands": 23.2
+    },
+    {
+     "gen": 10,
+     "best_score": 0.6946,
+     "best": {
+      "L": 24,
+      "C2": 4,
+      "C5": 4,
+      "C6": 3,
+      "R2": 1,
+      "R4": 3,
+      "D3": 4,
+      "P3": 1,
+      "AR": 1,
+      "S3": 1,
+      "B5": 4,
+      "V3": 5,
+      "W4": 5
+     },
+     "top10_lands": 22.7
+    },
+    {
+     "gen": 11,
+     "best_score": 0.6857,
+     "best": {
+      "L": 22,
+      "C2": 2,
+      "C5": 4,
+      "C6": 3,
+      "R4": 1,
+      "D3": 4,
+      "M2": 1,
+      "AR": 2,
+      "K1": 1,
+      "S3": 2,
+      "B5": 4,
+      "V3": 8,
+      "X2": 1,
+      "W4": 5
+     },
+     "top10_lands": 22.3
+    },
+    {
+     "gen": 12,
+     "best_score": 0.6958,
+     "best": {
+      "L": 22,
+      "C2": 2,
+      "C5": 4,
+      "C6": 3,
+      "R4": 3,
+      "D3": 5,
+      "P3": 1,
+      "AR": 3,
+      "S3": 2,
+      "B5": 4,
+      "V3": 6,
+      "X2": 1,
+      "W4": 4
+     },
+     "top10_lands": 22.0
+    },
+    {
+     "gen": 13,
+     "best_score": 0.6815,
+     "best": {
+      "L": 22,
+      "C1": 1,
+      "C2": 2,
+      "C5": 1,
+      "C6": 3,
+      "R4": 2,
+      "D3": 4,
+      "M2": 1,
+      "AR": 1,
+      "K1": 1,
+      "S3": 2,
+      "B5": 4,
+      "V3": 8,
+      "W4": 6,
+      "R2": 2
+     },
+     "top10_lands": 21.6
+    },
+    {
+     "gen": 14,
+     "best_score": 0.6881,
+     "best": {
+      "L": 22,
+      "C1": 1,
+      "C2": 2,
+      "C5": 1,
+      "C6": 3,
+      "R4": 3,
+      "D3": 4,
+      "M2": 1,
+      "AR": 1,
+      "S3": 2,
+      "B5": 4,
+      "V3": 8,
+      "W4": 6,
+      "R2": 2
+     },
+     "top10_lands": 21.5
+    },
+    {
+     "gen": 15,
+     "best_score": 0.694,
+     "best": {
+      "L": 22,
+      "C2": 2,
+      "C5": 2,
+      "C6": 3,
+      "R4": 3,
+      "D3": 4,
+      "M2": 1,
+      "AR": 2,
+      "K1": 1,
+      "S3": 2,
+      "B5": 4,
+      "V3": 8,
+      "X2": 1,
+      "W4": 5
+     },
+     "top10_lands": 21.7
+    },
+    {
+     "gen": 16,
+     "best_score": 0.706,
+     "best": {
+      "L": 22,
+      "C1": 1,
+      "C2": 2,
+      "C5": 1,
+      "C6": 3,
+      "R4": 3,
+      "D3": 4,
+      "M2": 1,
+      "AR": 1,
+      "S3": 2,
+      "B5": 4,
+      "V3": 8,
+      "W4": 6,
+      "R2": 2
+     },
+     "top10_lands": 21.3
+    },
+    {
+     "gen": 17,
+     "best_score": 0.6994,
+     "best": {
+      "L": 21,
+      "C1": 1,
+      "C2": 1,
+      "C4": 1,
+      "C6": 2,
+      "R2": 2,
+      "R4": 3,
+      "D3": 6,
+      "M2": 1,
+      "S3": 1,
+      "B5": 4,
+      "V3": 9,
+      "X2": 1,
+      "W4": 7
+     },
+     "top10_lands": 21.0
+    },
+    {
+     "gen": 18,
+     "best_score": 0.7208,
+     "best": {
+      "L": 21,
+      "C1": 2,
+      "C2": 1,
+      "C6": 3,
+      "R2": 2,
+      "R4": 3,
+      "D3": 4,
+      "M2": 1,
+      "AR": 1,
+      "S3": 2,
+      "B5": 4,
+      "V3": 9,
+      "W4": 7
+     },
+     "top10_lands": 20.6
+    },
+    {
+     "gen": 19,
+     "best_score": 0.7101,
+     "best": {
+      "L": 20,
+      "C1": 1,
+      "C2": 1,
+      "C5": 1,
+      "C6": 4,
+      "R2": 2,
+      "R4": 3,
+      "D3": 4,
+      "M2": 1,
+      "AR": 1,
+      "S3": 2,
+      "B5": 4,
+      "V3": 9,
+      "W4": 7
+     },
+     "top10_lands": 20.4
+    }
+   ],
+   "champion": {
+    "L": 22,
+    "C1": 1,
+    "C2": 2,
+    "C5": 1,
+    "C6": 3,
+    "R4": 3,
+    "D3": 4,
+    "M2": 1,
+    "AR": 1,
+    "S3": 2,
+    "B5": 4,
+    "V3": 8,
+    "W4": 6,
+    "R2": 2
+   },
+   "champion_vs_field": {
+    "win": 0.8342,
+    "turns": 11.9189,
+    "screw": 0.0609,
+    "flood": 0.0728,
+    "color_stuck": 0.452,
+    "won_by": {
+     "drain": 0.0046,
+     "ground": 0.3971,
+     "flyers": 0.4311,
+     "timeout": 0.0014
+    },
+    "lost_to": {
+     "drain": 0.0023,
+     "ground": 0.1156,
+     "combo": 0.0225,
+     "flyers": 0.0227,
+     "timeout": 0.0026
+    }
+   },
+   "champion_avg_mv": 3.53
+  },
+  "brawl": {
+   "format": "brawl",
+   "history": [
+    {
+     "gen": 0,
+     "best_score": 0.5889,
+     "best": {
+      "C1": 2,
+      "C2": 4,
+      "C3": 5,
+      "C4": 4,
+      "C5": 1,
+      "C6": 2,
+      "F3": 1,
+      "R2": 4,
+      "R4": 1,
+      "D3": 1,
+      "M2": 1,
+      "P3": 1,
+      "AR": 5,
+      "K1": 1,
+      "K2": 1,
+      "T2": 2,
+      "S3": 3,
+      "B5": 4,
+      "X2": 4,
+      "W4": 4,
+      "TK": 1,
+      "SO": 2,
+      "L": 45
+     },
+     "top10_lands": 41.8
+    },
+    {
+     "gen": 1,
+     "best_score": 0.6367,
+     "best": {
+      "L": 41,
+      "C1": 1,
+      "C2": 5,
+      "C3": 4,
+      "C4": 3,
+      "C5": 1,
+      "C6": 3,
+      "F3": 2,
+      "R2": 5,
+      "R4": 2,
+      "D3": 3,
+      "M2": 2,
+      "P3": 1,
+      "AR": 3,
+      "K2": 1,
+      "T2": 4,
+      "S3": 3,
+      "B5": 4,
+      "V3": 2,
+      "W4": 5,
+      "SO": 4
+     },
+     "top10_lands": 41.7
+    },
+    {
+     "gen": 2,
+     "best_score": 0.6545,
+     "best": {
+      "L": 38,
+      "C2": 5,
+      "C3": 2,
+      "C4": 3,
+      "C5": 7,
+      "F3": 4,
+      "R2": 6,
+      "R4": 1,
+      "D3": 4,
+      "M2": 3,
+      "P3": 4,
+      "AR": 2,
+      "K2": 1,
+      "T2": 4,
+      "B5": 4,
+      "V3": 4,
+      "W4": 5,
+      "SO": 1,
+      "S3": 1
+     },
+     "top10_lands": 40.1
+    },
+    {
+     "gen": 3,
+     "best_score": 0.6417,
+     "best": {
+      "L": 37,
+      "C1": 1,
+      "C2": 4,
+      "C3": 4,
+      "C4": 3,
+      "C5": 1,
+      "F3": 5,
+      "R2": 7,
+      "R4": 3,
+      "D3": 3,
+      "M2": 3,
+      "P3": 1,
+      "AR": 3,
+      "K2": 1,
+      "T2": 4,
+      "S3": 3,
+      "B5": 5,
+      "V3": 5,
+      "W4": 5,
+      "SO": 1
+     },
+     "top10_lands": 40.1
+    },
+    {
+     "gen": 4,
+     "best_score": 0.6778,
+     "best": {
+      "L": 42,
+      "C1": 1,
+      "C2": 4,
+      "C3": 3,
+      "C4": 1,
+      "C5": 1,
+      "R2": 5,
+      "R4": 3,
+      "D3": 5,
+      "M2": 1,
+      "P3": 4,
+      "AR": 3,
+      "T2": 2,
+      "S3": 4,
+      "B5": 7,
+      "V3": 1,
+      "X2": 2,
+      "W4": 7,
+      "SO": 3
+     },
+     "top10_lands": 40.4
+    },
+    {
+     "gen": 5,
+     "best_score": 0.6639,
+     "best": {
+      "L": 42,
+      "C1": 1,
+      "C2": 4,
+      "C3": 2,
+      "C4": 1,
+      "C5": 1,
+      "C6": 3,
+      "F3": 3,
+      "R2": 3,
+      "R4": 2,
+      "D3": 3,
+      "AR": 3,
+      "T2": 4,
+      "S3": 3,
+      "B5": 7,
+      "V3": 4,
+      "X2": 3,
+      "W4": 6,
+      "SO": 3,
+      "P3": 1
+     },
+     "top10_lands": 40.9
+    },
+    {
+     "gen": 6,
+     "best_score": 0.6944,
+     "best": {
+      "L": 42,
+      "C1": 1,
+      "C2": 5,
+      "C3": 3,
+      "C6": 3,
+      "R2": 6,
+      "R4": 2,
+      "D3": 7,
+      "P3": 1,
+      "AR": 3,
+      "T2": 4,
+      "S3": 3,
+      "B5": 8,
+      "X2": 2,
+      "W4": 6,
+      "SO": 3
+     },
+     "top10_lands": 41.5
+    },
+    {
+     "gen": 7,
+     "best_score": 0.6597,
+     "best": {
+      "L": 41,
+      "C1": 1,
+      "C2": 5,
+      "C3": 4,
+      "C6": 3,
+      "R2": 6,
+      "R4": 3,
+      "D3": 7,
+      "P3": 1,
+      "AR": 3,
+      "T2": 4,
+      "S3": 2,
+      "B5": 8,
+      "X2": 3,
+      "W4": 5,
+      "SO": 2,
+      "M2": 1
+     },
+     "top10_lands": 41.2
+    },
+    {
+     "gen": 8,
+     "best_score": 0.6639,
+     "best": {
+      "L": 42,
+      "C1": 2,
+      "C2": 4,
+      "C3": 2,
+      "C4": 1,
+      "C5": 2,
+      "C6": 3,
+      "F3": 4,
+      "R2": 2,
+      "R4": 2,
+      "D3": 2,
+      "AR": 3,
+      "T2": 4,
+      "S3": 3,
+      "B5": 8,
+      "V3": 4,
+      "X2": 3,
+      "W4": 6,
+      "SO": 2
+     },
+     "top10_lands": 41.4
+    },
+    {
+     "gen": 9,
+     "best_score": 0.6889,
+     "best": {
+      "L": 41,
+      "C2": 3,
+      "C3": 1,
+      "C6": 4,
+      "F3": 3,
+      "R2": 5,
+      "R4": 2,
+      "D3": 6,
+      "AR": 4,
+      "T2": 5,
+      "S3": 1,
+      "B5": 8,
+      "V3": 3,
+      "X2": 1,
+      "W4": 7,
+      "SO": 3,
+      "M2": 1,
+      "C5": 1
+     },
+     "top10_lands": 41.9
+    },
+    {
+     "gen": 10,
+     "best_score": 0.6889,
+     "best": {
+      "L": 43,
+      "C1": 2,
+      "C2": 4,
+      "C3": 2,
+      "C6": 3,
+      "R2": 4,
+      "R4": 2,
+      "D3": 4,
+      "P3": 1,
+      "AR": 3,
+      "T2": 5,
+      "S3": 2,
+      "B5": 8,
+      "V3": 4,
+      "X2": 3,
+      "W4": 6,
+      "SO": 2,
+      "C5": 1
+     },
+     "top10_lands": 42.2
+    },
+    {
+     "gen": 11,
+     "best_score": 0.6972,
+     "best": {
+      "L": 41,
+      "C2": 3,
+      "C3": 1,
+      "C6": 4,
+      "F3": 3,
+      "R2": 5,
+      "R4": 2,
+      "D3": 6,
+      "AR": 4,
+      "T2": 5,
+      "S3": 1,
+      "B5": 8,
+      "V3": 3,
+      "X2": 1,
+      "W4": 7,
+      "SO": 3,
+      "M2": 1,
+      "C5": 1
+     },
+     "top10_lands": 41.9
+    },
+    {
+     "gen": 12,
+     "best_score": 0.7153,
+     "best": {
+      "L": 41,
+      "C2": 5,
+      "C3": 2,
+      "C5": 1,
+      "C6": 4,
+      "F3": 3,
+      "R2": 6,
+      "D3": 6,
+      "M2": 1,
+      "P3": 1,
+      "AR": 5,
+      "T2": 5,
+      "S3": 1,
+      "B5": 8,
+      "V3": 3,
+      "W4": 7
+     },
+     "top10_lands": 42.2
+    },
+    {
+     "gen": 13,
+     "best_score": 0.6778,
+     "best": {
+      "L": 42,
+      "C2": 5,
+      "C3": 3,
+      "C5": 1,
+      "C6": 3,
+      "F3": 2,
+      "R2": 5,
+      "D3": 6,
+      "M2": 1,
+      "AR": 5,
+      "T2": 5,
+      "S3": 1,
+      "B5": 8,
+      "V3": 4,
+      "W4": 6,
+      "R4": 1,
+      "TK": 1
+     },
+     "top10_lands": 42.1
+    },
+    {
+     "gen": 14,
+     "best_score": 0.6875,
+     "best": {
+      "L": 41,
+      "C2": 5,
+      "C3": 1,
+      "C6": 5,
+      "F3": 2,
+      "R2": 6,
+      "D3": 7,
+      "P3": 1,
+      "AR": 5,
+      "T2": 5,
+      "S3": 1,
+      "B5": 7,
+      "V3": 3,
+      "W4": 7,
+      "X2": 2,
+      "SO": 1
+     },
+     "top10_lands": 41.7
+    },
+    {
+     "gen": 15,
+     "best_score": 0.7111,
+     "best": {
+      "L": 40,
+      "C2": 5,
+      "C3": 2,
+      "C6": 5,
+      "F3": 3,
+      "R2": 6,
+      "R4": 1,
+      "D3": 7,
+      "AR": 5,
+      "T2": 5,
+      "B5": 8,
+      "V3": 3,
+      "X2": 2,
+      "W4": 7
+     },
+     "top10_lands": 41.8
+    },
+    {
+     "gen": 16,
+     "best_score": 0.6806,
+     "best": {
+      "L": 43,
+      "C1": 2,
+      "C2": 6,
+      "C3": 1,
+      "C6": 4,
+      "R2": 4,
+      "R4": 4,
+      "D3": 7,
+      "P3": 2,
+      "AR": 1,
+      "T2": 3,
+      "B5": 8,
+      "V3": 1,
+      "X2": 5,
+      "W4": 7,
+      "M2": 1
+     },
+     "top10_lands": 42.1
+    },
+    {
+     "gen": 17,
+     "best_score": 0.7083,
+     "best": {
+      "L": 40,
+      "C2": 5,
+      "C3": 2,
+      "C6": 5,
+      "F3": 3,
+      "R2": 6,
+      "R4": 1,
+      "D3": 7,
+      "AR": 5,
+      "T2": 5,
+      "B5": 8,
+      "V3": 3,
+      "X2": 2,
+      "W4": 7
+     },
+     "top10_lands": 42.1
+    },
+    {
+     "gen": 18,
+     "best_score": 0.7083,
+     "best": {
+      "L": 42,
+      "C1": 1,
+      "C2": 6,
+      "C3": 1,
+      "C6": 4,
+      "F3": 2,
+      "R2": 3,
+      "D3": 7,
+      "AR": 6,
+      "T2": 2,
+      "S3": 1,
+      "B5": 8,
+      "V3": 7,
+      "X2": 2,
+      "W4": 7
+     },
+     "top10_lands": 42.2
+    },
+    {
+     "gen": 19,
+     "best_score": 0.6847,
+     "best": {
+      "L": 41,
+      "C2": 5,
+      "C3": 1,
+      "C6": 8,
+      "F3": 2,
+      "R2": 5,
+      "D3": 5,
+      "AR": 6,
+      "T2": 2,
+      "B5": 7,
+      "V3": 8,
+      "X2": 1,
+      "W4": 8
+     },
+     "top10_lands": 42.1
+    }
+   ],
+   "champion": {
+    "L": 41,
+    "C2": 5,
+    "C3": 1,
+    "C6": 8,
+    "F3": 2,
+    "R2": 5,
+    "D3": 5,
+    "AR": 6,
+    "T2": 2,
+    "B5": 7,
+    "V3": 8,
+    "X2": 1,
+    "W4": 8
+   },
+   "champion_vs_field": {
+    "win": 0.8312,
+    "turns": 13.2264,
+    "screw": 0.0438,
+    "flood": 0.1087,
+    "color_stuck": 0.4497,
+    "won_by": {
+     "drain": 0.0691,
+     "ground": 0.2719,
+     "flyers": 0.4903
+    },
+    "lost_to": {
+     "drain": 0.0073,
+     "ground": 0.1309,
+     "combo": 0.0153,
+     "flyers": 0.0153
+    }
+   },
+   "champion_avg_mv": 3.47
+  }
+ },
+ "seconds": 1648
+}

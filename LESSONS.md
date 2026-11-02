@@ -64,3 +64,56 @@ Open evolution converged on combo at both 40 (18 lands, 75%) and 60 cards (28 la
 - No mana sinks/bombs: real decks want 1–2 more lands than simulated.
 - No counterspells, instants, tokens or sac outlets: synergy payoffs look weaker than in real Magic.
 - Same simple AI for both players: mulligan and play/draw effects are underestimated.
+
+---
+
+# Round 2: real-world advice, checked (engine2.py / learn2.py)
+
+Engine v2 adds mana sinks (S3), bombs (B5), card-draw creatures (V3), counterspells (X2), board wipes (W4),
+tokens (TK) + sac outlet (SO), Blood Artist-style aristocrats (AR), a commander (CM, +2 tax), free mulligan,
+format life totals, 4-copy limit and singleton combo pieces. About 6 million games, 27 minutes on 2 cores.
+Raw numbers: `results/results2.json`.
+
+## Land counts vs expert advice
+
+| Format | Expert advice | Sim best | Within ~2% |
+|---|---|---|---|
+| Draft, average | 17 | 17 | 16–17 |
+| Draft, low curve | ≤16 | 14 | 14–15 |
+| Draft, high curve | 18 | 18 | 17–20 |
+| 60 aggro | 20–22 | 18 | 18–19 |
+| 60 midrange | ~24 (Karsten 25.7) | 26 | 23–27 |
+| 60 control | 26–28 (Karsten 25.9) | 24 | 22–25 |
+| Standard Brawl 59+cmdr | 24–26 | 25 | 23–26 |
+| Brawl 99+cmdr, 25 life | 36–38 | 42 | 36–44 |
+| Commander 1v1, 40 life | 36–38 | 42 | 36–44 |
+
+- Mana sinks + bombs push draft from 16 to 17 lands (48% → 53%).
+- Ramp replaces lands: Brawl with no ramp wanted 44 lands.
+
+## Brawl template (37 lands)
+
+| Slot | Template | Sim best | Notes |
+|---|---|---|---|
+| Ramp | 8–12 | 8 | >10 hurts (16: 50%) |
+| Draw | 10–12 | 10 | flat 52–55% |
+| Removal | 8–10 | 16+ | 48% → 58% |
+| Wipes | 2–3 | 6+ | 49% → 62% (1v1, wipe only when behind) |
+
+## Other findings
+
+- Draft two-drops: more helps up to 9 (44% → 58%). Creatures: ~16 of 23 spells. Each bomb ≈ +5–7%.
+- Aristocrat payoffs help a built shell (26% → 34%), but the token/sac shell is weak in this model. Lords in token deck hurt.
+- 60-card combo with 4-copy limit: 4 pieces + 2 tutors = 50% (balanced now).
+- vs combo: removal 0 → 12 = 40% → 63%; counterspells 0 → 6 = 53% → 57%. vs whole field counterspells hurt (59% → 54%).
+- Evolution (all cards allowed) in draft, 60 and Brawl converged on bombs + wipes + removal + card-draw creatures, 83–85% vs field.
+
+## Sources
+- Wizards Brawl rules: https://magic.wizards.com/en/formats/brawl
+- Draftsim 40-card lands (Karsten): https://draftsim.com/mtg-40-card-deck-number-of-lands/
+- Wizards mana curve: https://magic.wizards.com/en/news/feature/how-build-mana-curve-2017-05-18
+- Draftsim 60-card lands: https://draftsim.com/how-many-lands-in-a-60-card-deck/
+- ScrollVault Karsten formulas: https://scrollvault.net/guides/how-many-lands.html
+- Draftsim Arena Brawl guide: https://draftsim.com/mtg-arena-brawl-guide/
+- Nerd Leagues Commander ratios: https://www.nerdleagues.com/blog/deck-building-basics-ratios-curves-the-8x8-method
+- Nerd Leagues Commander lands: https://www.nerdleagues.com/blog/how-many-lands-commander-edh
